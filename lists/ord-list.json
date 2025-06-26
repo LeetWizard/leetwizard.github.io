@@ -1,0 +1,262 @@
+﻿[
+    {
+        "card_name": "Arbitrament",
+        "number": 13,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Icefall Gargoyle",
+        "number": 24,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Chut, the First Nezumi",
+        "number": 35,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Engine of War",
+        "number": 45,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Enille, the First Dragonborn",
+        "number": 57,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Eldritch Knight",
+        "number": 14,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Not Supposed to Be There",
+        "number": 25,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Cursed Coin",
+        "number": 36,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Gevau, the First Gnoll",
+        "number": 46,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Inventor's Desk",
+        "number": 58,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Recul, the First Aven",
+        "number": 15,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Tech Hauler",
+        "number": 26,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Debased Cavalier",
+        "number": 37,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Grapple",
+        "number": 47,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Prototype Handcannon",
+        "number": 59,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Tome of the Arch-Zealot",
+        "number": 16,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Tham, the First Merfolk",
+        "number": 27,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Edmon de Luc",
+        "number": 38,
+        "shape": "planeswalker",
+        "set": "ord"
+    },
+    {
+        "card_name": "redolent neonate",
+        "number": 48,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Techno-Priest Chiurgeon",
+        "number": 60,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Toy Soldiers",
+        "number": 49,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "",
+        "number": 52,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Preacher of the Machine",
+        "number": 70,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Here Comes the Train",
+        "number": 61,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Artisan's Boots",
+        "number": 79,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Backup Daggers",
+        "number": 80,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "flex",
+        "number": 4,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "multicolor",
+        "number": 66,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]
