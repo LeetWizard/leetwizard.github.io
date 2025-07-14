@@ -1,4 +1,119 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Arch-Cavalier added.
+U1 added.
+B1 added.
+R1 added.
+R2 added.
+Outclass added.
+B2 added.
+B3 added.
+G1 added.
+U2 added.
+U3 added.
+R3 added.
+G3 added.
+W2 added.
+Gravity Gauntlet added.
+Devastation Generator added.
+W5 added.
+R5 added.
+B5 added.
+W1 added.
+A6 added.
+W4 added.
+W3 added.
+Prostheticycle added.
+U4 added.
+U5 added.
+B4 added.
+B6 added.
+Drifting Hulk added.
+Scrapyard Neonate added.
+R4 added.
+G4 added.
+G7 added.
+G6 added.
+G2 added.
+Damping Crystal added.
+GU added.
+UR added.
+WB added.
+Explosive Experiment added.
+BG added.
+UB added.
+RG added.
+A1 added.
+GW added.
+flex4 added.
+flex3 added.
+flex2 added.
+flex1 added.
+flex5 added.
+A3 added.
+A4 added.
+A5 added.
+something Ornithopter added.
+ehhhh not big on this added.
+Amputator added.
+A2 added.
+G5 added.
+Crown of the Unbowed added.
+
+Tome of the Arch-Zealot removed.
+redolent neonate removed.
+multicolor removed.
+multicolor removed.
+multicolor removed.
+multicolor removed.
+multicolor removed.
+multicolor removed.
+multicolor removed.
+multicolor removed.
+flex removed.
+flex removed.
+flex removed.
+flex removed.
+flex removed.
+Backup Daggers removed.
+Cursed Coin removed.
+
+Debased Cavalier
+
+Icefall Gargoyle
+pt: */3 => */2
+
+Enille, the First Dragonborn
+
+Gevau, the First Gnoll
+
+Tham, the First Merfolk
+
+Recul, the First Aven
+
+Arbitrament
+
+Artisan's Boots
+
+Not Supposed to Be There
+
+Here Comes the Train
+
+Eldritch Knight
+
+Grapple
+
+Preacher of the Machine
+
+Tech Hauler
+
+Engine of War
+
+Prototype Handcannon
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
