@@ -1,4 +1,17 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+
+
+
+type: Creature — Human Knight => 
+cost: {2}{W} => {U}
+rules_text: Vigilance
+Whenever this creature enters or attacks, tap up to one target creature. => 
+pt: 3/3 => 
+
+
+VERSION 5 CHANGELOG
 ====================
 
 

@@ -1,0 +1,968 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Arch-Cavalier",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/6_Arch-Cavalier.jpg"
+			}
+		},
+		{
+			"name": "U1",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/23_U1.jpg"
+			}
+		},
+		{
+			"name": "B1",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/28_B1.jpg"
+			}
+		},
+		{
+			"name": "R1",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/43_R1.jpg"
+			}
+		},
+		{
+			"name": "R2",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/44_R2.jpg"
+			}
+		},
+		{
+			"name": "Regulate",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/20_Regulate.jpg"
+			}
+		},
+		{
+			"name": "Carrion Griffin",
+			"rarity": "common",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Griffin",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/33_Carrion Griffin.jpg"
+			}
+		},
+		{
+			"name": "B3",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/29_B3.jpg"
+			}
+		},
+		{
+			"name": "G1",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/50_G1.jpg"
+			}
+		},
+		{
+			"name": "",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/16_.jpg"
+			}
+		},
+		{
+			"name": "U3",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/24_U3.jpg"
+			}
+		},
+		{
+			"name": "R3",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/45_R3.jpg"
+			}
+		},
+		{
+			"name": "G3",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/52_G3.jpg"
+			}
+		},
+		{
+			"name": "Gravity Gauntlet",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/17_Gravity Gauntlet.jpg"
+			}
+		},
+		{
+			"name": "Devastation Generator",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Artifact Creature — Dragon",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/38_Devastation Generator.jpg"
+			}
+		},
+		{
+			"name": "Techno-Priest Chiurgeon",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Doctor",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/58_Techno-Priest Chiurgeon.jpg"
+			}
+		},
+		{
+			"name": "W2",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/13_W2.jpg"
+			}
+		},
+		{
+			"name": "R5",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/46_R5.jpg"
+			}
+		},
+		{
+			"name": "Forbidden Research",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Artifact",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/64_Forbidden Research.jpg"
+			}
+		},
+		{
+			"name": "W1",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/12_W1.jpg"
+			}
+		},
+		{
+			"name": "A6",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Creature",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/75_A6.jpg"
+			}
+		},
+		{
+			"name": "W4",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/15_W4.jpg"
+			}
+		},
+		{
+			"name": "W3",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/14_W3.jpg"
+			}
+		},
+		{
+			"name": "Prostheticycle",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/9_Prostheticycle.jpg"
+			}
+		},
+		{
+			"name": "U4",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/25_U4.jpg"
+			}
+		},
+		{
+			"name": "U5",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/26_U5.jpg"
+			}
+		},
+		{
+			"name": "Debased Cavalier",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Skeleton Knight",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/35_Debased Cavalier.jpg"
+			}
+		},
+		{
+			"name": "B4",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/30_B4.jpg"
+			}
+		},
+		{
+			"name": "B6",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/32_B6.jpg"
+			}
+		},
+		{
+			"name": "Drifting Hulk",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Artifact Creature — Serpent Construct",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/36_Drifting Hulk.jpg"
+			}
+		},
+		{
+			"name": "Scrapyard Neonate",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Artifact Creature — Servo Artificer",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/47_Scrapyard Neonate.jpg"
+			}
+		},
+		{
+			"name": "Gatebreaker Hammer",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/40_Gatebreaker Hammer.jpg"
+			}
+		},
+		{
+			"name": "G4",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/53_G4.jpg"
+			}
+		},
+		{
+			"name": "G6",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/55_G6.jpg"
+			}
+		},
+		{
+			"name": "G2",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/51_G2.jpg"
+			}
+		},
+		{
+			"name": "Stasis Grenade",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/80_Stasis Grenade.jpg"
+			}
+		},
+		{
+			"name": "Flood of Inspiration",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/63_Flood of Inspiration.jpg"
+			}
+		},
+		{
+			"name": "UR",
+			"rarity": "common",
+			"mana_cost": "{U}{R}",
+			"type": "",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/70_UR.jpg"
+			}
+		},
+		{
+			"name": "Prime Minister Marchant",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/68_Prime Minister Marchant.jpg"
+			}
+		},
+		{
+			"name": "Explosive Experiment",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/61_Explosive Experiment.jpg"
+			}
+		},
+		{
+			"name": "BG",
+			"rarity": "common",
+			"mana_cost": "{B}{G}",
+			"type": "",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/60_BG.jpg"
+			}
+		},
+		{
+			"name": "B5",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/31_B5.jpg"
+			}
+		},
+		{
+			"name": "RG",
+			"rarity": "common",
+			"mana_cost": "{R}{G}",
+			"type": "",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/69_RG.jpg"
+			}
+		},
+		{
+			"name": "A1",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Creature",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/71_A1.jpg"
+			}
+		},
+		{
+			"name": "GW",
+			"rarity": "common",
+			"mana_cost": "{G}{W}",
+			"type": "",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/65_GW.jpg"
+			}
+		},
+		{
+			"name": "flex4",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/3_flex4.jpg"
+			}
+		},
+		{
+			"name": "flex3",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/2_flex3.jpg"
+			}
+		},
+		{
+			"name": "flex2",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/1_flex2.jpg"
+			}
+		},
+		{
+			"name": "flex1 — Ogrevolver",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}{U}",
+			"type": "",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/62_flex1 — Ogrevolver.jpg"
+			}
+		},
+		{
+			"name": "flex5",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/4_flex5.jpg"
+			}
+		},
+		{
+			"name": "A3",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Creature",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/72_A3.jpg"
+			}
+		},
+		{
+			"name": "A4",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Creature",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/73_A4.jpg"
+			}
+		},
+		{
+			"name": "A5",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Creature",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/74_A5.jpg"
+			}
+		},
+		{
+			"name": "something Ornithopter",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Artifact Creature — Thopter",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/11_something Ornithopter.jpg"
+			}
+		},
+		{
+			"name": "ehhhh not big on this",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/78_ehhhh not big on this.jpg"
+			}
+		},
+		{
+			"name": "Amputator",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact — Equipment",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/27_Amputator.jpg"
+			}
+		},
+		{
+			"name": "Icefall Gargoyle",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Gargoyle Elemental",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/18_Icefall Gargoyle.jpg"
+			}
+		},
+		{
+			"name": "Edmon de Luc",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Planeswalker — Edmon",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/37_Edmon de Luc.jpg"
+			}
+		},
+		{
+			"name": "Toy Soldiers",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/48_Toy Soldiers.jpg"
+			}
+		},
+		{
+			"name": "Inventor's Desk",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Artifact",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/56_Inventor's Desk.jpg"
+			}
+		},
+		{
+			"name": "Enille, the First Dragonborn",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Dragon Lizard Druid",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/49_Enille, the First Dragonborn.jpg"
+			}
+		},
+		{
+			"name": "Gevau, the First Gnoll",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Legendary Creature — Gnoll Artificer",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/41_Gevau, the First Gnoll.jpg"
+			}
+		},
+		{
+			"name": "Chut, the First Nezumi",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Rat Assassin",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/34_Chut, the First Nezumi.jpg"
+			}
+		},
+		{
+			"name": "Tham, the First Merfolk",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Legendary Creature — Merfolk Warrior",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/22_Tham, the First Merfolk.jpg"
+			}
+		},
+		{
+			"name": "Recul, the First Aven",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Legendary Creature — Bird Cleric",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/10_Recul, the First Aven.jpg"
+			}
+		},
+		{
+			"name": "Arbitrament",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/5_Arbitrament.jpg"
+			}
+		},
+		{
+			"name": "Artisan's Boots",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/76_Artisan's Boots.jpg"
+			}
+		},
+		{
+			"name": "Not Supposed to Be There",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/19_Not Supposed to Be There.jpg"
+			}
+		},
+		{
+			"name": "Here Comes the Train",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Sorcery",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/66_Here Comes the Train.jpg"
+			}
+		},
+		{
+			"name": "Eldritch Knight",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Wizard Knight",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/7_Eldritch Knight.jpg"
+			}
+		},
+		{
+			"name": "Grapple",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/42_Grapple.jpg"
+			}
+		},
+		{
+			"name": "Preacher of the Machine",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Artifact Creature — Cyborg Cleric Artificer",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/67_Preacher of the Machine.jpg"
+			}
+		},
+		{
+			"name": "Tech Hauler",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}",
+			"type": "Artifact Creature — Servo Scout",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/21_Tech Hauler.jpg"
+			}
+		},
+		{
+			"name": "Engine of War",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Artifact Creature — Servo Berserker",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/39_Engine of War.jpg"
+			}
+		},
+		{
+			"name": "Prototype Handcannon",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/57_Prototype Handcannon.jpg"
+			}
+		},
+		{
+			"name": "G5",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/54_G5.jpg"
+			}
+		},
+		{
+			"name": "Crown of the Unbowed",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/77_Crown of the Unbowed.jpg"
+			}
+		},
+		{
+			"name": "Unionized Worker",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Artifact Creature — Servo Giant Worker",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/59_Unionized Worker.jpg"
+			}
+		},
+		{
+			"name": "Mobile Jail",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Artifact",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/8_Mobile Jail.jpg"
+			}
+		},
+		{
+			"name": "Power Sword",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/ORD-files/img/79_Power Sword.jpg"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Arch-Cavalier
+	2 Regulate
+	2 Gravity Gauntlet
+	2 Devastation Generator
+	2 Techno-Priest Chiurgeon
+	2 Prostheticycle
+	2 Debased Cavalier
+	2 Drifting Hulk
+	2 Scrapyard Neonate
+	2 Stasis Grenade
+	2 Explosive Experiment
+	2 flex1 — Ogrevolver
+	2 something Ornithopter
+	2 ehhhh not big on this
+	2 Amputator
+	2 Icefall Gargoyle
+	2 Edmon de Luc
+	2 Toy Soldiers
+	2 Inventor's Desk
+	2 Enille, the First Dragonborn
+	2 Gevau, the First Gnoll
+	2 Chut, the First Nezumi
+	2 Tham, the First Merfolk
+	2 Recul, the First Aven
+	2 Arbitrament
+	2 Artisan's Boots
+	2 Not Supposed to Be There
+	2 Here Comes the Train
+	2 Eldritch Knight
+	2 Grapple
+	2 Preacher of the Machine
+	2 Tech Hauler
+	2 Engine of War
+	2 Prototype Handcannon
+	2 Crown of the Unbowed
+	2 Unionized Worker
+	2 Power Sword
+[uncommon(4)]
+	4 Mobile Jail
+[common(7)]
+	8 U1
+	8 B1
+	8 R1
+	8 R2
+	8 Carrion Griffin
+	8 B3
+	8 G1
+	8 
+	8 U3
+	8 R3
+	8 G3
+	8 W2
+	8 R5
+	8 Forbidden Research
+	8 W1
+	8 A6
+	8 W4
+	8 W3
+	8 U4
+	8 U5
+	8 B4
+	8 B6
+	8 Gatebreaker Hammer
+	8 G4
+	8 G6
+	8 G2
+	8 Flood of Inspiration
+	8 UR
+	8 Prime Minister Marchant
+	8 BG
+	8 B5
+	8 RG
+	8 A1
+	8 GW
+	8 flex4
+	8 flex3
+	8 flex2
+	8 flex5
+	8 A3
+	8 A4
+	8 A5
+	8 G5
+[wildcard(2)]
+	7 Arch-Cavalier
+	6 U1
+	6 B1
+	6 R1
+	6 R2
+	7 Regulate
+	6 Carrion Griffin
+	6 B3
+	6 G1
+	6 
+	6 U3
+	6 R3
+	6 G3
+	7 Gravity Gauntlet
+	7 Devastation Generator
+	7 Techno-Priest Chiurgeon
+	6 W2
+	6 R5
+	6 Forbidden Research
+	6 W1
+	6 A6
+	6 W4
+	6 W3
+	7 Prostheticycle
+	6 U4
+	6 U5
+	7 Debased Cavalier
+	6 B4
+	6 B6
+	7 Drifting Hulk
+	7 Scrapyard Neonate
+	6 Gatebreaker Hammer
+	6 G4
+	6 G6
+	6 G2
+	7 Stasis Grenade
+	6 Flood of Inspiration
+	6 UR
+	6 Prime Minister Marchant
+	7 Explosive Experiment
+	6 BG
+	6 B5
+	6 RG
+	6 A1
+	6 GW
+	6 flex4
+	6 flex3
+	6 flex2
+	7 flex1 — Ogrevolver
+	6 flex5
+	6 A3
+	6 A4
+	6 A5
+	7 something Ornithopter
+	7 ehhhh not big on this
+	7 Amputator
+	7 Icefall Gargoyle
+	7 Edmon de Luc
+	7 Toy Soldiers
+	7 Inventor's Desk
+	7 Enille, the First Dragonborn
+	7 Gevau, the First Gnoll
+	7 Chut, the First Nezumi
+	7 Tham, the First Merfolk
+	7 Recul, the First Aven
+	7 Arbitrament
+	7 Artisan's Boots
+	7 Not Supposed to Be There
+	7 Here Comes the Train
+	7 Eldritch Knight
+	7 Grapple
+	7 Preacher of the Machine
+	7 Tech Hauler
+	7 Engine of War
+	7 Prototype Handcannon
+	6 G5
+	7 Crown of the Unbowed
+	7 Unionized Worker
+	15 Mobile Jail
+	7 Power Sword
