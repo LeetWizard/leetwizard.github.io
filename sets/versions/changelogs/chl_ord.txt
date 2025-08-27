@@ -1,4 +1,188 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Regulate added.
+Carrion Griffin added.
+Forbidden Research added.
+Gatebreaker Hammer added.
+Stasis Grenade added.
+Flood of Inspiration added.
+Prime Minister Marchant added.
+flex1 — Ogrevolver added.
+Unionized Worker added.
+Mobile Jail added.
+Power Sword added.
+
+Outclass removed.
+B2 removed.
+U2 removed.
+W5 removed.
+R4 removed.
+G7 removed.
+Damping Crystal removed.
+GU removed.
+WB removed.
+UB removed.
+flex1 removed.
+A2 removed.
+
+Arch-Cavalier
+
+U1
+cost: {U} => {1}{U}
+
+B1
+
+B3
+
+G1
+
+
+type: Creature — Human Knight => 
+cost: {2}{W} => {U}
+rules_text: Vigilance
+Whenever this creature enters or attacks, tap up to one target creature. => 
+pt: 3/3 => 
+
+U3
+
+G3
+
+Gravity Gauntlet
+rules_text: Magnetize [i](When this enters, you may attach it to a creature or create a 1/1 colorless Servo artifact creature token.)[/i]
+Equipped creature gets +1/+1.
+Whenever equipped creature attacks, tap or untap target permanent.
+Equip {2} => Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Equipped creature gets +1/+1.
+Whenever equipped creature attacks, tap or untap target permanent.
+Equip {2}
+
+Devastation Generator
+
+Techno-Priest Chiurgeon
+
+W2
+
+R5
+
+A6
+
+Prostheticycle
+rules_text: Magnetize [i](When this enters, you may attach it to a creature or create a 1/1 colorless Servo artifact creature token.)[/i]
+Whenever equipped creature attacks, it gets +1/+1 until end of turn for each artifact you control.
+Equip {2} => Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Whenever equipped creature attacks, it gets +1/+1 until end of turn for each artifact you control.
+Equip {2}
+
+U4
+
+U5
+
+Debased Cavalier
+
+B4
+
+B6
+
+Drifting Hulk
+
+Scrapyard Neonate
+
+G4
+
+G6
+
+G2
+
+UR
+
+Explosive Experiment
+
+BG
+
+B5
+
+RG
+
+GW
+
+flex4
+
+flex3
+
+flex2
+
+flex5
+
+A3
+
+A4
+
+A5
+
+ehhhh not big on this
+rules_text: Flash
+Magnetize [i](When this enters, you may attach it to a creature or create a 1/1 colorless Servo artifact creature token.)[/i]
+Equipped creature gets +1/+1.
+Equip {1} => Flash
+Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Equipped creature gets +1/+1.
+Equip {1}
+
+Amputator
+rules_text: Magnetize [i](When this enters, you may attach it to a creature or create a 1/1 colorless Servo artifact creature token.)[/i]
+Equipped creature gets +1/-1.
+When equipped creature dies, draw a card.
+Equip {1}{B} => Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Equipped creature gets +1/-1.
+When equipped creature dies, draw a card.
+Equip {2}
+
+Edmon de Luc
+
+Toy Soldiers
+
+Inventor's Desk
+
+Enille, the First Dragonborn
+
+Chut, the First Nezumi
+
+Arbitrament
+
+Artisan's Boots
+rules_text: Magnetize [i](When this enters, you may attach it to a creature or create a 1/1 colorless Servo artifact creature token.)[/i]
+Equipped creature has “{T}: Add one mana of any color”.
+Equip {2} => Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Equipped creature has “{T}: Add one mana of any color”.
+Equip {2}
+
+Here Comes the Train
+
+Eldritch Knight
+
+Grapple
+rules_text: This spell can't be countered if it targets a creature with mana value 1 or less.
+Grapple deals 2 damage to any target. => This spell can't be countered if it targets a creature with mana value 1 or less.
+This spell deals 2 damage to any target.
+
+Preacher of the Machine
+
+Engine of War
+
+Prototype Handcannon
+rules_text: Magnetize [i](When this enters, you may attach it to a creature or create a 1/1 colorless Servo artifact creature token.)[/i]
+Equipped creature gets +2/+2 and has trample.
+Equip {2} => Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Equipped creature gets +2/+2 and has trample.
+Equip {2}
+
+G5
+
+Crown of the Unbowed
+
+
+VERSION 3 CHANGELOG
 ====================
 
 No changes.

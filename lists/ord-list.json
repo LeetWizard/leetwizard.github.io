@@ -1,7 +1,7 @@
 ﻿[
     {
         "card_name": "Arbitrament",
-        "number": 6,
+        "number": 5,
         "shape": "normal",
         "set": "ord"
     },
@@ -13,25 +13,25 @@
     },
     {
         "card_name": "Amputator",
-        "number": 28,
+        "number": 27,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "Devastation Generator",
-        "number": 39,
+        "number": 38,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "Enille, the First Dragonborn",
-        "number": 50,
+        "number": 49,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "Arch-Cavalier",
-        "number": 7,
+        "number": 6,
         "shape": "normal",
         "set": "ord"
     },
@@ -43,25 +43,25 @@
     },
     {
         "card_name": "Chut, the First Nezumi",
-        "number": 35,
+        "number": 34,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "Engine of War",
-        "number": 40,
+        "number": 39,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "Inventor's Desk",
-        "number": 58,
+        "number": 56,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "Eldritch Knight",
-        "number": 8,
+        "number": 7,
         "shape": "normal",
         "set": "ord"
     },
@@ -73,7 +73,7 @@
     },
     {
         "card_name": "Debased Cavalier",
-        "number": 36,
+        "number": 35,
         "shape": "normal",
         "set": "ord"
     },
@@ -85,7 +85,7 @@
     },
     {
         "card_name": "Prototype Handcannon",
-        "number": 59,
+        "number": 57,
         "shape": "normal",
         "set": "ord"
     },
@@ -96,14 +96,14 @@
         "set": "ord"
     },
     {
-        "card_name": "Outclass",
+        "card_name": "Regulate",
         "number": 20,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "Drifting Hulk",
-        "number": 37,
+        "number": 36,
         "shape": "normal",
         "set": "ord"
     },
@@ -115,7 +115,7 @@
     },
     {
         "card_name": "Techno-Priest Chiurgeon",
-        "number": 60,
+        "number": 58,
         "shape": "normal",
         "set": "ord"
     },
@@ -133,19 +133,19 @@
     },
     {
         "card_name": "Edmon de Luc",
-        "number": 38,
+        "number": 37,
         "shape": "planeswalker",
         "set": "ord"
     },
     {
         "card_name": "Scrapyard Neonate",
-        "number": 48,
+        "number": 47,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "G1",
-        "number": 51,
+        "card_name": "Unionized Worker",
+        "number": 59,
         "shape": "normal",
         "set": "ord"
     },
@@ -163,19 +163,49 @@
     },
     {
         "card_name": "B1",
-        "number": 29,
+        "number": 28,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "Toy Soldiers",
-        "number": 49,
+        "number": 48,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "G1",
+        "number": 50,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Mobile Jail",
+        "number": 8,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "",
+        "number": 16,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "B3",
+        "number": 29,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Gatebreaker Hammer",
+        "number": 40,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "G2",
-        "number": 52,
+        "number": 51,
         "shape": "normal",
         "set": "ord"
     },
@@ -192,7 +222,7 @@
         "set": "ord"
     },
     {
-        "card_name": "B2",
+        "card_name": "B4",
         "number": 30,
         "shape": "normal",
         "set": "ord"
@@ -205,7 +235,7 @@
     },
     {
         "card_name": "G3",
-        "number": 53,
+        "number": 52,
         "shape": "normal",
         "set": "ord"
     },
@@ -216,13 +246,13 @@
         "set": "ord"
     },
     {
-        "card_name": "U2",
+        "card_name": "U3",
         "number": 24,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "B3",
+        "card_name": "B5",
         "number": 31,
         "shape": "normal",
         "set": "ord"
@@ -235,7 +265,7 @@
     },
     {
         "card_name": "G4",
-        "number": 54,
+        "number": 53,
         "shape": "normal",
         "set": "ord"
     },
@@ -246,13 +276,13 @@
         "set": "ord"
     },
     {
-        "card_name": "U3",
+        "card_name": "U4",
         "number": 25,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "B4",
+        "card_name": "B6",
         "number": 32,
         "shape": "normal",
         "set": "ord"
@@ -265,7 +295,7 @@
     },
     {
         "card_name": "G5",
-        "number": 55,
+        "number": 54,
         "shape": "normal",
         "set": "ord"
     },
@@ -276,56 +306,26 @@
         "set": "ord"
     },
     {
-        "card_name": "U4",
+        "card_name": "U5",
         "number": 26,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "B5",
+        "card_name": "Carrion Griffin",
         "number": 33,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "R4",
+        "card_name": "R5",
         "number": 46,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "G6",
-        "number": 56,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
-        "card_name": "W5",
-        "number": 16,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
-        "card_name": "U5",
-        "number": 27,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
-        "card_name": "B6",
-        "number": 34,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
-        "card_name": "R5",
-        "number": 47,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
-        "card_name": "G7",
-        "number": 57,
+        "number": 55,
         "shape": "normal",
         "set": "ord"
     },
@@ -344,75 +344,75 @@
     "a->gold",
     {
         "card_name": "Preacher of the Machine",
-        "number": 66,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
-        "card_name": "UB",
-        "number": 68,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
-        "card_name": "Explosive Experiment",
-        "number": 62,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
-        "card_name": "RG",
         "number": 67,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "GW",
+        "card_name": "Forbidden Research",
         "number": 64,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "WB",
-        "number": 70,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
-        "card_name": "UR",
-        "number": 69,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
-        "card_name": "BG",
+        "card_name": "Explosive Experiment",
         "number": 61,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "Here Comes the Train",
+        "card_name": "RG",
+        "number": 69,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "GW",
         "number": 65,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "GU",
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Prime Minister Marchant",
+        "number": 68,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "UR",
+        "number": 70,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "BG",
+        "number": 60,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Here Comes the Train",
+        "number": 66,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Flood of Inspiration",
         "number": 63,
         "shape": "normal",
         "set": "ord"
@@ -429,58 +429,91 @@
     {
         "card_name": "er"
     },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "flex1 \u2014 Ogrevolver",
+        "number": 62,
+        "shape": "planeswalker",
+        "set": "ord"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
     "a->colorless",
     {
         "card_name": "Artisan's Boots",
-        "number": 77,
+        "number": 76,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "Crown of the Unbowed",
-        "number": 78,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
-        "card_name": "Damping Crystal",
-        "number": 79,
+        "number": 77,
         "shape": "normal",
         "set": "ord"
     },
     {
         "card_name": "ehhhh not big on this",
+        "number": 78,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Power Sword",
+        "number": 79,
+        "shape": "normal",
+        "set": "ord"
+    },
+    {
+        "card_name": "Stasis Grenade",
         "number": 80,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "flex1",
+        "card_name": "flex2",
         "number": 1,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "flex2",
+        "card_name": "flex3",
         "number": 2,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "flex3",
+        "card_name": "flex4",
         "number": 3,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "flex4",
-        "number": 4,
-        "shape": "normal",
-        "set": "ord"
-    },
-    {
         "card_name": "flex5",
-        "number": 5,
+        "number": 4,
         "shape": "normal",
         "set": "ord"
     },
@@ -491,34 +524,31 @@
         "set": "ord"
     },
     {
-        "card_name": "A2",
+        "card_name": "A3",
         "number": 72,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "A3",
+        "card_name": "A4",
         "number": 73,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "A4",
+        "card_name": "A5",
         "number": 74,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "A5",
+        "card_name": "A6",
         "number": 75,
         "shape": "normal",
         "set": "ord"
     },
     {
-        "card_name": "A6",
-        "number": 76,
-        "shape": "normal",
-        "set": "ord"
+        "card_name": "e"
     },
     {
         "card_name": "er"
