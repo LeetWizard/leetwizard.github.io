@@ -1,67 +1,97 @@
 ﻿[
     {
         "card_name": "Arbitrament",
-        "number": 5,
+        "number": 3,
         "shape": "normal",
         "set": "ORD"
     },
     {
         "card_name": "Gravity Gauntlet",
-        "number": 17,
+        "number": 15,
         "shape": "normal",
         "set": "ORD"
     },
     {
         "card_name": "Amputator",
-        "number": 27,
+        "number": 25,
         "shape": "normal",
         "set": "ORD"
     },
     {
         "card_name": "Devastation Generator",
-        "number": 38,
+        "number": 37,
         "shape": "normal",
         "set": "ORD"
     },
     {
         "card_name": "Enille, the First Dragonborn",
-        "number": 49,
+        "number": 47,
         "shape": "normal",
         "set": "ORD"
     },
     {
         "card_name": "Arch-Cavalier",
-        "number": 6,
+        "number": 4,
         "shape": "normal",
         "set": "ORD"
     },
     {
         "card_name": "Icefall Gargoyle",
-        "number": 18,
+        "number": 16,
         "shape": "normal",
         "set": "ORD"
     },
     {
         "card_name": "Chut, the First Nezumi",
-        "number": 34,
+        "number": 29,
         "shape": "normal",
         "set": "ORD"
     },
     {
         "card_name": "Engine of War",
-        "number": 39,
+        "number": 38,
         "shape": "normal",
         "set": "ORD"
     },
     {
         "card_name": "Inventor's Desk",
-        "number": 56,
+        "number": 53,
         "shape": "normal",
         "set": "ORD"
     },
     {
-        "card_name": "Eldritch Knight",
-        "number": 7,
+        "card_name": "Bishop of Transhumanism",
+        "number": 5,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "The Mage-Beast of Erablis",
+        "number": 18,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Debased Cavalier",
+        "number": 31,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Gevau, the First Gnoll",
+        "number": 40,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Prototype Handcannon",
+        "number": 55,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Exo-Suit Foreman",
+        "number": 6,
         "shape": "normal",
         "set": "ORD"
     },
@@ -72,110 +102,50 @@
         "set": "ORD"
     },
     {
-        "card_name": "Debased Cavalier",
-        "number": 35,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Gevau, the First Gnoll",
-        "number": 41,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Prototype Handcannon",
-        "number": 57,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Prostheticycle",
-        "number": 9,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Regulate",
-        "number": 20,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
         "card_name": "Drifting Hulk",
-        "number": 36,
+        "number": 32,
         "shape": "normal",
         "set": "ORD"
     },
     {
         "card_name": "Grapple",
-        "number": 42,
+        "number": 41,
         "shape": "normal",
         "set": "ORD"
     },
     {
-        "card_name": "Techno-Priest Chiurgeon",
-        "number": 58,
+        "card_name": "Ravenous Tarasque",
+        "number": 56,
         "shape": "normal",
         "set": "ORD"
     },
     {
-        "card_name": "Recul, the First Aven",
-        "number": 10,
+        "card_name": "House de Luc Loyalist",
+        "number": 7,
         "shape": "normal",
         "set": "ORD"
     },
     {
-        "card_name": "Tech Hauler",
+        "card_name": "Regulate",
         "number": 21,
         "shape": "normal",
         "set": "ORD"
     },
     {
         "card_name": "Edmon de Luc",
-        "number": 37,
+        "number": 33,
         "shape": "planeswalker",
         "set": "ORD"
     },
     {
         "card_name": "Scrapyard Neonate",
-        "number": 47,
+        "number": 45,
         "shape": "normal",
         "set": "ORD"
     },
     {
-        "card_name": "Unionized Worker",
-        "number": 59,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "something Ornithopter",
-        "number": 11,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Tham, the First Merfolk",
-        "number": 22,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "B1",
-        "number": 28,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Toy Soldiers",
-        "number": 48,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "G1",
-        "number": 50,
+        "card_name": "Techno-Priest Biologus",
+        "number": 57,
         "shape": "normal",
         "set": "ORD"
     },
@@ -186,146 +156,194 @@
         "set": "ORD"
     },
     {
-        "card_name": "",
-        "number": 16,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "B3",
-        "number": 29,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Gatebreaker Hammer",
-        "number": 40,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "G2",
-        "number": 51,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "W1",
-        "number": 12,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "U1",
+        "card_name": "Tech Hauler",
         "number": 23,
         "shape": "normal",
         "set": "ORD"
     },
     {
-        "card_name": "B4",
-        "number": 30,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "R1",
-        "number": 43,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "G3",
-        "number": 52,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "W2",
-        "number": 13,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "U3",
-        "number": 24,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "B5",
-        "number": 31,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "R2",
-        "number": 44,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "G4",
-        "number": 53,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "W3",
-        "number": 14,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "U4",
-        "number": 25,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
         "card_name": "B6",
-        "number": 32,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "R3",
-        "number": 45,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "G5",
-        "number": 54,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "W4",
-        "number": 15,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "U5",
         "number": 26,
         "shape": "normal",
         "set": "ORD"
     },
     {
-        "card_name": "Carrion Griffin",
-        "number": 33,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "R5",
+        "card_name": "Toy Soldiers",
         "number": 46,
         "shape": "normal",
         "set": "ORD"
     },
     {
-        "card_name": "G6",
-        "number": 55,
+        "card_name": "Unionized Worker",
+        "number": 58,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Parliament Guards",
+        "number": 9,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Tham, the First Merfolk",
+        "number": 24,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Bile Troll",
+        "number": 27,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Blow It Up",
+        "number": 36,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "G1",
+        "number": 48,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Prostheticycle",
+        "number": 10,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "",
+        "number": 14,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Carrion Griffin",
+        "number": 28,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Gatebreaker Hammer",
+        "number": 39,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "G2",
+        "number": 49,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Protothopter",
+        "number": 11,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Iterated Evolution",
+        "number": 17,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Crapshoot",
+        "number": 30,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "R3",
+        "number": 42,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "G3",
+        "number": 50,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Recul, the First Aven",
+        "number": 12,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Nugget of Durendite",
+        "number": 20,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Process Garbage",
+        "number": 34,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "R5",
+        "number": 43,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "G4",
+        "number": 51,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Weapons Stockpile",
+        "number": 13,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Sailor of the Severed Strait",
+        "number": 22,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Underbelly Uprising",
+        "number": 35,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Rogue Mechanic",
+        "number": 44,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "G5",
+        "number": 52,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Prestigious Horse",
+        "number": 54,
         "shape": "normal",
         "set": "ORD"
     },
@@ -344,75 +362,30 @@
     "a->gold",
     {
         "card_name": "Preacher of the Machine",
-        "number": 67,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Forbidden Research",
-        "number": 64,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Explosive Experiment",
-        "number": 61,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "RG",
-        "number": 69,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "GW",
-        "number": 65,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "er"
-    },
-    {
-        "card_name": "Prime Minister Marchant",
-        "number": 68,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "UR",
-        "number": 70,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "BG",
-        "number": 60,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Here Comes the Train",
         "number": 66,
         "shape": "normal",
         "set": "ORD"
     },
     {
-        "card_name": "Flood of Inspiration",
+        "card_name": "Forbidden Research",
+        "number": 62,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Explosive Experiment",
+        "number": 60,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "RG",
+        "number": 68,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "GW",
         "number": 63,
         "shape": "normal",
         "set": "ORD"
@@ -433,13 +406,43 @@
         "card_name": "er"
     },
     {
-        "card_name": "flex1 \u2014 Ogrevolver",
-        "number": 62,
+        "card_name": "Prime Minister Marchant",
+        "number": 67,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Lyon, the Spellbringer",
+        "number": 65,
         "shape": "planeswalker",
         "set": "ORD"
     },
     {
+        "card_name": "BG",
+        "number": 59,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Here Comes the Train",
+        "number": 64,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Flood of Inspiration",
+        "number": 61,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
         "card_name": "e"
+    },
+    {
+        "card_name": "UR",
+        "number": 69,
+        "shape": "normal",
+        "set": "ORD"
     },
     {
         "card_name": "e"
@@ -465,87 +468,196 @@
     "a->colorless",
     {
         "card_name": "Artisan's Boots",
-        "number": 76,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Crown of the Unbowed",
-        "number": 77,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "ehhhh not big on this",
-        "number": 78,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Power Sword",
-        "number": 79,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "Stasis Grenade",
-        "number": 80,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "flex2",
-        "number": 1,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "flex3",
-        "number": 2,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "flex4",
-        "number": 3,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "flex5",
-        "number": 4,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "A1",
-        "number": 71,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "A3",
-        "number": 72,
-        "shape": "normal",
-        "set": "ORD"
-    },
-    {
-        "card_name": "A4",
         "number": 73,
         "shape": "normal",
         "set": "ORD"
     },
     {
-        "card_name": "A5",
+        "card_name": "Backup Daggers",
         "number": 74,
         "shape": "normal",
         "set": "ORD"
     },
     {
-        "card_name": "A6",
+        "card_name": "Crown of the Unbowed",
         "number": 75,
         "shape": "normal",
         "set": "ORD"
+    },
+    {
+        "card_name": "Power Sword",
+        "number": 77,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Stasis Grenade",
+        "number": 78,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "flex4",
+        "number": 1,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "flex5",
+        "number": 2,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "A4",
+        "number": 70,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "A5",
+        "number": 71,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "A6",
+        "number": 72,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Gilded Champion",
+        "number": 76,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Tickelion",
+        "number": 79,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Greywater, High Foundry",
+        "number": 80,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Plains",
+        "number": 81,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Island",
+        "number": 82,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 83,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 84,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Forest",
+        "number": 85,
+        "shape": "normal",
+        "set": "ORD"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Servo",
+        "number": 1,
+        "shape": "token",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Servo Construct",
+        "number": 2,
+        "shape": "token",
+        "set": "ORD"
+    },
+    {
+        "card_name": "Treasure",
+        "number": 3,
+        "shape": "token",
+        "set": "ORD"
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "e"

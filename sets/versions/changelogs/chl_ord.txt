@@ -1,4 +1,177 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+Sailor of the Severed Strait added.
+Underbelly Uprising added.
+Blow It Up added.
+Rogue Mechanic added.
+Process Garbage added.
+Nugget of Durendite added.
+Techno-Priest Biologus added.
+Exo-Suit Foreman added.
+House de Luc Loyalist added.
+Weapons Stockpile added.
+Bishop of Transhumanism added.
+Iterated Evolution added.
+The Mage-Beast of Erablis added.
+Bile Troll added.
+Ravenous Tarasque added.
+Crapshoot added.
+Gilded Champion added.
+Prestigious Horse added.
+Greywater, High Foundry added.
+Tickelion added.
+Protothopter added.
+Backup Daggers added.
+Parliament Guards added.
+Lyon, the Spellbringer added.
+Servo Construct added.
+Servo added.
+Treasure added.
+
+U1 removed.
+B1 removed.
+R1 removed.
+R2 removed.
+B3 removed.
+U3 removed.
+Techno-Priest Chiurgeon removed.
+W2 removed.
+W1 removed.
+W4 removed.
+W3 removed.
+U4 removed.
+U5 removed.
+B4 removed.
+G6 removed.
+B5 removed.
+A1 removed.
+flex3 removed.
+flex2 removed.
+flex1 — Ogrevolver removed.
+A3 removed.
+something Ornithopter removed.
+ehhhh not big on this removed.
+Eldritch Knight removed.
+
+Arch-Cavalier
+
+Regulate
+
+Carrion Griffin
+
+G1
+
+
+type: Creature — Human Knight => Artifact Creature
+cost: {2}{W} => {2}{U}
+rules_text: Vigilance
+Whenever this creature enters or attacks, tap up to one target creature. => 
+pt: 3/3 => 
+
+R3
+
+G3
+
+Gravity Gauntlet
+
+Devastation Generator
+
+R5
+
+Forbidden Research
+
+A6
+
+Prostheticycle
+
+Debased Cavalier
+
+B6
+
+Drifting Hulk
+
+Scrapyard Neonate
+
+Gatebreaker Hammer
+
+G4
+
+G2
+
+Stasis Grenade
+
+Flood of Inspiration
+
+UR
+
+Prime Minister Marchant
+
+Explosive Experiment
+
+BG
+
+RG
+
+GW
+
+flex4
+
+flex5
+
+A4
+
+A5
+
+Amputator
+
+Icefall Gargoyle
+
+Edmon de Luc
+
+Toy Soldiers
+
+Inventor's Desk
+
+Enille, the First Dragonborn
+
+Gevau, the First Gnoll
+
+Chut, the First Nezumi
+
+Tham, the First Merfolk
+
+Recul, the First Aven
+
+Arbitrament
+
+Artisan's Boots
+
+Here Comes the Train
+
+Grapple
+
+Preacher of the Machine
+type: Artifact Creature — Cyborg Cleric Artificer => Artifact Creature — Cyborg Cleric
+
+Tech Hauler
+
+Engine of War
+
+Prototype Handcannon
+
+G5
+
+Crown of the Unbowed
+
+Unionized Worker
+
+Mobile Jail
+
+Power Sword
+
+
+VERSION 6 CHANGELOG
 ====================
 
 
