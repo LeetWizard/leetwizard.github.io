@@ -1,4 +1,165 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+Renegade Mechanic added.
+Muck About added.
+Metalcruncher added.
+Quicksilver Steed added.
+Durendite-Plated Anvil added.
+Servocrafting added.
+Priest of Biology added.
+Rogue Bombardier added.
+Break-Laws, Servo Liberator added.
+Hulldog added.
+Wilderness Explorator added.
+Steel-Shell Tarasque added.
+Lurking Farmhand added.
+Overclocked Courier added.
+Abyssal Hydra added.
+Mechanicus Maximus added.
+Patriarch of House de Luc added.
+Tear the Veil added.
+Influx of Chaos added.
+Eerie Watcher added.
+Boulder Hauler added.
+Lyon, Bringer of Artifice added.
+Blade-Leg Automaton added.
+
+Rogue Mechanic removed.
+Process Garbage removed.
+G1 removed.
+R3 removed.
+G3 removed.
+Techno-Priest Biologus removed.
+R5 removed.
+A6 removed.
+B6 removed.
+G4 removed.
+Ravenous Tarasque removed.
+G2 removed.
+UR removed.
+BG removed.
+RG removed.
+GW removed.
+flex4 removed.
+flex5 removed.
+A4 removed.
+A5 removed.
+G5 removed.
+Lyon, the Spellbringer removed.
+
+Arch-Cavalier
+
+Sailor of the Severed Strait
+
+Underbelly Uprising
+
+Blow It Up
+rules_text: This spell deals X damage to any target, where 2 plus the number of items in your workshop. [i](Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that's neither.)[/i] => This spell deals X damage to any target, where X is 2 plus the number of items in your workshop. [i](Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that's neither.)[/i]
+
+Regulate
+
+Carrion Griffin
+
+Nugget of Durendite
+
+Gravity Gauntlet
+
+Devastation Generator
+
+Exo-Suit Foreman
+
+Forbidden Research
+
+House de Luc Loyalist
+
+Weapons Stockpile
+
+Bishop of Transhumanism
+
+Prostheticycle
+
+Iterated Evolution
+
+The Mage-Beast of Erablis
+
+Debased Cavalier
+
+Bile Troll
+
+Drifting Hulk
+
+Scrapyard Neonate
+
+Gatebreaker Hammer
+
+Flood of Inspiration
+
+Prime Minister Marchant
+
+Explosive Experiment
+
+Crapshoot
+
+Prestigious Horse
+
+Greywater, High Foundry
+
+Protothopter
+
+Backup Daggers
+
+Amputator
+
+Icefall Gargoyle
+
+Edmon de Luc
+
+Toy Soldiers
+
+Inventor's Desk
+
+Enille, the First Dragonborn
+
+Gevau, the First Gnoll
+
+Chut, the First Nezumi
+
+Tham, the First Merfolk
+
+Recul, the First Aven
+
+Arbitrament
+
+Artisan's Boots
+
+Not Supposed to Be There
+
+Here Comes the Train
+
+Parliament Guards
+
+Grapple
+
+Preacher of the Machine
+
+Tech Hauler
+
+Engine of War
+
+Prototype Handcannon
+
+Crown of the Unbowed
+rules_text: At the beginning of your upkeep, draw a card.
+Whenever you cast a spell, you lose 3 life unless you discard a card or sacrifice a nonland permanent. => At the beginning of your end step, draw a card.
+Whenever you cast a spell, you lose 3 life unless you discard a card or sacrifice a nonland permanent.
+
+Unionized Worker
+
+Mobile Jail
+
+
+VERSION 7 CHANGELOG
 ====================
 
 Sailor of the Severed Strait added.
