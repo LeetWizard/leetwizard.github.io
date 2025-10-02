@@ -1,4 +1,135 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+Fleshripper Griffin added.
+Erablis Explorator added.
+Luddism added.
+
+Carrion Griffin removed.
+Wilderness Explorator removed.
+Arbitrament removed.
+
+Arch-Cavalier
+
+Sailor of the Severed Strait
+
+Underbelly Uprising
+
+Blow It Up
+
+Renegade Mechanic
+
+Muck About
+
+Metalcruncher
+
+Quicksilver Steed
+
+Nugget of Durendite
+
+Durendite-Plated Anvil
+
+Servocrafting
+rules_text: This spell costs {1} less to cast for each mana from an artifact source spent to cast it. [i](If an artifact adds {C}{C}, it contributes {4} to {X}.)[/i]
+Search your library for an artifact creature card with mana value X or less, put it onto the battlefield, then shuffle.
+Exile this spell. => Improvise [i](Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)[/i]
+Search your library for an artifact creature card with mana value X or less, put it onto the battlefield, then shuffle.
+Exile Servocrafting.
+
+Priest of Biology
+
+Exo-Suit Foreman
+
+Rogue Bombardier
+
+Forbidden Research
+
+House de Luc Loyalist
+
+Break-Laws, Servo Liberator
+
+Bishop of Transhumanism
+
+Iterated Evolution
+cost: {3}{U}{U} => {4}{U}{U}
+
+The Mage-Beast of Erablis
+rules_text: The Mage-Beast of Erablis can't be blocked by Humans.
+Tap four other untapped permanents you control: Choose one —
+• Return this creature to its owner's hand.
+• Put a +1/+1 counter on the Mage-Beast. => The Mage-Beast of Erablis can't be blocked by Humans.
+Tap four other untapped permanents you control: Choose one —
+• Return this creature to its owner's hand.
+• Put a +1/+1 counter on The Mage-Beast of Erablis.
+
+Debased Cavalier
+
+Bile Troll
+
+Hulldog
+
+Drifting Hulk
+
+Gatebreaker Hammer
+
+Steel-Shell Tarasque
+
+Lurking Farmhand
+
+Flood of Inspiration
+
+Overclocked Courier
+
+Prime Minister Marchant
+
+Abyssal Hydra
+
+Crapshoot
+
+Mechanicus Maximus
+
+Gilded Champion
+
+Patriarch of House de Luc
+
+Tear the Veil
+
+Prestigious Horse
+
+Greywater, High Foundry
+
+Influx of Chaos
+
+Tickelion
+
+Eerie Watcher
+
+Backup Daggers
+
+Edmon de Luc
+
+Inventor's Desk
+cost: {G} => {1}{G}
+rules_text: When this artifact enters, look at the top four cards of your library. You may reveal a land card or a card with a mana ability from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+{1}, {T}: Add one mana of any color. => When this artifact enters, look at the top five cards of your library. You may reveal a land card or a card with a mana ability from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+{1}, {T}: Add one mana of any color.
+
+Chut, the First Nezumi
+
+Prototype Handcannon
+
+Boulder Hauler
+
+Unionized Worker
+rules_text: When this creature enters, its base power and toughness become equal to twice the number of items in your workshop. [i](Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that's neither.)[/i] => This creature enters with a number of +1/+1 counters on it equal to twice the number of items in your workshop. [i](Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that's neither.)[/i]
+pt: 2/2 => 0/0
+
+Lyon, Bringer of Artifice
+
+Blade-Leg Automaton
+
+
+VERSION 8 CHANGELOG
 ====================
 
 Renegade Mechanic added.
