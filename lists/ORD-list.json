@@ -6,7 +6,7 @@
         "set": "ORD"
     },
     {
-        "card_name": "Gravity Gauntlet",
+        "card_name": "Bad Batch",
         "number": 12,
         "shape": "normal",
         "set": "ORD"
@@ -126,7 +126,7 @@
         "set": "ORD"
     },
     {
-        "card_name": "Not Supposed to Be There",
+        "card_name": "Nugget of Durendite",
         "number": 16,
         "shape": "normal",
         "set": "ORD"
@@ -156,7 +156,7 @@
         "set": "ORD"
     },
     {
-        "card_name": "Nugget of Durendite",
+        "card_name": "Quicksilver Steed",
         "number": 17,
         "shape": "normal",
         "set": "ORD"
@@ -186,7 +186,7 @@
         "set": "ORD"
     },
     {
-        "card_name": "Quicksilver Steed",
+        "card_name": "Regulate",
         "number": 18,
         "shape": "normal",
         "set": "ORD"
@@ -216,7 +216,7 @@
         "set": "ORD"
     },
     {
-        "card_name": "Regulate",
+        "card_name": "Rifled Crossbow",
         "number": 19,
         "shape": "normal",
         "set": "ORD"
@@ -524,7 +524,7 @@
         "set": "ORD"
     },
     {
-        "card_name": "Backup Daggers",
+        "card_name": "Banner Wings",
         "number": 71,
         "shape": "normal",
         "set": "ORD"
@@ -593,7 +593,7 @@
         "card_name": "er"
     },
     {
-        "card_name": "Greywater, High Foundry",
+        "card_name": "Greywater Foundry",
         "number": 80,
         "shape": "normal",
         "set": "ORD"

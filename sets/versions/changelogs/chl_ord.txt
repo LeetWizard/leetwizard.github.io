@@ -1,4 +1,77 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+Banner Wings added.
+Greywater Foundry added.
+Rifled Crossbow added.
+Bad Batch added.
+
+Gravity Gauntlet removed.
+Greywater, High Foundry removed.
+Backup Daggers removed.
+Not Supposed to Be There removed.
+
+Regulate
+
+Fleshripper Griffin
+pt: 3/3 => 3/2
+
+Metalcruncher
+
+Quicksilver Steed
+
+Nugget of Durendite
+
+Priest of Biology
+
+Break-Laws, Servo Liberator
+rules_text: When Break-Laws enters, search your library for two basic land cards, put them onto the battlefield tapped, then shuffle.
+When Break-Laws dies, draw two cards. => When Break-Laws enters, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
+When Break-Laws dies, draw two cards.
+
+Bile Troll
+rules_text: When this creature enters, exile target artifact card from your graveyard.
+Whenever this creature attacks, create a token that's a copy of a card exiled with it. If that token's a creature, it enters tapped and attacking. Exile that token at end of combat. => When this creature enters, exile target artifact creature card from your graveyard.
+Whenever this creature attacks, create a token that's a copy of a card exiled with it. It enters tapped and attacking. Exile that token at end of combat.
+
+Gatebreaker Hammer
+
+Explosive Experiment
+
+Eerie Watcher
+rules_text: {T}: Target player exiles a card from their graveyard.
+{3}: Until your next turn, this artifact becomes an X/X Gargoyle artifact creature and gains flying, where X is the number of card types among cards exiled with this artifact. Activate only as a sorcery. => {T}: Target player exiles a card from their graveyard.
+{4}: Until your next turn, this artifact becomes an X/X Gargoyle artifact creature and gains flying, where X is the number of card types among cards exiled with this artifact. Activate only as a sorcery.
+
+Protothopter
+
+Enille, the First Dragonborn
+rules_text: Whenever a triggered ability of an artifact you don't control triggers, you may gain control of that ability and choose new targets for that ability. => Noncreature artifacts lose all abilities. [i](Equipment stay attached, but do nothing.)[/i]
+
+Chut, the First Nezumi
+rules_text: Flash
+When Chut enters, destroy target creature or planeswalker if one or more of its abilities have been activated this turn.
+Abilities of creatures and planeswalkers cost an additional 1 life to activate. => Flash
+When Chut enters, destroy target creature or planeswalker if one or more of its abilities have been activated this turn.
+Abilities of creatures and planeswalkers cost an additional 2 life to activate.
+
+Parliament Guards
+rules_text: This creature has double strike as long as it's attacking.
+This creature gets +1/+0 as long as it's equipped. => Double strike
+
+Grapple
+rules_text: This spell can't be countered if it targets a creature with mana value 1 or less.
+This spell deals 2 damage to any target. => This spell can't be countered by ward abilities.
+This spell deals 2 damage to any target.
+
+Tech Hauler
+
+Unionized Worker
+rules_text: This creature enters with a number of +1/+1 counters on it equal to twice the number of items in your workshop. [i](Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that's neither.)[/i] => This creature's power and toughness are each equal to twice the number of items in your workshop. [i](Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that's neither. This counts itself.)[/i]
+pt: 0/0 => */*
+
+
+VERSION 9 CHANGELOG
 ====================
 
 Fleshripper Griffin added.
