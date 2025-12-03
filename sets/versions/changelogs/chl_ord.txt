@@ -1,4 +1,225 @@
-﻿VERSION 10 CHANGELOG
+﻿VERSION 11 CHANGELOG
+====================
+
+Lumen Mite added.
+Engine Hauler added.
+Boulder Lugger added.
+Democratic Processor added.
+Towering Warlord added.
+Mirrormuck added.
+Deep-Sea Salvager added.
+Into the Furnace added.
+Durendite Railblazer added.
+Armor-Piercing Shot added.
+Whimsical Scholar added.
+Stab added.
+Cybernetic Zealot added.
+In Need of Repair added.
+Tear the Veil added.
+Train added.
+
+Scrapyard Neonate removed.
+Tech Hauler removed.
+Boulder Hauler removed.
+Crown of the Unbowed removed.
+
+Sailor of the Severed Strait
+
+Underbelly Uprising
+
+Blow It Up
+rules_text: This spell deals X damage to any target, where X is 2 plus the number of items in your workshop. [i](Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that's neither.)[/i] => Blow It Up deals X damage to any target, where X is 2 plus the number of items in your workshop. [i](Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that's neither.)[/i]
+
+Renegade Mechanic
+
+Regulate
+
+Fleshripper Griffin
+
+Muck About
+
+Metalcruncher
+
+Quicksilver Steed
+
+Nugget of Durendite
+
+Durendite-Plated Anvil
+rules_text: When this artifact enters, discard any number of cards, then draw that many cards plus one.
+{T}: Add {R}. => When this artifact enters, you may discard any number of cards, then draw that many cards.
+{T}: Add {R}.
+
+Servocrafting
+
+Banner Wings
+
+Devastation Generator
+
+Priest of Biology
+type: Creature — Human Doctor => Creature — Human Scientist
+
+Exo-Suit Foreman
+
+Rogue Bombardier
+
+Forbidden Research
+
+House de Luc Loyalist
+
+Break-Laws, Servo Liberator
+
+Weapons Stockpile
+
+Bishop of Transhumanism
+
+Prostheticycle
+
+Iterated Evolution
+
+The Mage-Beast of Erablis
+type: Legendary Creature — Sphinx Mutant => Legendary Creature — Sphinx Wizard
+rules_text: The Mage-Beast of Erablis can't be blocked by Humans.
+Tap four other untapped permanents you control: Choose one —
+• Return this creature to its owner's hand.
+• Put a +1/+1 counter on The Mage-Beast of Erablis. => The Mage-Beast of Erablis can't be blocked by Humans.
+Tap four other untapped permanents you control: You may put a +1/+1 counter on The Mage-Beast of Erablis. If you don't, return it to its owner's hand.
+
+Debased Cavalier
+
+Bile Troll
+
+Hulldog
+
+Drifting Hulk
+
+Gatebreaker Hammer
+
+Erablis Explorator
+
+Steel-Shell Tarasque
+rules_text: {1}{G}, Return an artifact you control to its owner's hand: Tap this creature. It gains indestructible until end of turn. Activate only once each turn. => Spells you cast with mana value 5 or greater cost {2} less to cast.
+Whenever you cast a spell with mana value 5 or greater, you gain 5 life.
+
+Lurking Farmhand
+rules_text: Flash
+When this creature enters, choose one —
+• Put target card from your graveyard on top of your library.
+• Put a +1/+1 counter on target creature.
+• Search your library for a basic land card, reveal it, put it into your hand, then shuffle. => Flash
+When this creature enters, choose one —
+• Put target card from your graveyard on top of your library.
+• Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+
+Stasis Grenade
+rules_text: As this artifact enters, choose a nonland card name. [i](Token names aren't card names.)[/i]
+Activated abilities of permanents with the chosen name cost {2} more to activate.
+Creatures with the chosen name can't attack or block unless their controller pays {2}. for each of those creatures. => As this artifact enters, choose a nonland card name. [i](Token names aren't card names.)[/i]
+Activated abilities of permanents with the chosen name cost {2} more to activate.
+Creatures with the chosen name can't attack or block unless their controller pays {2} for each of those creatures.
+
+Flood of Inspiration
+
+Overclocked Courier
+
+Prime Minister Marchant
+
+Explosive Experiment
+
+Abyssal Hydra
+rules_text: When this creature enters, you may discard a card, pay {2}, pay 3 life, and/or exile four cards from your graveyard. For each cost you paid, put a +1/+1 counter on this creature. [i](You can exile a card you discarded with this creature.)[/i] => Ward—Pay an amount of life equal to this creature's power.
+When this creature enters, you may discard a card, pay 2 life, and/or exile three cards from your graveyard. For each cost you paid, put a +1/+1 counter on this creature. [i](You can exile a card you discarded with this creature.)[/i]
+
+Crapshoot
+
+Mechanicus Maximus
+type: Legendary Artifact Creature — Giant Servo => Legendary Artifact Creature — Servo Giant
+
+Gilded Champion
+
+Patriarch of House de Luc
+
+Tear the Veil
+rules_text: Exile all permanent cards from all graveyards. At the beginning of your next upkeep, put each permanent card exiled this way onto the battlefield under your control. => Exile all permanent cards from all graveyards. At the beginning of your next upkeep, put each permanent card exiled this way onto the battlefield under your control. Exile Tear the Veil.
+
+Prestigious Horse
+
+Greywater Foundry
+
+Influx of Chaos
+
+Tickelion
+
+Eerie Watcher
+
+Protothopter
+
+Rifled Crossbow
+
+Amputator
+
+Icefall Gargoyle
+
+Edmon de Luc
+
+Toy Soldiers
+
+Inventor's Desk
+
+Enille, the First Dragonborn
+
+Gevau, the First Gnoll
+rules_text: As a nonbasic land enters, its controller may pay 2 life. If they don't, it enters tapped.
+{R}{R}: Gevau, the First Gnoll gets +2/+2 and gains haste until end of turn. Activate only once each turn. => As a nonbasic land enters, its controller may pay 2 life. If they don't, it enters tapped.
+{R}{R}: Gevau, the First Gnoll gets +2/+0 and gains haste until end of turn. Activate only once each turn.
+
+Chut, the First Nezumi
+
+Tham, the First Merfolk
+
+Recul, the First Aven
+
+Luddism
+
+Artisan's Boots
+
+Bad Batch
+
+Here Comes the Train
+
+Parliament Guards
+
+Grapple
+rules_text: This spell can't be countered by ward abilities.
+This spell deals 2 damage to any target. => Grapple can't be countered by ward abilities.
+Grapple deals 2 damage to any target.
+
+Preacher of the Machine
+
+Engine of War
+
+Prototype Handcannon
+
+Unionized Worker
+
+Mobile Jail
+
+Power Sword
+
+Lyon, Bringer of Artifice
+
+Treasure
+
+Blade-Leg Automaton
+rules_text: When this artifact enters, choose one —
+• This artifact becomes a 3/2 Spider artifact creature.
+• This artifact becomes an Equipment artifact with “Equipped creature gets +2/+0” and “Equip {1}”.
+• Draw two cards, then discard a card. => When this artifact enters, choose one —
+• This artifact becomes a 3/3 Spider artifact creature.
+• This artifact becomes an Equipment artifact with “Equipped creature gets +3/+0” and “Equip {1}”.
+• Draw three cards, then discard two cards.
+
+
+VERSION 10 CHANGELOG
 ====================
 
 Banner Wings added.

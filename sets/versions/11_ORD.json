@@ -1,7 +1,7 @@
 ﻿{
     "name": "Crucible of Ordeval",
     "formats": "",
-    "trimmed": "y",
+    "trimmed": "n",
     "image_type": "jpg",
     "draft_structure": "none",
     "unpreviewed": "card back",
@@ -1806,6 +1806,5 @@
             "artist": "Huawen",
             "notes": ""
         }
-    ],
-    "version": 11
+    ]
 }
