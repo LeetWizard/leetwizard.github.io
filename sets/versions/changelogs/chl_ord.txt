@@ -1,4 +1,190 @@
-﻿VERSION 11 CHANGELOG
+﻿VERSION 12 CHANGELOG
+====================
+
+Traveling Apothecary added.
+Resourceful Ironmonger added.
+Winged Admiral added.
+Monster Anatomist added.
+Wrath of the Monstrous added.
+Veteran of Erablis added.
+
+Priest of Biology removed.
+Tear the Veil removed.
+
+Sailor of the Severed Strait
+
+Underbelly Uprising
+
+Blow It Up
+
+Renegade Mechanic
+
+Regulate
+
+Fleshripper Griffin
+
+Muck About
+
+Metalcruncher
+
+Quicksilver Steed
+
+Nugget of Durendite
+
+Durendite-Plated Anvil
+
+Servocrafting
+
+Banner Wings
+
+Devastation Generator
+
+Rogue Bombardier
+
+Forbidden Research
+
+Break-Laws, Servo Liberator
+
+Weapons Stockpile
+
+Iterated Evolution
+
+The Mage-Beast of Erablis
+
+Debased Cavalier
+
+Bile Troll
+
+Hulldog
+pt: 2/2 => 3/3
+
+Drifting Hulk
+
+Lumen Mite
+
+Gatebreaker Hammer
+
+Erablis Explorator
+
+Steel-Shell Tarasque
+
+Lurking Farmhand
+
+Stasis Grenade
+
+Flood of Inspiration
+
+Overclocked Courier
+
+Prime Minister Marchant
+
+Explosive Experiment
+
+Abyssal Hydra
+
+Crapshoot
+
+Mechanicus Maximus
+
+Gilded Champion
+
+Patriarch of House de Luc
+
+Tear the Veil
+
+Prestigious Horse
+
+Greywater Foundry
+
+Influx of Chaos
+
+Tickelion
+
+Eerie Watcher
+
+Rifled Crossbow
+
+Amputator
+
+Icefall Gargoyle
+
+Edmon de Luc
+
+Toy Soldiers
+
+Inventor's Desk
+
+Enille, the First Dragonborn
+type: Legendary Creature — Dragon Lizard Druid => Legendary Creature — Dragon Lizard Advisor
+
+Gevau, the First Gnoll
+
+Chut, the First Nezumi
+
+Tham, the First Merfolk
+
+Recul, the First Aven
+type: Legendary Creature — Bird Cleric => Legendary Creature — Bird Advisor
+
+Luddism
+
+Artisan's Boots
+
+Bad Batch
+
+Here Comes the Train
+
+Grapple
+
+Preacher of the Machine
+
+Engine Hauler
+type: Artifact Creature — Servo Scout => Artifact Creature — Servo Worker
+
+Engine of War
+
+Prototype Handcannon
+
+Boulder Lugger
+
+Democratic Processor
+rules_text: At the beginning of your end step, if you have more life than an opponent, each opponent loses 2 life. Then if you have less life than an opponent, you gain 2 life. => At the beginning of your end step, if you have more less life than an opponent, you gain 2 life. Then if you have more life than an opponent, each opponent loses 2 life.
+
+Unionized Worker
+
+Mobile Jail
+
+Power Sword
+
+Lyon, Bringer of Artifice
+
+Blade-Leg Automaton
+
+Towering Warlord
+
+Mirrormuck
+
+Deep-Sea Salvager
+rules_text: Menace
+Whenever this creature deals combat damage to a player, that player loses life equal to the number of noncreature, nonland cards in your graveyard. => Deathtouch
+Whenever this creature deals combat damage to a player, that player loses life equal to the number of noncreature, nonland cards in your graveyard.
+
+Into the Furnace
+
+Durendite Railblazer
+
+Whimsical Scholar
+type: Creature — Human Scientist => Creature — Human Artificer
+
+Stab
+
+Cybernetic Zealot
+type: Creature — Human Cleric => Creature — Human Warrior
+
+In Need of Repair
+
+
+VERSION 11 CHANGELOG
 ====================
 
 Lumen Mite added.
