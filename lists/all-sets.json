@@ -1,1 +1,9 @@
-﻿{"sets": [{"set_code": "ORD", "set_name": "Crucible of Ordeval", "formats": ""}]}
+﻿{
+    "sets": [
+        {
+            "set_code": "ORD",
+            "set_name": "Crucible of Ordeval",
+            "formats": ""
+        }
+    ]
+}

@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/ORD-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/ORD-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>ORD visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -35,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -58,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -78,11 +87,12 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
 			height: auto;
-			padding-top: 20px;
+			padding-top: 80px;
 			padding-bottom: 50px;
 		}
 		.logo {
@@ -98,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -114,37 +125,45 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
-		.icon-bar {
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
 			display: grid;
-			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
-			gap: 1px;
-			padding-left: 5%;
-			padding-right: 5%;
-			padding-top: 2%;
-			padding-bottom: 1%;
-			justify-items: center;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
 			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
 		}
-		.icon-bar .icon img {
-			width: 90%;
-			max-width: 80px;
-			height: auto;
-			display: block;
-			padding: 5%;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
 		}
-		.icon-bar .dot img {
-			width: 50%;
-			max-width: 65px;
-			height: auto;
-			display: block;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
 		}
 		.preload-hidden {
 			display: none;
@@ -162,199 +181,216 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/ORD-files/logo.png" />
-	<img class="preload-hidden" src="/sets/ORD-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/ORD-files/logo.png" />
+	<img class="preload-hidden" src="../sets/ORD-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="icon-bar">
-			<div class="icon"><a href="ORD"><img src="/sets/ORD-files/icon.png"></img></a></div>
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/ORD"><img src="../sets/ORD-files/icon.png">Crucible of Ordeval</a>
+	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/ORD-files/logo.png">
+		<img class="logo" src="../sets/ORD-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\ORD-files\img\1_Arch-Cavalier.jpg" id="1_Arch-Cavalier" data-flag="@X" onclick="openSidebar('1_Arch-Cavalier',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\15_Bad Batch.jpg" id="15_Bad Batch" data-flag="@X" onclick="openSidebar('15_Bad Batch',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\29_Amputator.jpg" id="29_Amputator" data-flag="@X" onclick="openSidebar('29_Amputator',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\43_Blow It Up.jpg" id="43_Blow It Up" data-flag="@X" onclick="openSidebar('43_Blow It Up',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\57_Boulder Lugger.jpg" id="57_Boulder Lugger" data-flag="@X" onclick="openSidebar('57_Boulder Lugger',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\2_Armor-Piercing Shot.jpg" id="2_Armor-Piercing Shot" data-flag="@X" onclick="openSidebar('2_Armor-Piercing Shot',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\16_Engine Hauler.jpg" id="16_Engine Hauler" data-flag="@X" onclick="openSidebar('16_Engine Hauler',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\30_Bile Troll.jpg" id="30_Bile Troll" data-flag="@X" onclick="openSidebar('30_Bile Troll',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\44_Cybernetic Zealot.jpg" id="44_Cybernetic Zealot" data-flag="@X" onclick="openSidebar('44_Cybernetic Zealot',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\58_Durendite Railblazer.jpg" id="58_Durendite Railblazer" data-flag="@X" onclick="openSidebar('58_Durendite Railblazer',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\3_Bishop of Transhumanism.jpg" id="3_Bishop of Transhumanism" data-flag="@X" onclick="openSidebar('3_Bishop of Transhumanism',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\17_Icefall Gargoyle.jpg" id="17_Icefall Gargoyle" data-flag="@X" onclick="openSidebar('17_Icefall Gargoyle',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\31_Chut, the First Nezumi.jpg" id="31_Chut, the First Nezumi" data-flag="@X" onclick="openSidebar('31_Chut, the First Nezumi',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\45_Devastation Generator.jpg" id="45_Devastation Generator" data-flag="@X" onclick="openSidebar('45_Devastation Generator',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\59_Enille, the First Dragonborn.jpg" id="59_Enille, the First Dragonborn" data-flag="@X" onclick="openSidebar('59_Enille, the First Dragonborn',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\4_Exo-Suit Foreman.jpg" id="4_Exo-Suit Foreman" data-flag="@X" onclick="openSidebar('4_Exo-Suit Foreman',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\18_Iterated Evolution.jpg" id="18_Iterated Evolution" data-flag="@X" onclick="openSidebar('18_Iterated Evolution',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\32_Crapshoot.jpg" id="32_Crapshoot" data-flag="@X" onclick="openSidebar('32_Crapshoot',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\46_Durendite-Plated Anvil.jpg" id="46_Durendite-Plated Anvil" data-flag="@X" onclick="openSidebar('46_Durendite-Plated Anvil',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\60_Erablis Explorator.jpg" id="60_Erablis Explorator" data-flag="@X" onclick="openSidebar('60_Erablis Explorator',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\5_House de Luc Loyalist.jpg" id="5_House de Luc Loyalist" data-flag="@X" onclick="openSidebar('5_House de Luc Loyalist',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\19_The Mage-Beast of Erablis.jpg" id="19_The Mage-Beast of Erablis" data-flag="@X" onclick="openSidebar('19_The Mage-Beast of Erablis',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\33_Debased Cavalier.jpg" id="33_Debased Cavalier" data-flag="@X" onclick="openSidebar('33_Debased Cavalier',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\47_Engine of War.jpg" id="47_Engine of War" data-flag="@X" onclick="openSidebar('47_Engine of War',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\61_In Need of Repair.jpg" id="61_In Need of Repair" data-flag="@X" onclick="openSidebar('61_In Need of Repair',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\6_Luddism.jpg" id="6_Luddism" data-flag="@X" onclick="openSidebar('6_Luddism',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\20_Mirrormuck.jpg" id="20_Mirrormuck" data-flag="@X" onclick="openSidebar('20_Mirrormuck',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\34_Deep-Sea Salvager.jpg" id="34_Deep-Sea Salvager" data-flag="@X" onclick="openSidebar('34_Deep-Sea Salvager',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\48_Gatebreaker Hammer.jpg" id="48_Gatebreaker Hammer" data-flag="@X" onclick="openSidebar('48_Gatebreaker Hammer',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\62_Inventor's Desk.jpg" id="62_Inventors Desk" data-flag="@X" onclick="openSidebar('62_Inventors Desk',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\7_Mobile Jail.jpg" id="7_Mobile Jail" data-flag="@X" onclick="openSidebar('7_Mobile Jail',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\21_Nugget of Durendite.jpg" id="21_Nugget of Durendite" data-flag="@X" onclick="openSidebar('21_Nugget of Durendite',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\35_Drifting Hulk.jpg" id="35_Drifting Hulk" data-flag="@X" onclick="openSidebar('35_Drifting Hulk',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\49_Gevau, the First Gnoll.jpg" id="49_Gevau, the First Gnoll" data-flag="@X" onclick="openSidebar('49_Gevau, the First Gnoll',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\63_Lurking Farmhand.jpg" id="63_Lurking Farmhand" data-flag="@X" onclick="openSidebar('63_Lurking Farmhand',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\8_Parliament Guards.jpg" id="8_Parliament Guards" data-flag="@X" onclick="openSidebar('8_Parliament Guards',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\22_Quicksilver Steed.jpg" id="22_Quicksilver Steed" data-flag="@X" onclick="openSidebar('22_Quicksilver Steed',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\36_Edmon de Luc.jpg" id="36_Edmon de Luc" data-flag="@X" onclick="openSidebar('36_Edmon de Luc',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\50_Grapple.jpg" id="50_Grapple" data-flag="@X" onclick="openSidebar('50_Grapple',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\64_Metalcruncher.jpg" id="64_Metalcruncher" data-flag="@X" onclick="openSidebar('64_Metalcruncher',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\9_Prostheticycle.jpg" id="9_Prostheticycle" data-flag="@X" onclick="openSidebar('9_Prostheticycle',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\23_Regulate.jpg" id="23_Regulate" data-flag="@X" onclick="openSidebar('23_Regulate',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\37_Fleshripper Griffin.jpg" id="37_Fleshripper Griffin" data-flag="@X" onclick="openSidebar('37_Fleshripper Griffin',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\51_Into the Furnace.jpg" id="51_Into the Furnace" data-flag="@X" onclick="openSidebar('51_Into the Furnace',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\65_Prestigious Horse.jpg" id="65_Prestigious Horse" data-flag="@X" onclick="openSidebar('65_Prestigious Horse',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\10_Protothopter.jpg" id="10_Protothopter" data-flag="@X" onclick="openSidebar('10_Protothopter',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\24_Rifled Crossbow.jpg" id="24_Rifled Crossbow" data-flag="@X" onclick="openSidebar('24_Rifled Crossbow',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\38_Hulldog.jpg" id="38_Hulldog" data-flag="@X" onclick="openSidebar('38_Hulldog',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\52_Lumen Mite.jpg" id="52_Lumen Mite" data-flag="@X" onclick="openSidebar('52_Lumen Mite',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\66_Prototype Handcannon.jpg" id="66_Prototype Handcannon" data-flag="@X" onclick="openSidebar('66_Prototype Handcannon',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\11_Recul, the First Aven.jpg" id="11_Recul, the First Aven" data-flag="@X" onclick="openSidebar('11_Recul, the First Aven',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\25_Sailor of the Severed Strait.jpg" id="25_Sailor of the Severed Strait" data-flag="@X" onclick="openSidebar('25_Sailor of the Severed Strait',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\39_Monster Anatomist.jpg" id="39_Monster Anatomist" data-flag="@X" onclick="openSidebar('39_Monster Anatomist',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\53_Renegade Mechanic.jpg" id="53_Renegade Mechanic" data-flag="@X" onclick="openSidebar('53_Renegade Mechanic',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\67_Servocrafting.jpg" id="67_Servocrafting" data-flag="@X" onclick="openSidebar('67_Servocrafting',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\12_Resourceful Ironmonger.jpg" id="12_Resourceful Ironmonger" data-flag="@X" onclick="openSidebar('12_Resourceful Ironmonger',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\26_Tham, the First Merfolk.jpg" id="26_Tham, the First Merfolk" data-flag="@X" onclick="openSidebar('26_Tham, the First Merfolk',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\40_Muck About.jpg" id="40_Muck About" data-flag="@X" onclick="openSidebar('40_Muck About',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\54_Rogue Bombardier.jpg" id="54_Rogue Bombardier" data-flag="@X" onclick="openSidebar('54_Rogue Bombardier',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\68_Steel-Shell Tarasque.jpg" id="68_Steel-Shell Tarasque" data-flag="@X" onclick="openSidebar('68_Steel-Shell Tarasque',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\13_Towering Warlord.jpg" id="13_Towering Warlord" data-flag="@X" onclick="openSidebar('13_Towering Warlord',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\27_Whimsical Scholar.jpg" id="27_Whimsical Scholar" data-flag="@X" onclick="openSidebar('27_Whimsical Scholar',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\41_Stab.jpg" id="41_Stab" data-flag="@X" onclick="openSidebar('41_Stab',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\55_Toy Soldiers.jpg" id="55_Toy Soldiers" data-flag="@X" onclick="openSidebar('55_Toy Soldiers',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\69_Traveling Apothecary.jpg" id="69_Traveling Apothecary" data-flag="@X" onclick="openSidebar('69_Traveling Apothecary',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\14_Weapons Stockpile.jpg" id="14_Weapons Stockpile" data-flag="@X" onclick="openSidebar('14_Weapons Stockpile',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\28_Winged Admiral.jpg" id="28_Winged Admiral" data-flag="@X" onclick="openSidebar('28_Winged Admiral',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\42_Underbelly Uprising.jpg" id="42_Underbelly Uprising" data-flag="@X" onclick="openSidebar('42_Underbelly Uprising',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\56_Wrath of the Monstrous.jpg" id="56_Wrath of the Monstrous" data-flag="@X" onclick="openSidebar('56_Wrath of the Monstrous',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\70_Unionized Worker.jpg" id="70_Unionized Worker" data-flag="@X" onclick="openSidebar('70_Unionized Worker',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\71_Veteran of Erablis.jpg" id="71_Veteran of Erablis" data-flag="@X" onclick="openSidebar('71_Veteran of Erablis',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\ORD-files\img\1_Arch-Cavalier.jpg" id="ORD_1_Arch-Cavalier" data-flag="@X" onclick="openSidebar('ORD_1_Arch-Cavalier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\15_Bad Batch.jpg" id="ORD_15_Bad Batch" data-flag="@X" onclick="openSidebar('ORD_15_Bad Batch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\29_Amputator.jpg" id="ORD_29_Amputator" data-flag="@X" onclick="openSidebar('ORD_29_Amputator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\43_Blow It Up.jpg" id="ORD_43_Blow It Up" data-flag="@X" onclick="openSidebar('ORD_43_Blow It Up',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\57_Boulder Lugger.jpg" id="ORD_57_Boulder Lugger" data-flag="@X" onclick="openSidebar('ORD_57_Boulder Lugger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\2_Armor-Piercing Shot.jpg" id="ORD_2_Armor-Piercing Shot" data-flag="@X" onclick="openSidebar('ORD_2_Armor-Piercing Shot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\16_Engine Hauler.jpg" id="ORD_16_Engine Hauler" data-flag="@X" onclick="openSidebar('ORD_16_Engine Hauler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\30_Bile Troll.jpg" id="ORD_30_Bile Troll" data-flag="@X" onclick="openSidebar('ORD_30_Bile Troll',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\44_Cybernetic Zealot.jpg" id="ORD_44_Cybernetic Zealot" data-flag="@X" onclick="openSidebar('ORD_44_Cybernetic Zealot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\58_Durendite Railblazer.jpg" id="ORD_58_Durendite Railblazer" data-flag="@X" onclick="openSidebar('ORD_58_Durendite Railblazer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\3_Bishop of Transhumanism.jpg" id="ORD_3_Bishop of Transhumanism" data-flag="@X" onclick="openSidebar('ORD_3_Bishop of Transhumanism',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\17_Icefall Gargoyle.jpg" id="ORD_17_Icefall Gargoyle" data-flag="@X" onclick="openSidebar('ORD_17_Icefall Gargoyle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\31_Chut, the First Nezumi.jpg" id="ORD_31_Chut, the First Nezumi" data-flag="@X" onclick="openSidebar('ORD_31_Chut, the First Nezumi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\45_Devastation Generator.jpg" id="ORD_45_Devastation Generator" data-flag="@X" onclick="openSidebar('ORD_45_Devastation Generator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\59_Enille, the First Dragonborn.jpg" id="ORD_59_Enille, the First Dragonborn" data-flag="@X" onclick="openSidebar('ORD_59_Enille, the First Dragonborn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\4_Exo-Suit Foreman.jpg" id="ORD_4_Exo-Suit Foreman" data-flag="@X" onclick="openSidebar('ORD_4_Exo-Suit Foreman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\18_Iterated Evolution.jpg" id="ORD_18_Iterated Evolution" data-flag="@X" onclick="openSidebar('ORD_18_Iterated Evolution',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\32_Crapshoot.jpg" id="ORD_32_Crapshoot" data-flag="@X" onclick="openSidebar('ORD_32_Crapshoot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\46_Durendite-Plated Anvil.jpg" id="ORD_46_Durendite-Plated Anvil" data-flag="@X" onclick="openSidebar('ORD_46_Durendite-Plated Anvil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\60_Erablis Explorator.jpg" id="ORD_60_Erablis Explorator" data-flag="@X" onclick="openSidebar('ORD_60_Erablis Explorator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\5_House de Luc Loyalist.jpg" id="ORD_5_House de Luc Loyalist" data-flag="@X" onclick="openSidebar('ORD_5_House de Luc Loyalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\19_The Mage-Beast of Erablis.jpg" id="ORD_19_The Mage-Beast of Erablis" data-flag="@X" onclick="openSidebar('ORD_19_The Mage-Beast of Erablis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\33_Debased Cavalier.jpg" id="ORD_33_Debased Cavalier" data-flag="@X" onclick="openSidebar('ORD_33_Debased Cavalier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\47_Engine of War.jpg" id="ORD_47_Engine of War" data-flag="@X" onclick="openSidebar('ORD_47_Engine of War',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\61_In Need of Repair.jpg" id="ORD_61_In Need of Repair" data-flag="@X" onclick="openSidebar('ORD_61_In Need of Repair',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\6_Luddism.jpg" id="ORD_6_Luddism" data-flag="@X" onclick="openSidebar('ORD_6_Luddism',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\20_Mirrormuck.jpg" id="ORD_20_Mirrormuck" data-flag="@X" onclick="openSidebar('ORD_20_Mirrormuck',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\34_Deep-Sea Salvager.jpg" id="ORD_34_Deep-Sea Salvager" data-flag="@X" onclick="openSidebar('ORD_34_Deep-Sea Salvager',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\48_Gatebreaker Hammer.jpg" id="ORD_48_Gatebreaker Hammer" data-flag="@X" onclick="openSidebar('ORD_48_Gatebreaker Hammer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\62_Inventor's Desk.jpg" id="ORD_62_Inventors Desk" data-flag="@X" onclick="openSidebar('ORD_62_Inventors Desk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\7_Mobile Jail.jpg" id="ORD_7_Mobile Jail" data-flag="@X" onclick="openSidebar('ORD_7_Mobile Jail',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\21_Nugget of Durendite.jpg" id="ORD_21_Nugget of Durendite" data-flag="@X" onclick="openSidebar('ORD_21_Nugget of Durendite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\35_Drifting Hulk.jpg" id="ORD_35_Drifting Hulk" data-flag="@X" onclick="openSidebar('ORD_35_Drifting Hulk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\49_Gevau, the First Gnoll.jpg" id="ORD_49_Gevau, the First Gnoll" data-flag="@X" onclick="openSidebar('ORD_49_Gevau, the First Gnoll',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\63_Lurking Farmhand.jpg" id="ORD_63_Lurking Farmhand" data-flag="@X" onclick="openSidebar('ORD_63_Lurking Farmhand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\8_Parliament Guards.jpg" id="ORD_8_Parliament Guards" data-flag="@X" onclick="openSidebar('ORD_8_Parliament Guards',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\22_Quicksilver Steed.jpg" id="ORD_22_Quicksilver Steed" data-flag="@X" onclick="openSidebar('ORD_22_Quicksilver Steed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\36_Edmon de Luc.jpg" id="ORD_36_Edmon de Luc" data-flag="@X" onclick="openSidebar('ORD_36_Edmon de Luc',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\50_Grapple.jpg" id="ORD_50_Grapple" data-flag="@X" onclick="openSidebar('ORD_50_Grapple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\64_Metalcruncher.jpg" id="ORD_64_Metalcruncher" data-flag="@X" onclick="openSidebar('ORD_64_Metalcruncher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\9_Prostheticycle.jpg" id="ORD_9_Prostheticycle" data-flag="@X" onclick="openSidebar('ORD_9_Prostheticycle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\23_Regulate.jpg" id="ORD_23_Regulate" data-flag="@X" onclick="openSidebar('ORD_23_Regulate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\37_Fleshripper Griffin.jpg" id="ORD_37_Fleshripper Griffin" data-flag="@X" onclick="openSidebar('ORD_37_Fleshripper Griffin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\51_Into the Furnace.jpg" id="ORD_51_Into the Furnace" data-flag="@X" onclick="openSidebar('ORD_51_Into the Furnace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\65_Prestigious Horse.jpg" id="ORD_65_Prestigious Horse" data-flag="@X" onclick="openSidebar('ORD_65_Prestigious Horse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\10_Protothopter.jpg" id="ORD_10_Protothopter" data-flag="@X" onclick="openSidebar('ORD_10_Protothopter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\24_Rifled Crossbow.jpg" id="ORD_24_Rifled Crossbow" data-flag="@X" onclick="openSidebar('ORD_24_Rifled Crossbow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\38_Hulldog.jpg" id="ORD_38_Hulldog" data-flag="@X" onclick="openSidebar('ORD_38_Hulldog',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\52_Lumen Mite.jpg" id="ORD_52_Lumen Mite" data-flag="@X" onclick="openSidebar('ORD_52_Lumen Mite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\66_Prototype Handcannon.jpg" id="ORD_66_Prototype Handcannon" data-flag="@X" onclick="openSidebar('ORD_66_Prototype Handcannon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\11_Recul, the First Aven.jpg" id="ORD_11_Recul, the First Aven" data-flag="@X" onclick="openSidebar('ORD_11_Recul, the First Aven',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\25_Sailor of the Severed Strait.jpg" id="ORD_25_Sailor of the Severed Strait" data-flag="@X" onclick="openSidebar('ORD_25_Sailor of the Severed Strait',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\39_Monster Anatomist.jpg" id="ORD_39_Monster Anatomist" data-flag="@X" onclick="openSidebar('ORD_39_Monster Anatomist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\53_Renegade Mechanic.jpg" id="ORD_53_Renegade Mechanic" data-flag="@X" onclick="openSidebar('ORD_53_Renegade Mechanic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\67_Servocrafting.jpg" id="ORD_67_Servocrafting" data-flag="@X" onclick="openSidebar('ORD_67_Servocrafting',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\12_Resourceful Ironmonger.jpg" id="ORD_12_Resourceful Ironmonger" data-flag="@X" onclick="openSidebar('ORD_12_Resourceful Ironmonger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\26_Tham, the First Merfolk.jpg" id="ORD_26_Tham, the First Merfolk" data-flag="@X" onclick="openSidebar('ORD_26_Tham, the First Merfolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\40_Muck About.jpg" id="ORD_40_Muck About" data-flag="@X" onclick="openSidebar('ORD_40_Muck About',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\54_Rogue Bombardier.jpg" id="ORD_54_Rogue Bombardier" data-flag="@X" onclick="openSidebar('ORD_54_Rogue Bombardier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\68_Steel-Shell Tarasque.jpg" id="ORD_68_Steel-Shell Tarasque" data-flag="@X" onclick="openSidebar('ORD_68_Steel-Shell Tarasque',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\13_Towering Warlord.jpg" id="ORD_13_Towering Warlord" data-flag="@X" onclick="openSidebar('ORD_13_Towering Warlord',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\27_Whimsical Scholar.jpg" id="ORD_27_Whimsical Scholar" data-flag="@X" onclick="openSidebar('ORD_27_Whimsical Scholar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\41_Stab.jpg" id="ORD_41_Stab" data-flag="@X" onclick="openSidebar('ORD_41_Stab',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\55_Toy Soldiers.jpg" id="ORD_55_Toy Soldiers" data-flag="@X" onclick="openSidebar('ORD_55_Toy Soldiers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\69_Traveling Apothecary.jpg" id="ORD_69_Traveling Apothecary" data-flag="@X" onclick="openSidebar('ORD_69_Traveling Apothecary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\14_Weapons Stockpile.jpg" id="ORD_14_Weapons Stockpile" data-flag="@X" onclick="openSidebar('ORD_14_Weapons Stockpile',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\28_Winged Admiral.jpg" id="ORD_28_Winged Admiral" data-flag="@X" onclick="openSidebar('ORD_28_Winged Admiral',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\42_Underbelly Uprising.jpg" id="ORD_42_Underbelly Uprising" data-flag="@X" onclick="openSidebar('ORD_42_Underbelly Uprising',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\56_Wrath of the Monstrous.jpg" id="ORD_56_Wrath of the Monstrous" data-flag="@X" onclick="openSidebar('ORD_56_Wrath of the Monstrous',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\70_Unionized Worker.jpg" id="ORD_70_Unionized Worker" data-flag="@X" onclick="openSidebar('ORD_70_Unionized Worker',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\71_Veteran of Erablis.jpg" id="ORD_71_Veteran of Erablis" data-flag="@X" onclick="openSidebar('ORD_71_Veteran of Erablis',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\82_Preacher of the Machine.jpg" id="82_Preacher of the Machine" data-flag="@X" onclick="openSidebar('82_Preacher of the Machine',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\75_Forbidden Research.jpg" id="75_Forbidden Research" data-flag="@X" onclick="openSidebar('75_Forbidden Research',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\73_Explosive Experiment.jpg" id="73_Explosive Experiment" data-flag="@X" onclick="openSidebar('73_Explosive Experiment',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\79_Mechanicus Maximus.jpg" id="79_Mechanicus Maximus" data-flag="@X" onclick="openSidebar('79_Mechanicus Maximus',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\81_Patriarch of House de Luc.jpg" id="81_Patriarch of House de Luc" data-flag="@X" onclick="openSidebar('81_Patriarch of House de Luc',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\77_Influx of Chaos.jpg" id="77_Influx of Chaos" data-flag="@X" onclick="openSidebar('77_Influx of Chaos',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\83_Prime Minister Marchant.jpg" id="83_Prime Minister Marchant" data-flag="@X" onclick="openSidebar('83_Prime Minister Marchant',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\78_Lyon, Bringer of Artifice.jpg" id="78_Lyon, Bringer of Artifice" data-flag="@X" onclick="openSidebar('78_Lyon, Bringer of Artifice',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\72_Abyssal Hydra.jpg" id="72_Abyssal Hydra" data-flag="@X" onclick="openSidebar('72_Abyssal Hydra',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\76_Here Comes the Train.jpg" id="76_Here Comes the Train" data-flag="@X" onclick="openSidebar('76_Here Comes the Train',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\74_Flood of Inspiration.jpg" id="74_Flood of Inspiration" data-flag="@X" onclick="openSidebar('74_Flood of Inspiration',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\80_Overclocked Courier.jpg" id="80_Overclocked Courier" data-flag="@X" onclick="openSidebar('80_Overclocked Courier',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\84_Tear the Veil.jpg" id="84_Tear the Veil" data-flag="@X" onclick="openSidebar('84_Tear the Veil',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\82_Preacher of the Machine.jpg" id="ORD_82_Preacher of the Machine" data-flag="@X" onclick="openSidebar('ORD_82_Preacher of the Machine',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\75_Forbidden Research.jpg" id="ORD_75_Forbidden Research" data-flag="@X" onclick="openSidebar('ORD_75_Forbidden Research',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\73_Explosive Experiment.jpg" id="ORD_73_Explosive Experiment" data-flag="@X" onclick="openSidebar('ORD_73_Explosive Experiment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\79_Mechanicus Maximus.jpg" id="ORD_79_Mechanicus Maximus" data-flag="@X" onclick="openSidebar('ORD_79_Mechanicus Maximus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\81_Patriarch of House de Luc.jpg" id="ORD_81_Patriarch of House de Luc" data-flag="@X" onclick="openSidebar('ORD_81_Patriarch of House de Luc',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\77_Influx of Chaos.jpg" id="ORD_77_Influx of Chaos" data-flag="@X" onclick="openSidebar('ORD_77_Influx of Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\83_Prime Minister Marchant.jpg" id="ORD_83_Prime Minister Marchant" data-flag="@X" onclick="openSidebar('ORD_83_Prime Minister Marchant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\78_Lyon, Bringer of Artifice.jpg" id="ORD_78_Lyon, Bringer of Artifice" data-flag="@X" onclick="openSidebar('ORD_78_Lyon, Bringer of Artifice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\72_Abyssal Hydra.jpg" id="ORD_72_Abyssal Hydra" data-flag="@X" onclick="openSidebar('ORD_72_Abyssal Hydra',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\76_Here Comes the Train.jpg" id="ORD_76_Here Comes the Train" data-flag="@X" onclick="openSidebar('ORD_76_Here Comes the Train',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\74_Flood of Inspiration.jpg" id="ORD_74_Flood of Inspiration" data-flag="@X" onclick="openSidebar('ORD_74_Flood of Inspiration',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\80_Overclocked Courier.jpg" id="ORD_80_Overclocked Courier" data-flag="@X" onclick="openSidebar('ORD_80_Overclocked Courier',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\84_Tear the Veil.jpg" id="ORD_84_Tear the Veil" data-flag="@X" onclick="openSidebar('ORD_84_Tear the Veil',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\85_Artisan's Boots.jpg" id="85_Artisans Boots" data-flag="@X" onclick="openSidebar('85_Artisans Boots',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\86_Banner Wings.jpg" id="86_Banner Wings" data-flag="@X" onclick="openSidebar('86_Banner Wings',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\87_Blade-Leg Automaton.jpg" id="87_Blade-Leg Automaton" data-flag="@X" onclick="openSidebar('87_Blade-Leg Automaton',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\88_Break-Laws, Servo Liberator.jpg" id="88_Break-Laws, Servo Liberator" data-flag="@X" onclick="openSidebar('88_Break-Laws, Servo Liberator',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\89_Democratic Processor.jpg" id="89_Democratic Processor" data-flag="@X" onclick="openSidebar('89_Democratic Processor',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\90_Eerie Watcher.jpg" id="90_Eerie Watcher" data-flag="@X" onclick="openSidebar('90_Eerie Watcher',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\91_Gilded Champion.jpg" id="91_Gilded Champion" data-flag="@X" onclick="openSidebar('91_Gilded Champion',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\92_Power Sword.jpg" id="92_Power Sword" data-flag="@X" onclick="openSidebar('92_Power Sword',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\93_Stasis Grenade.jpg" id="93_Stasis Grenade" data-flag="@X" onclick="openSidebar('93_Stasis Grenade',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\94_Tickelion.jpg" id="94_Tickelion" data-flag="@X" onclick="openSidebar('94_Tickelion',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\95_Greywater Foundry.jpg" id="95_Greywater Foundry" data-flag="@X" onclick="openSidebar('95_Greywater Foundry',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\96_Plains.jpg" id="96_Plains" data-flag="@X" onclick="openSidebar('96_Plains',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\97_Island.jpg" id="97_Island" data-flag="@X" onclick="openSidebar('97_Island',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\98_Swamp.jpg" id="98_Swamp" data-flag="@X" onclick="openSidebar('98_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\99_Mountain.jpg" id="99_Mountain" data-flag="@X" onclick="openSidebar('99_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\100_Forest.jpg" id="100_Forest" data-flag="@X" onclick="openSidebar('100_Forest',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\85_Artisan's Boots.jpg" id="ORD_85_Artisans Boots" data-flag="@X" onclick="openSidebar('ORD_85_Artisans Boots',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\86_Banner Wings.jpg" id="ORD_86_Banner Wings" data-flag="@X" onclick="openSidebar('ORD_86_Banner Wings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\87_Blade-Leg Automaton.jpg" id="ORD_87_Blade-Leg Automaton" data-flag="@X" onclick="openSidebar('ORD_87_Blade-Leg Automaton',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\88_Break-Laws, Servo Liberator.jpg" id="ORD_88_Break-Laws, Servo Liberator" data-flag="@X" onclick="openSidebar('ORD_88_Break-Laws, Servo Liberator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\89_Democratic Processor.jpg" id="ORD_89_Democratic Processor" data-flag="@X" onclick="openSidebar('ORD_89_Democratic Processor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\90_Eerie Watcher.jpg" id="ORD_90_Eerie Watcher" data-flag="@X" onclick="openSidebar('ORD_90_Eerie Watcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\91_Gilded Champion.jpg" id="ORD_91_Gilded Champion" data-flag="@X" onclick="openSidebar('ORD_91_Gilded Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\92_Power Sword.jpg" id="ORD_92_Power Sword" data-flag="@X" onclick="openSidebar('ORD_92_Power Sword',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\93_Stasis Grenade.jpg" id="ORD_93_Stasis Grenade" data-flag="@X" onclick="openSidebar('ORD_93_Stasis Grenade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\94_Tickelion.jpg" id="ORD_94_Tickelion" data-flag="@X" onclick="openSidebar('ORD_94_Tickelion',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\95_Greywater Foundry.jpg" id="ORD_95_Greywater Foundry" data-flag="@X" onclick="openSidebar('ORD_95_Greywater Foundry',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\96_Plains.jpg" id="ORD_96_Plains" data-flag="@X" onclick="openSidebar('ORD_96_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\97_Island.jpg" id="ORD_97_Island" data-flag="@X" onclick="openSidebar('ORD_97_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\98_Swamp.jpg" id="ORD_98_Swamp" data-flag="@X" onclick="openSidebar('ORD_98_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\99_Mountain.jpg" id="ORD_99_Mountain" data-flag="@X" onclick="openSidebar('ORD_99_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\100_Forest.jpg" id="ORD_100_Forest" data-flag="@X" onclick="openSidebar('ORD_100_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\1t_Servo.jpg" id="1t_Servo" data-flag="@X" onclick="openSidebar('1t_Servo',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\2t_Servo Construct.jpg" id="2t_Servo Construct" data-flag="@X" onclick="openSidebar('2t_Servo Construct',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\3t_Train.jpg" id="3t_Train" data-flag="@X" onclick="openSidebar('3t_Train',false)"></div>
-				<div class="container"><img alt="/sets\ORD-files\img\4t_Treasure.jpg" id="4t_Treasure" data-flag="@X" onclick="openSidebar('4t_Treasure',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\1t_Servo.jpg" id="ORD_1t_Servo" data-flag="@X" onclick="openSidebar('ORD_1t_Servo',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\2t_Servo Construct.jpg" id="ORD_2t_Servo Construct" data-flag="@X" onclick="openSidebar('ORD_2t_Servo Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\3t_Train.jpg" id="ORD_3t_Train" data-flag="@X" onclick="openSidebar('ORD_3t_Train',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ORD-files\img\4t_Treasure.jpg" id="ORD_4t_Treasure" data-flag="@X" onclick="openSidebar('ORD_4t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ORD_e" data-flag="@E" onclick="openSidebar('ORD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ORD_er" data-flag="@E" onclick="openSidebar('ORD_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -367,19 +403,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -414,13 +542,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -446,27 +577,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -478,17 +633,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -520,6 +677,26 @@
 		window.scrollTo(window.scrollX, scroll_pos);
 	}
 
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
 	document.getElementById("search").addEventListener("keypress", function(event) {
 		if (event.key === "Enter") {
 			event.preventDefault();
@@ -528,16 +705,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -547,7 +724,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>
