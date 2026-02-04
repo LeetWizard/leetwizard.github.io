@@ -1,4 +1,28 @@
-﻿VERSION 12 CHANGELOG
+﻿VERSION 13 CHANGELOG
+====================
+
+Interrogator's Claws added.
+Naval Engineer added.
+Clue added.
+
+Amputator removed.
+Winged Admiral removed.
+
+Prestigious Horse
+rules_text: {U}: Put a flying counter on this creature. It becomes a Pegasus in addition to its other types. Activate only once.
+{1}{W}: Put two +1/1 counters on this creature. It becomes a Unicorn in addition to its other types. Activate only once. => {U}: Put a flying counter on this creature. It becomes a Pegasus in addition to its other types. Activate only once.
+{1}{W}: Put two +1/+1 counters on this creature. It becomes a Unicorn in addition to its other types. Activate only once.
+
+Tham, the First Merfolk
+rules_text: Ward {2}
+Whenever an opponent draws a card beyond the first drawn each turn, that player shuffles a card from their hand into their library. => Ward {2}
+Whenever an opponent draws a card except the first card they draw in each of their draw steps, that player shuffles a card from their hand into their library.
+
+Democratic Processor
+rules_text: At the beginning of your end step, if you have more less life than an opponent, you gain 2 life. Then if you have more life than an opponent, each opponent loses 2 life. => At the beginning of your end step, if you have less life than an opponent, you gain 2 life. Then if you have more life than an opponent, each opponent loses 2 life.
+
+
+VERSION 12 CHANGELOG
 ====================
 
 Traveling Apothecary added.

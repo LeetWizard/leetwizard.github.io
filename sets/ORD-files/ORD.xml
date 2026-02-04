@@ -5,7 +5,7 @@
 			<name>ORD</name>
 			<longname>Crucible of Ordeval</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-23</releasedate>
+			<releasedate>2026-02-04</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -30,7 +30,7 @@ Whenever this creature enters or attacks, tap up to one target creature.</text>
 		<card>
 			<name>Sailor of the Severed Strait</name>
 			<text>Whenever this creature attacks, if it&apos;s equipped, draw a card.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/25_Sailor of the Severed Strait.jpg" num="25">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/26_Sailor of the Severed Strait.jpg" num="26">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -96,7 +96,7 @@ Whenever this creature enters or attacks, tap up to one target creature.</text>
 		<card>
 			<name>Regulate</name>
 			<text>Counter target spell unless its controller pays {2}. Spells that player casts cost {1} more to cast this turn.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/23_Regulate.jpg" num="23">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/24_Regulate.jpg" num="24">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -112,7 +112,7 @@ Whenever this creature enters or attacks, tap up to one target creature.</text>
 		<card>
 			<name>Fleshripper Griffin</name>
 			<text>Pay 3 life: This creature gains flying until end of turn.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/37_Fleshripper Griffin.jpg" num="37">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/36_Fleshripper Griffin.jpg" num="36">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -164,7 +164,7 @@ When this creature enters, exile up to one target artifact or enchantment.</text
 		<card>
 			<name>Quicksilver Steed</name>
 			<text>You may have this creature enter as a copy of an artifact or creature you control, except it&apos;s a 2/2 blue Shapeshifter artifact creature in addition to its other types.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/22_Quicksilver Steed.jpg" num="22">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/23_Quicksilver Steed.jpg" num="23">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -181,7 +181,7 @@ When this creature enters, exile up to one target artifact or enchantment.</text
 		<card>
 			<name>Nugget of Durendite</name>
 			<text>At the beginning of your upkeep, scry 1. Then if your workshop is full, you may sacrifice this artifact. If you do, draw two cards. (Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that&apos;s neither.)</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/21_Nugget of Durendite.jpg" num="21">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/22_Nugget of Durendite.jpg" num="22">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -457,7 +457,7 @@ Tap four other untapped permanents you control: You may put a +1/+1 counter on T
 			<name>Debased Cavalier</name>
 			<text>This creature enters tapped.
 When this creature dies, if it was equipped, return it from your graveyard to the battlefield at the beginning of the next end step.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/33_Debased Cavalier.jpg" num="33">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/32_Debased Cavalier.jpg" num="32">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -475,7 +475,7 @@ When this creature dies, if it was equipped, return it from your graveyard to th
 			<name>Bile Troll</name>
 			<text>When this creature enters, exile target artifact creature card from your graveyard.
 Whenever this creature attacks, create a token that&apos;s a copy of a card exiled with it. It enters tapped and attacking. Exile that token at end of combat.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/30_Bile Troll.jpg" num="30">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/29_Bile Troll.jpg" num="29">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -492,7 +492,7 @@ Whenever this creature attacks, create a token that&apos;s a copy of a card exil
 		<card>
 			<name>Hulldog</name>
 			<text>When this creature enters, up to one target creature gets -X/-X until end of turn, where X is the number of items in your workshop. (Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that&apos;s neither.)</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/38_Hulldog.jpg" num="38">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/37_Hulldog.jpg" num="37">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -510,7 +510,7 @@ Whenever this creature attacks, create a token that&apos;s a copy of a card exil
 			<name>Drifting Hulk</name>
 			<text>When this creature enters, create a Treasure token.
 Treasures you control have &quot;{T}, Pay 3 life, Sacrifice this Treasure: Add {B}{B}{B}.&quot;</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/35_Drifting Hulk.jpg" num="35">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/34_Drifting Hulk.jpg" num="34">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -722,7 +722,7 @@ When this creature enters, you may discard a card, pay 2 life, and/or exile thre
 			<name>Crapshoot</name>
 			<text>As an additional cost to cast this spell, you may exile any number of cards from your graveyard. This spell costs {1} less to cast for each card exiled this way.
 Search your library for a card and put it into your hand, then shuffle.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/32_Crapshoot.jpg" num="32">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/31_Crapshoot.jpg" num="31">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -804,7 +804,7 @@ When Mechanicus Maximus dies, it deals damage equal to its power to any target.<
 		<card>
 			<name>Prestigious Horse</name>
 			<text>{U}: Put a flying counter on this creature. It becomes a Pegasus in addition to its other types. Activate only once.
-{1}{W}: Put two +1/1 counters on this creature. It becomes a Unicorn in addition to its other types. Activate only once.</text>
+{1}{W}: Put two +1/+1 counters on this creature. It becomes a Unicorn in addition to its other types. Activate only once.</text>
 			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/65_Prestigious Horse.jpg" num="65">ORD</set>
 			<prop>
 				<layout>normal</layout>
@@ -907,7 +907,7 @@ When this creature enters, tap up to one target artifact or creature.</text>
 Magnetize (When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)
 Equipped creature gets +1/+1.
 Equip {1}</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/24_Rifled Crossbow.jpg" num="24">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/25_Rifled Crossbow.jpg" num="25">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -921,12 +921,11 @@ Equip {1}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Amputator</name>
+			<name>Interrogator&apos;s Claws</name>
 			<text>Magnetize (When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)
-Equipped creature gets +1/-1.
-When equipped creature dies, draw a card.
+Equipped creature gets +1/+1 and has &quot;Whenever this creature deals combat damage to a player, exile the top two cards of that player&apos;s library. Until end of turn, you may play those cards. Mana of any type can be spent to cast spells this way&quot;.
 Equip {2}</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/29_Amputator.jpg" num="29">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/38_Interrogator&apos;s Claws.jpg" num="38">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -960,7 +959,7 @@ Icefall Gargoyle&apos;s power is equal to the number of items in your workshop. 
 		<card>
 			<name>Edmon de Luc</name>
 			<text></text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/36_Edmon de Luc.jpg" num="36">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/35_Edmon de Luc.jpg" num="35">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1047,7 +1046,7 @@ Icefall Gargoyle&apos;s power is equal to the number of items in your workshop. 
 			<text>Flash
 When Chut enters, destroy target creature or planeswalker if one or more of its abilities have been activated this turn.
 Abilities of creatures and planeswalkers cost an additional 2 life to activate.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/31_Chut, the First Nezumi.jpg" num="31">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/30_Chut, the First Nezumi.jpg" num="30">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1064,8 +1063,8 @@ Abilities of creatures and planeswalkers cost an additional 2 life to activate.<
 		<card>
 			<name>Tham, the First Merfolk</name>
 			<text>Ward {2}
-Whenever an opponent draws a card beyond the first drawn each turn, that player shuffles a card from their hand into their library.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/26_Tham, the First Merfolk.jpg" num="26">ORD</set>
+Whenever an opponent draws a card except the first card they draw in each of their draw steps, that player shuffles a card from their hand into their library.</text>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/27_Tham, the First Merfolk.jpg" num="27">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1290,7 +1289,7 @@ When this creature enters, put a +1/+1 counter on each other artifact creature y
 		</card>
 		<card>
 			<name>Democratic Processor</name>
-			<text>At the beginning of your end step, if you have more less life than an opponent, you gain 2 life. Then if you have more life than an opponent, each opponent loses 2 life.</text>
+			<text>At the beginning of your end step, if you have less life than an opponent, you gain 2 life. Then if you have more life than an opponent, each opponent loses 2 life.</text>
 			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/89_Democratic Processor.jpg" num="89">ORD</set>
 			<prop>
 				<layout>normal</layout>
@@ -1370,7 +1369,7 @@ Equip {1}</text>
 		<card>
 			<name>Servo Construct ORD</name>
 			<text>This creature gets +1/+1 for each artifact you control. (Including itself.)</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/2t_Servo Construct.jpg" num="2">ORD</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/3t_Servo Construct.jpg" num="3">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1386,7 +1385,7 @@ Equip {1}</text>
 		<card>
 			<name>Servo ORD</name>
 			<text></text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/1t_Servo.jpg" num="1">ORD</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/2t_Servo.jpg" num="2">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1402,7 +1401,7 @@ Equip {1}</text>
 		<card>
 			<name>Treasure ORD</name>
 			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/4t_Treasure.jpg" num="4">ORD</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/5t_Treasure.jpg" num="5">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1545,7 +1544,7 @@ Whenever you draw a card, put a +1/+1 counter on this creature.</text>
 			<name>Deep-Sea Salvager</name>
 			<text>Deathtouch
 Whenever this creature deals combat damage to a player, that player loses life equal to the number of noncreature, nonland cards in your graveyard.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/34_Deep-Sea Salvager.jpg" num="34">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/33_Deep-Sea Salvager.jpg" num="33">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1614,7 +1613,7 @@ Whenever this creature deals combat damage to a player, that player loses life e
 			<name>Whimsical Scholar</name>
 			<text>When this creature enters, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)
 {T}: Add {C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/27_Whimsical Scholar.jpg" num="27">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/28_Whimsical Scholar.jpg" num="28">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1683,7 +1682,7 @@ As long as this creature is equipped, it gets +1/+1.</text>
 		<card>
 			<name>Train ORD</name>
 			<text></text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/3t_Train.jpg" num="3">ORD</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/4t_Train.jpg" num="4">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1715,15 +1714,15 @@ Sacrifice this creature: Artifact creatures you control gain hexproof and indest
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Winged Admiral</name>
+			<name>Naval Engineer</name>
 			<text>Flying
 When this creature enters, create two 1/1 colorless Servo artifact creature tokens.
-Tap two untapped artifacts you control: Put a +1/+1 counter on Winged Admiral. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/28_Winged Admiral.jpg" num="28">ORD</set>
+Tap two untapped artifacts you control: Put a +1/+1 counter on Naval Engineer. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/21_Naval Engineer.jpg" num="21">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Human Soldier</type>
+				<type>Creature — Human Artificer</type>
 				<maintype>Creature</maintype>
 				<manacost>3U</manacost>
 				<cmc>4</cmc>
@@ -1783,6 +1782,21 @@ When this creature enters, return target creature card from your graveyard to yo
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Clue ORD</name>
+			<text>{2}, Sacrifice this token: Draw a card.</text>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/1t_Clue.jpg" num="1">ORD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Clue</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

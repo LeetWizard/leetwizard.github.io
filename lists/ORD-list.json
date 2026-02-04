@@ -16,7 +16,7 @@
         "position": ""
     },
     {
-        "card_name": "Amputator",
+        "card_name": "Bile Troll",
         "number": 29,
         "shape": "normal",
         "set": "ORD",
@@ -56,7 +56,7 @@
         "position": ""
     },
     {
-        "card_name": "Bile Troll",
+        "card_name": "Chut, the First Nezumi",
         "number": 30,
         "shape": "normal",
         "set": "ORD",
@@ -96,7 +96,7 @@
         "position": ""
     },
     {
-        "card_name": "Chut, the First Nezumi",
+        "card_name": "Crapshoot",
         "number": 31,
         "shape": "normal",
         "set": "ORD",
@@ -136,7 +136,7 @@
         "position": ""
     },
     {
-        "card_name": "Crapshoot",
+        "card_name": "Debased Cavalier",
         "number": 32,
         "shape": "normal",
         "set": "ORD",
@@ -176,7 +176,7 @@
         "position": ""
     },
     {
-        "card_name": "Debased Cavalier",
+        "card_name": "Deep-Sea Salvager",
         "number": 33,
         "shape": "normal",
         "set": "ORD",
@@ -216,7 +216,7 @@
         "position": ""
     },
     {
-        "card_name": "Deep-Sea Salvager",
+        "card_name": "Drifting Hulk",
         "number": 34,
         "shape": "normal",
         "set": "ORD",
@@ -248,7 +248,7 @@
         "position": ""
     },
     {
-        "card_name": "Nugget of Durendite",
+        "card_name": "Naval Engineer",
         "number": 21,
         "shape": "normal",
         "set": "ORD",
@@ -256,9 +256,9 @@
         "position": ""
     },
     {
-        "card_name": "Drifting Hulk",
+        "card_name": "Edmon de Luc",
         "number": 35,
-        "shape": "normal",
+        "shape": "planeswalker",
         "set": "ORD",
         "rotated": false,
         "position": ""
@@ -288,7 +288,7 @@
         "position": ""
     },
     {
-        "card_name": "Quicksilver Steed",
+        "card_name": "Nugget of Durendite",
         "number": 22,
         "shape": "normal",
         "set": "ORD",
@@ -296,9 +296,9 @@
         "position": ""
     },
     {
-        "card_name": "Edmon de Luc",
+        "card_name": "Fleshripper Griffin",
         "number": 36,
-        "shape": "planeswalker",
+        "shape": "normal",
         "set": "ORD",
         "rotated": false,
         "position": ""
@@ -328,7 +328,7 @@
         "position": ""
     },
     {
-        "card_name": "Regulate",
+        "card_name": "Quicksilver Steed",
         "number": 23,
         "shape": "normal",
         "set": "ORD",
@@ -336,7 +336,7 @@
         "position": ""
     },
     {
-        "card_name": "Fleshripper Griffin",
+        "card_name": "Hulldog",
         "number": 37,
         "shape": "normal",
         "set": "ORD",
@@ -368,7 +368,7 @@
         "position": ""
     },
     {
-        "card_name": "Rifled Crossbow",
+        "card_name": "Regulate",
         "number": 24,
         "shape": "normal",
         "set": "ORD",
@@ -376,7 +376,7 @@
         "position": ""
     },
     {
-        "card_name": "Hulldog",
+        "card_name": "Interrogator's Claws",
         "number": 38,
         "shape": "normal",
         "set": "ORD",
@@ -408,7 +408,7 @@
         "position": ""
     },
     {
-        "card_name": "Sailor of the Severed Strait",
+        "card_name": "Rifled Crossbow",
         "number": 25,
         "shape": "normal",
         "set": "ORD",
@@ -448,7 +448,7 @@
         "position": ""
     },
     {
-        "card_name": "Tham, the First Merfolk",
+        "card_name": "Sailor of the Severed Strait",
         "number": 26,
         "shape": "normal",
         "set": "ORD",
@@ -488,7 +488,7 @@
         "position": ""
     },
     {
-        "card_name": "Whimsical Scholar",
+        "card_name": "Tham, the First Merfolk",
         "number": 27,
         "shape": "normal",
         "set": "ORD",
@@ -528,7 +528,7 @@
         "position": ""
     },
     {
-        "card_name": "Winged Admiral",
+        "card_name": "Whimsical Scholar",
         "number": 28,
         "shape": "normal",
         "set": "ORD",
@@ -959,7 +959,7 @@
     },
     "a->token",
     {
-        "card_name": "Servo",
+        "card_name": "Clue",
         "number": 1,
         "shape": "token",
         "set": "ORD",
@@ -967,7 +967,7 @@
         "position": ""
     },
     {
-        "card_name": "Servo Construct",
+        "card_name": "Servo",
         "number": 2,
         "shape": "token",
         "set": "ORD",
@@ -975,7 +975,7 @@
         "position": ""
     },
     {
-        "card_name": "Train",
+        "card_name": "Servo Construct",
         "number": 3,
         "shape": "token",
         "set": "ORD",
@@ -983,7 +983,7 @@
         "position": ""
     },
     {
-        "card_name": "Treasure",
+        "card_name": "Train",
         "number": 4,
         "shape": "token",
         "set": "ORD",
@@ -991,7 +991,12 @@
         "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "Treasure",
+        "number": 5,
+        "shape": "token",
+        "set": "ORD",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "er"
