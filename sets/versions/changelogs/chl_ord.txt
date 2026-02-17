@@ -1,4 +1,97 @@
-﻿VERSION 13 CHANGELOG
+﻿VERSION 14 CHANGELOG
+====================
+
+Critical Mishap added.
+Quick Kill added.
+Knight of Grand Rosige added.
+
+Explosive Experiment removed.
+Stab removed.
+Resourceful Ironmonger removed.
+
+Arch-Cavalier
+rules_text: Vigilance
+Whenever this creature enters or attacks, tap up to one target creature. => During your turn, this creature has first strike.
+Whenever this creature enters or attacks, tap up to one target creature.
+
+Quicksilver Steed
+cost: {1}{U}{U} => {2}{U}
+
+Devastation Generator
+rules_text: Flying, haste
+Whenever this creature attacks, each player sacrifices a permanent. Put a +1/+1 counter on this creature for each land sacrificed this way. => Flying, haste
+Whenever this creature attacks, you may sacrifice another artifact. When you do, Devastation Generator deals 2 damage to any target.
+pt: 3/3 => 4/4
+
+Traveling Apothecary
+rules_text: {T}: Add {G}.
+{T}: The next time a creature enters under your control this turn, put a +1/+1 counter on it. => {T}: Add {G}. Put a lore counter on this creature.
+{1}, {T}: The next time a creature enters under your control this turn, put a number of +1/+1 counters on it equal to the number of lore counters on Traveling Apothecary.
+
+Forbidden Research
+rules_text: Whenever this artifact or another artifact you control enters, up to one target artifact you control becomes a 3/3 black Demon creature in addition to its other types and gains haste. [i](That artifact is possessed indefinitely.)[/i] => Whenever this artifact or another artifact you control enters, up to one target artifact you control becomes a black Demon creature with base power and toughness 3/3 in addition to its other types and gains haste. [i](This effect lasts indefinitely. An Equipment that's a creature counts as both, but can't be attached to anything.)[/i]
+
+Weapons Stockpile
+rules_text: Creatures you control get +1/+1.
+{7}, {T}: Create a token that's a copy of this artifact. Activate only as a sorcery. => Creatures you control get +1/+1.
+{4}{W}, {T}: Create a token that's a copy of this artifact. Activate only as a sorcery.
+
+Bishop of Transhumanism
+rules_text: Flying
+Sacrifice an artifact: Target permanent gains indestructible until end of turn. Activate only once each turn. => Flying, vigilance
+Sacrifice an artifact: Bishop of Transhumanism gains indestructible until end of turn. Activate only once each turn.
+pt: 4/4 => 5/4
+
+Bile Troll
+cost: {3}{B} => {4}{B}
+rules_text: When this creature enters, exile target artifact creature card from your graveyard.
+Whenever this creature attacks, create a token that's a copy of a card exiled with it. It enters tapped and attacking. Exile that token at end of combat. => Menace
+Whenever this creature enters or attacks, put a decayed counter on up to one target creature. [i](That creature can't block. When it attacks, sacrifice it at end of combat.)[/i]
+pt: 5/3 => 6/4
+
+Drifting Hulk
+rules_text: When this creature enters, create a Treasure token.
+Treasures you control have “{T}, Pay 3 life, Sacrifice this Treasure: Add {B}{B}{B}.” => When this creature enters, create a Treasure token.
+Treasures you control have “{T}, Pay 1 life, Sacrifice this Treasure: Add {B}{B}{B}.”
+
+Abyssal Hydra
+rules_text: Ward—Pay an amount of life equal to this creature's power.
+When this creature enters, you may discard a card, pay 2 life, and/or exile three cards from your graveyard. For each cost you paid, put a +1/+1 counter on this creature. [i](You can exile a card you discarded with this creature.)[/i] => Ward—Pay 3 life.
+When this creature enters, you may discard a card, pay 2 life, and/or exile three cards from your graveyard. For each cost you paid, put a +1/+1 counter on this creature. [i](You can exile a card you discarded with this creature.)[/i]
+
+Chut, the First Nezumi
+rules_text: Flash
+When Chut enters, destroy target creature or planeswalker if one or more of its abilities have been activated this turn.
+Abilities of creatures and planeswalkers cost an additional 2 life to activate. => Flash
+When Chut enters, destroy target creature or planeswalker if one or more of its abilities have been activated this turn.
+Abilities of creatures and planeswalkers cost an additional 3 life to activate.
+pt: 2/2 => 3/2
+
+Grapple
+rules_text: Grapple can't be countered by ward abilities.
+Grapple deals 2 damage to any target. => This spell can't be countered.
+Grapple deals 2 damage to any target.
+
+Towering Warlord
+cost: {6}{W} => {5}{W}
+pt: 7/7 => 6/6
+
+Durendite Railblazer
+cost: {7}{G}{G}{G} => {5}{G}{G}{G}
+rules_text: When this creature enters or attacks, sacrifice up to three permanents. Create that many 3/3 colorless Train artifact creature tokens. => Trample
+When this creature enters or attacks, sacrifice up to three permanents. Create that many 3/3 colorless Train artifact creature tokens.
+
+Whimsical Scholar
+pt: 1/1 => 1/2
+
+Train
+type: Artifact Creature — Train => Token Artifact Creature — Train
+
+Veteran of Erablis
+pt: 3/3 => 4/3
+
+
+VERSION 13 CHANGELOG
 ====================
 
 Interrogator's Claws added.
