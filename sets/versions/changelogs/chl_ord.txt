@@ -1,4 +1,220 @@
-﻿VERSION 14 CHANGELOG
+﻿VERSION 15 CHANGELOG
+====================
+
+Inventor's Workstation added.
+Brutal Rebuke added.
+Construct added.
+Rosige Skywatcher added.
+Smuggler's Warehouse added.
+Awe-Inspiring Blade added.
+Cluttered Desk added.
+Crude Ironworks added.
+Unregulated Testbed added.
+Gargantuan Glowsnail added.
+Rock 'Em, Sock 'Em added.
+More Workers than Work added.
+Squeaky Mouser added.
+Servocrafter's Station added.
+Giant Larva added.
+Griffin Hatchling added.
+Ousted Scion added.
+Duress added.
+Iridescent Concoction added.
+Pungent Concoction added.
+Volatile Concoction added.
+Luminous Concoction added.
+Glutinous Concoction added.
+Elven Shipwreck added.
+Gevau's Warbeast added.
+Armored Personnel added.
+Tarasque Prowler added.
+Ornate Wanderers added.
+Necroartifice Behemoth added.
+Mistig Landwatcher added.
+Sphinx's Revelation added.
+Democracy's Warden added.
+Hydraulic Hauler added.
+Jet Engineer added.
+Foundry Crusher added.
+Witness of Cycles added.
+Black Lotus added.
+Knightwatch Sapper added.
+Magifauna Researcher added.
+Blindside added.
+Horseplay added.
+Rooster Wrangling added.
+Underworld Forge added.
+Worker added.
+Spirit added.
+Bird added.
+
+Inventor's Desk removed.
+Quick Kill removed.
+Train removed.
+Naval Engineer removed.
+
+Arch-Cavalier
+
+Sailor of the Severed Strait
+
+Renegade Mechanic
+
+Regulate
+
+Fleshripper Griffin
+
+Muck About
+
+Metalcruncher
+
+Nugget of Durendite
+
+Durendite-Plated Anvil
+
+Banner Wings
+rules_text: Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Equipped creature has flying and “Whenever this creature attacks, creatures you control get +1/+0 until end of turn.”
+Equip {1} => Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Equipped creature has flying and “Whenever this creature attacks, creatures you control get +1/+0 until end of turn.”
+Equip {2}
+
+Traveling Apothecary
+
+Rogue Bombardier
+
+Forbidden Research
+type: Artifact => Artifact — Book
+
+House de Luc Loyalist
+
+Bishop of Transhumanism
+
+Prostheticycle
+
+The Mage-Beast of Erablis
+
+Debased Cavalier
+
+Hulldog
+
+Lumen Mite
+
+Gatebreaker Hammer
+
+Erablis Explorator
+
+Lurking Farmhand
+rules_text: Flash
+When this creature enters, choose one —
+• Put target card from your graveyard on top of your library.
+• Search your library for a basic land card, reveal it, put it into your hand, then shuffle. => When Lurking Farmhand enters, create a 1/1 colorless Servo artifact creature token.
+Creature tokens you control have “{T}: Add {G}.”
+pt: 1/1 => 2/1
+
+Overclocked Courier
+
+Critical Mishap
+
+Mechanicus Maximus
+cost: {3}{R}{G} => {3}{B}{R}
+
+Gilded Champion
+rules_text: As long as it's your turn, this creature has protection from all colors. [i](This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything that's one or more colors.)[/i] => Flash
+As long as it's your turn, this creature has protection from all colors. [i](This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything that's one or more colors.)[/i]
+
+Patriarch of House de Luc
+
+Tear the Veil
+
+Prestigious Horse
+
+Greywater Foundry
+
+Influx of Chaos
+
+Tickelion
+
+Eerie Watcher
+
+Protothopter
+
+Rifled Crossbow
+
+Interrogator's Claws
+cost: {1}{B} => {2}
+
+Icefall Gargoyle
+type: Artifact Creature — Gargoyle Elemental => Artifact Creature — Gargoyle
+
+Edmon de Luc
+
+Toy Soldiers
+
+Tham, the First Merfolk
+rules_text: Ward {2}
+Whenever an opponent draws a card except the first card they draw in each of their draw steps, that player shuffles a card from their hand into their library. => Whenever an opponent draws a card except the first card they draw in each of their draw steps, that player shuffles a card from their hand into their library.
+{U}: Tham can't be blocked this turn.
+
+Artisan's Boots
+
+Bad Batch
+
+Here Comes the Train
+rules_text: Create a number of 1/1 colorless Servo artifact creature tokens equal to the number of items in your workshop. [i](Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that's neither.)[/i]
+Artifact creatures you control get +1/+1 and gain haste until end of turn. => Create a number of 1/1 colorless Servo artifact creature tokens equal to the number of items in your workshop. [i](Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that's neither.)[/i]
+Creatures you control get +1/+1 and gain haste until end of turn.
+
+Parliament Guards
+
+Grapple
+
+Preacher of the Machine
+
+Engine Hauler
+
+Engine of War
+
+Prototype Handcannon
+
+Boulder Lugger
+
+Unionized Worker
+
+Mobile Jail
+
+Lyon, Bringer of Artifice
+
+Blade-Leg Automaton
+
+Deep-Sea Salvager
+
+Into the Furnace
+
+Durendite Railblazer
+type: Artifact Creature — Servo Train => Artifact Creature — Servo Construct
+rules_text: Trample
+When this creature enters or attacks, sacrifice up to three permanents. Create that many 3/3 colorless Train artifact creature tokens. => Trample
+When this creature enters or attacks, sacrifice up to three permanents. Create that many 3/3 colorless Construct artifact creature tokens.
+
+Armor-Piercing Shot
+
+Whimsical Scholar
+
+Cybernetic Zealot
+
+In Need of Repair
+
+Knight of Grand Rosige
+
+Monster Anatomist
+rules_text: Lifelink
+When this creature enters, return target creature card from your graveyard to your hand, then exile each opponent's graveyard. => Lifelink
+When this creature enters, return up to one target creature card from your graveyard to your hand, then exile up to one target card from a graveyard.
+
+Veteran of Erablis
+
+
+VERSION 14 CHANGELOG
 ====================
 
 Critical Mishap added.
