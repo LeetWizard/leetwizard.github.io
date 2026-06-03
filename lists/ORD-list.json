@@ -714,54 +714,6 @@
     "a->gold",
     {
         "card_name": "Sphinx's Revelation",
-        "number": 107,
-        "shape": "normal",
-        "set": "ORD",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Forbidden Research",
-        "number": 92,
-        "shape": "normal",
-        "set": "ORD",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Influx of Chaos",
-        "number": 96,
-        "shape": "normal",
-        "set": "ORD",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Foundry Crusher",
-        "number": 93,
-        "shape": "normal",
-        "set": "ORD",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Hydraulic Hauler",
-        "number": 95,
-        "shape": "normal",
-        "set": "ORD",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Preacher of the Machine",
-        "number": 105,
-        "shape": "normal",
-        "set": "ORD",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Armored Personnel",
         "number": 88,
         "shape": "normal",
         "set": "ORD",
@@ -769,8 +721,56 @@
         "position": ""
     },
     {
+        "card_name": "Forbidden Research",
+        "number": 90,
+        "shape": "normal",
+        "set": "ORD",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Influx of Chaos",
+        "number": 92,
+        "shape": "normal",
+        "set": "ORD",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Foundry Crusher",
+        "number": 94,
+        "shape": "normal",
+        "set": "ORD",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hydraulic Hauler",
+        "number": 96,
+        "shape": "normal",
+        "set": "ORD",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Preacher of the Machine",
+        "number": 87,
+        "shape": "normal",
+        "set": "ORD",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Armored Personnel",
+        "number": 89,
+        "shape": "normal",
+        "set": "ORD",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Mechanicus Maximus",
-        "number": 99,
+        "number": 93,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -778,7 +778,7 @@
     },
     {
         "card_name": "Tarasque Prowler",
-        "number": 108,
+        "number": 95,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -786,7 +786,7 @@
     },
     {
         "card_name": "Patriarch of House de Luc",
-        "number": 104,
+        "number": 97,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -800,7 +800,7 @@
     },
     {
         "card_name": "Critical Mishap",
-        "number": 89,
+        "number": 91,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -829,7 +829,7 @@
     },
     {
         "card_name": "Prime Minister Marchant",
-        "number": 106,
+        "number": 99,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -837,7 +837,7 @@
     },
     {
         "card_name": "Lyon, Bringer of Artifice",
-        "number": 98,
+        "number": 101,
         "shape": "planeswalker",
         "set": "ORD",
         "rotated": false,
@@ -845,7 +845,7 @@
     },
     {
         "card_name": "Abyssal Hydra",
-        "number": 87,
+        "number": 103,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -853,7 +853,7 @@
     },
     {
         "card_name": "Democracy's Warden",
-        "number": 90,
+        "number": 105,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -861,7 +861,7 @@
     },
     {
         "card_name": "Flood of Inspiration",
-        "number": 91,
+        "number": 107,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -869,7 +869,7 @@
     },
     {
         "card_name": "Ornate Wanderers",
-        "number": 102,
+        "number": 98,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -877,7 +877,7 @@
     },
     {
         "card_name": "Jet Engineer",
-        "number": 97,
+        "number": 100,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -885,7 +885,7 @@
     },
     {
         "card_name": "Necroartifice Behemoth",
-        "number": 101,
+        "number": 104,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -893,7 +893,7 @@
     },
     {
         "card_name": "Here Comes the Train",
-        "number": 94,
+        "number": 106,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -901,7 +901,7 @@
     },
     {
         "card_name": "Mistig Landwatcher",
-        "number": 100,
+        "number": 108,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,
@@ -912,7 +912,7 @@
     },
     {
         "card_name": "Overclocked Courier",
-        "number": 103,
+        "number": 102,
         "shape": "normal",
         "set": "ORD",
         "rotated": false,

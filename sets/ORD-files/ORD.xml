@@ -5,7 +5,7 @@
 			<name>ORD</name>
 			<longname>Crucible of Ordeval</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-21</releasedate>
+			<releasedate>2026-06-03</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -129,7 +129,7 @@ Whenever this creature enters or attacks, tap up to one target creature.</text>
 		<card>
 			<name>Muck About</name>
 			<text>Mill three cards, then return an artifact or creature card from your graveyard to your hand.
-Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/49_Muck About.jpg" num="49">ORD</set>
 			<prop>
 				<layout>normal</layout>
@@ -319,7 +319,7 @@ At the beginning of your end step, if your workshop is full, create a 1/1 colorl
 		<card>
 			<name>Forbidden Research</name>
 			<text>Whenever this artifact or another artifact you control enters, up to one target artifact you control becomes a black Demon creature with base power and toughness 3/3 in addition to its other types and gains haste. (This effect lasts indefinitely. An Equipment that&apos;s a creature counts as both, but can&apos;t be attached to anything.)</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/92_Forbidden Research.jpg" num="92">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/90_Forbidden Research.jpg" num="90">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -632,7 +632,7 @@ Creatures with the chosen name can&apos;t attack or block unless their controlle
 		<card>
 			<name>Flood of Inspiration</name>
 			<text>Look at the top six cards of your library. You may put a creature card and a noncreature permanent card each with mana value 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/91_Flood of Inspiration.jpg" num="91">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/107_Flood of Inspiration.jpg" num="107">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -649,7 +649,7 @@ Creatures with the chosen name can&apos;t attack or block unless their controlle
 			<name>Overclocked Courier</name>
 			<text>Whenever you draw your second card each turn, put a +1/+1 counter on this creature.
 Whenever you cast your second spell each turn, put a +1/+1 counter on this creature.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/103_Overclocked Courier.jpg" num="103">ORD</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/102_Overclocked Courier.jpg" num="102">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -667,7 +667,7 @@ Whenever you cast your second spell each turn, put a +1/+1 counter on this creat
 			<name>Prime Minister Marchant</name>
 			<text>Lifelink, menace
 {X}{X}{WB}: Marchant deals X damage to each opponent.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/106_Prime Minister Marchant.jpg" num="106">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/99_Prime Minister Marchant.jpg" num="99">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -685,7 +685,7 @@ Whenever you cast your second spell each turn, put a +1/+1 counter on this creat
 			<name>Critical Mishap</name>
 			<text>As an additional cost to cast this spell, discard a card.
 Each opponent discards a card. You draw two cards.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/89_Critical Mishap.jpg" num="89">ORD</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/91_Critical Mishap.jpg" num="91">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -702,7 +702,7 @@ Each opponent discards a card. You draw two cards.</text>
 			<name>Abyssal Hydra</name>
 			<text>Ward—Pay 3 life.
 When this creature enters, you may discard a card, pay 2 life, and/or exile three cards from your graveyard. For each cost you paid, put a +1/+1 counter on this creature. (You can exile a card you discarded with this creature.)</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/87_Abyssal Hydra.jpg" num="87">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/103_Abyssal Hydra.jpg" num="103">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -718,7 +718,7 @@ When this creature enters, you may discard a card, pay 2 life, and/or exile thre
 		</card>
 		<card>
 			<name>Crapshoot</name>
-			<text>As an additional cost to cast this spell, you may exile any number of cards from your graveyard. This spell costs {1} less to cast for each card exiled this way.
+			<text>As an additional cost to cast this spell, you may exile any number of cards from your graveyard. This spell costs {1} less to cast for each card type among cards exiled this way.
 Search your library for a card and put it into your hand, then shuffle.</text>
 			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/38_Crapshoot.jpg" num="38">ORD</set>
 			<prop>
@@ -737,7 +737,7 @@ Search your library for a card and put it into your hand, then shuffle.</text>
 			<name>Mechanicus Maximus</name>
 			<text>Whenever a player casts a spell, put a +1/+1 counter on Mechanicus Maximus.
 When Mechanicus Maximus dies, it deals damage equal to its power to any target.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/99_Mechanicus Maximus.jpg" num="99">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/93_Mechanicus Maximus.jpg" num="93">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -770,7 +770,7 @@ As long as it&apos;s your turn, this creature has protection from all colors. (T
 		<card>
 			<name>Patriarch of House de Luc</name>
 			<text>Whenever this creature attacks, reveal the top X cards of your library, where X is its power. You may put a creature card from among them into your hand. Put the rest on the bottom of your library in a random order.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/104_Patriarch of House de Luc.jpg" num="104">ORD</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/97_Patriarch of House de Luc.jpg" num="97">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -837,7 +837,7 @@ As long as it&apos;s your turn, this creature has protection from all colors. (T
 			<name>Influx of Chaos</name>
 			<text>You gain X life. Exile the top X cards of your library. Until the end of your next turn, you may play those cards.
 Each opponent loses X life and discards X cards.</text>
-			<set rarity="mythic" picurl="https://leetwizard.github.io/sets/ORD-files/img/96_Influx of Chaos.jpg" num="96">ORD</set>
+			<set rarity="mythic" picurl="https://leetwizard.github.io/sets/ORD-files/img/92_Influx of Chaos.jpg" num="92">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1147,7 +1147,7 @@ Equip {2}</text>
 			<name>Here Comes the Train</name>
 			<text>Create a number of 1/1 colorless Servo artifact creature tokens equal to the number of items in your workshop. (Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that&apos;s neither.)
 Creatures you control get +1/+1 and gain haste until end of turn.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/94_Here Comes the Train.jpg" num="94">ORD</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/106_Here Comes the Train.jpg" num="106">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1199,7 +1199,7 @@ Grapple deals 2 damage to any target.</text>
 			<text>Other artifact creatures you control get +1/+0.
 Equip costs you pay cost {1} less.
 Noncreature, non-Equipment artifact spells you cast cost {1} less to cast.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/105_Preacher of the Machine.jpg" num="105">ORD</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/87_Preacher of the Machine.jpg" num="87">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1349,7 +1349,7 @@ Equip {1}</text>
 		<card>
 			<name>Lyon, Bringer of Artifice</name>
 			<text></text>
-			<set rarity="mythic" picurl="https://leetwizard.github.io/sets/ORD-files/img/98_Lyon, Bringer of Artifice.jpg" num="98">ORD</set>
+			<set rarity="mythic" picurl="https://leetwizard.github.io/sets/ORD-files/img/101_Lyon, Bringer of Artifice.jpg" num="101">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1875,7 +1875,7 @@ Equip {3}</text>
 		<card>
 			<name>Gargantuan Glowsnail</name>
 			<text>Vigilance
-{T}: Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+{T}: Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/73_Gargantuan Glowsnail.jpg" num="73">ORD</set>
 			<prop>
 				<layout>normal</layout>
@@ -1993,7 +1993,7 @@ Put two +1/+1 counters on target creature you control. It fights up to one targe
 		</card>
 		<card>
 			<name>Ousted Scion</name>
-			<text>When this creature enters, you create a Treasure token and you lose 1 life. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+			<text>When this creature enters, you create a Treasure token and you lose 1 life. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)
 {1}, Sacrifice an artifact or creature: Put a +1/+1 counter on this creature.</text>
 			<set rarity="common" picurl="https://leetwizard.github.io/sets/ORD-files/img/50_Ousted Scion.jpg" num="50">ORD</set>
 			<prop>
@@ -2139,7 +2139,7 @@ Put two +1/+1 counters on target creature you control. It fights up to one targe
 			<name>Armored Personnel</name>
 			<text>Menace
 At the beginning of combat on your turn, target creature gets +X/+0 until end of turn, where X is the number of items in your workshop. (Workshops consist of up to one each of an Equipment, an artifact creature, and an artifact that&apos;s neither.)</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/88_Armored Personnel.jpg" num="88">ORD</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/89_Armored Personnel.jpg" num="89">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2157,7 +2157,7 @@ At the beginning of combat on your turn, target creature gets +X/+0 until end of
 			<name>Tarasque Prowler</name>
 			<text>Haste
 Other non-Human creatures you control have haste.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/108_Tarasque Prowler.jpg" num="108">ORD</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/95_Tarasque Prowler.jpg" num="95">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2174,7 +2174,7 @@ Other non-Human creatures you control have haste.</text>
 		<card>
 			<name>Ornate Wanderers</name>
 			<text>Whenever this creature or another artifact you control is put into a graveyard from the battlefield, each opponent loses 1 life and you gain that much life.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/102_Ornate Wanderers.jpg" num="102">ORD</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/98_Ornate Wanderers.jpg" num="98">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2192,7 +2192,7 @@ Other non-Human creatures you control have haste.</text>
 			<name>Necroartifice Behemoth</name>
 			<text>Trample
 This creature enters with a number of +1/+1 counters on it equal to the number of artifact or creature cards in your graveyard.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/101_Necroartifice Behemoth.jpg" num="101">ORD</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/104_Necroartifice Behemoth.jpg" num="104">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2210,7 +2210,7 @@ This creature enters with a number of +1/+1 counters on it equal to the number o
 			<name>Mistig Landwatcher</name>
 			<text>Whenever an artifact with mana value 5 or greater enters under your control, you may draw two cards.
 {T}, Tap another untapped artifact or creature you control: Add one mana of any color.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/100_Mistig Landwatcher.jpg" num="100">ORD</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/ORD-files/img/108_Mistig Landwatcher.jpg" num="108">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2227,7 +2227,7 @@ This creature enters with a number of +1/+1 counters on it equal to the number o
 		<card>
 			<name>Sphinx&apos;s Revelation</name>
 			<text>You gain X life and draw X cards.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/107_Sphinx&apos;s Revelation.jpg" num="107">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/88_Sphinx&apos;s Revelation.jpg" num="88">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2244,7 +2244,7 @@ This creature enters with a number of +1/+1 counters on it equal to the number o
 			<name>Democracy&apos;s Warden</name>
 			<text>Trample
 At the beginning of combat on your turn, you may discard a card. If you do, draw a card. If a nonland card was discarded this way, this creature gains lifelink until end of turn.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/90_Democracy&apos;s Warden.jpg" num="90">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/105_Democracy&apos;s Warden.jpg" num="105">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2265,7 +2265,7 @@ At the beginning of combat on your turn, you may discard a card. If you do, draw
 • Attach this Equipment to target creature.
 Equipped creature gets +3/+2.
 Equip {4}</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/95_Hydraulic Hauler.jpg" num="95">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/96_Hydraulic Hauler.jpg" num="96">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2283,7 +2283,7 @@ Equip {4}</text>
 			<text>Flying, haste
 Whenever an opponent draws a card except the first one they draw in each of their draw steps, this creature deals 1 damage to them.
 Whenever this creature attacks, each player draws a card.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/97_Jet Engineer.jpg" num="97">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/100_Jet Engineer.jpg" num="100">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2302,7 +2302,7 @@ Whenever this creature attacks, each player draws a card.</text>
 			<text>This spell can&apos;t be countered.
 Reach, trample
 Whenever a player casts a noncreature spell, this creature deals damage to them equal to the number of cards in their hand.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/93_Foundry Crusher.jpg" num="93">ORD</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/94_Foundry Crusher.jpg" num="94">ORD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2436,7 +2436,7 @@ Whenever an opponent casts a spell, if it&apos;s not their turn, create a Treasu
 		</card>
 		<card>
 			<name>Underworld Forge</name>
-			<text>{T}, Sacrifice two artifacts: Create a 0/0 colorless Servo Construct creature token with &quot;This creature gets +1/+1 for each artifact you control.&quot; Activate only as a sorcery.</text>
+			<text>{T}, Sacrifice two artifacts: Create a 0/0 colorless Servo Construct artifact creature token with &quot;This creature gets +1/+1 for each artifact you control.&quot; Activate only as a sorcery.</text>
 			<set rarity="rare" picurl="https://leetwizard.github.io/sets/ORD-files/img/67_Underworld Forge.jpg" num="67">ORD</set>
 			<prop>
 				<layout>normal</layout>
@@ -2481,6 +2481,7 @@ Whenever an opponent casts a spell, if it&apos;s not their turn, create a Treasu
 				<cmc>0</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>

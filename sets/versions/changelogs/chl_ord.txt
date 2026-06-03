@@ -1,4 +1,48 @@
-﻿VERSION 15 CHANGELOG
+﻿VERSION 16 CHANGELOG
+====================
+
+
+
+Muck About
+rules_text: Mill three cards, then return an artifact or creature card from your graveyard to your hand.
+Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i] => Mill three cards, then return an artifact or creature card from your graveyard to your hand.
+Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+
+Iterated Evolution
+
+Bile Troll
+
+Crapshoot
+rules_text: As an additional cost to cast this spell, you may exile any number of cards from your graveyard. This spell costs {1} less to cast for each card exiled this way.
+Search your library for a card and put it into your hand, then shuffle. => As an additional cost to cast this spell, you may exile any number of cards from your graveyard. This spell costs {1} less to cast for each card type among cards exiled this way.
+Search your library for a card and put it into your hand, then shuffle.
+
+Lyon, Bringer of Artifice
+
+Unregulated Testbed
+
+Gargantuan Glowsnail
+rules_text: Vigilance
+{T}: Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i] => Vigilance
+{T}: Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+
+Ousted Scion
+rules_text: When this creature enters, you create a Treasure token and you lose 1 life. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+{1}, Sacrifice an artifact or creature: Put a +1/+1 counter on this creature. => When this creature enters, you create a Treasure token and you lose 1 life. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+{1}, Sacrifice an artifact or creature: Put a +1/+1 counter on this creature.
+
+Democracy's Warden
+
+Blindside
+
+Underworld Forge
+rules_text: {T}, Sacrifice two artifacts: Create a 0/0 colorless Servo Construct creature token with “This creature gets +1/+1 for each artifact you control.” Activate only as a sorcery. => {T}, Sacrifice two artifacts: Create a 0/0 colorless Servo Construct artifact creature token with “This creature gets +1/+1 for each artifact you control.” Activate only as a sorcery.
+
+Spirit
+pt:  => 1/1
+
+
+VERSION 15 CHANGELOG
 ====================
 
 Inventor's Workstation added.
