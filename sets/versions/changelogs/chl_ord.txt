@@ -1,4 +1,74 @@
-﻿VERSION 16 CHANGELOG
+﻿VERSION 17 CHANGELOG
+====================
+
+Kick in the Head added.
+Deserted Trail added.
+Game Trail added.
+Choked Estuary added.
+Port Town added.
+Foreboding Ruins added.
+Legacy Foundations added.
+Imperial Barracks added.
+Horizon of Origins added.
+Flourishing Waterways added.
+Fortified Village added.
+
+Grapple removed.
+
+Muck About
+rules_text: Mill three cards, then return an artifact or creature card from your graveyard to your hand.
+Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i] => Mill three cards, then return an artifact or creature card from your graveyard to your hand.
+Create a tapped Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+
+Lurking Farmhand
+cost: {1}{G} => {2}{G}
+rules_text: When Lurking Farmhand enters, create a 1/1 colorless Servo artifact creature token.
+Creature tokens you control have “{T}: Add {G}.” => When Lurking Farmhand enters, create a 1/1 colorless Servo artifact creature token.
+Creature tokens you control have “{T}: Add one mana of any color”.
+pt: 2/1 => 2/2
+
+Critical Mishap
+
+Interrogator's Claws
+cost: {2} => {4}
+rules_text: Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Equipped creature gets +1/+1 and has “Whenever this creature deals combat damage to a player, exile the top two cards of that player's library. Until end of turn, you may play those cards. Mana of any type can be spent to cast spells this way”.
+Equip {2} => Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Equipped creature gets +2/+0 and has menace and “When this creature dies, draw a card for each Equipment attached to it”.
+Equip {2}
+
+Edmon de Luc
+special_text: {B}{B}: Put a loyalty counter on Edmon de Luc. Activate only during your turn.
+[0]: Target player loses 2 life.
+[-1]: Target player discards a card.
+[-3]: Target player sacrifices a creature. => {3}: You may activate a loyalty ability of Edmon you haven't activated this turn. Activate only as a sorcery.
+[+1]: Target player loses 2 life.
+[-1]: Target player discards a card.
+[-3]: Target player sacrifices a creature.
+
+Engine of War
+cost: {2}{R}{R} => {3}{R}
+
+Knight of Grand Rosige
+
+Wrath of the Monstrous
+rules_text: Wrath of the Monstrous deals 3 damage to each creature, planeswalker, and battle. => Wrath of the Monstrous deals 3 damage to each creature and planeswalker.
+
+Smuggler's Warehouse
+rules_text: When this artifact enters, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle.
+{T}: Add one mana of any color. Spend this mana only to activate an ability of an equipped creature or an Equipment. => This artifact enters tapped.
+When this artifact enters, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle.
+{T}: Add one mana of any color. Spend this mana only to cast Equipment spells or to activate abilities of Equipment.
+
+Awe-Inspiring Blade
+rules_text: Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Equipped creature gets +3/+0 and has trample and lifelink. 
+Equip {3} => Magnetize [i](When this Equipment enters, either attach it to a creature you control or create a 1/1 Servo artifact creature token.)[/i]
+Equipped creature gets +3/+0 and has vigilance and trample.
+Equip {3}
+
+
+VERSION 16 CHANGELOG
 ====================
 
 
