@@ -1,0 +1,2056 @@
+﻿[
+    {
+        "card_name": "(artifact lover)",
+        "number": 16,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Miracle Mythic)",
+        "number": 61,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "",
+        "number": 86,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Artifact Engine)",
+        "number": 126,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(aura)",
+        "number": 163,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Mabuse Almost)",
+        "number": 19,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Become a Cool Guy)",
+        "number": 51,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Demon lover)",
+        "number": 89,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Big Sphinx)",
+        "number": 127,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(fighter)",
+        "number": 167,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Smash)",
+        "number": 22,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Big Man Sphinxtoise)",
+        "number": 52,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(discarder)",
+        "number": 90,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(by itself)",
+        "number": 128,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(land...)",
+        "number": 169,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Tappytapyp)",
+        "number": 24,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(double clone)",
+        "number": 55,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Enchantment farming)",
+        "number": 93,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Concher)",
+        "number": 129,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Looks at Dead Bodies)",
+        "number": 170,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(The Intangible Vritue)",
+        "number": 25,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Flickerer)",
+        "number": 58,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Get duders)",
+        "number": 94,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(deal damage to all)",
+        "number": 130,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Prepared...)",
+        "number": 171,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "The Hero's Journey",
+        "number": 33,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Flying gnat)",
+        "number": 59,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Get that thesis)",
+        "number": 95,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Dwarf of Dwarfiness)",
+        "number": 131,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(slimer)",
+        "number": 175,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Mineshaft Foreman",
+        "number": 34,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Shpinx)",
+        "number": 62,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Riddle Solver)",
+        "number": 97,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(smash)",
+        "number": 137,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(The Doubler) cara",
+        "number": 176,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Null Hypothesis",
+        "number": 35,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Snappiestcaster Mage)",
+        "number": 63,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Unpleasant Minion)",
+        "number": 100,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Sword)",
+        "number": 139,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Aloof Occlusion",
+        "number": 177,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Parvin Battle-Scholar",
+        "number": 36,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Studier forever)",
+        "number": 64,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Beating a Dead Horse",
+        "number": 101,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Arcane Anomaly",
+        "number": 142,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Essence Parasite",
+        "number": 181,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Pursuit of Perfection",
+        "number": 37,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Learning to Learn",
+        "number": 72,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Encroaching Sands",
+        "number": 104,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Bloodshot Beholder",
+        "number": 143,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Fostering Sphinx",
+        "number": 182,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Quarantine Warden",
+        "number": 38,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Retroactive Continuity",
+        "number": 73,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Gaze of Derukoskai",
+        "number": 105,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Irrepressible Instinct",
+        "number": 146,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Gatekeeping",
+        "number": 183,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Tempest Queller",
+        "number": 40,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Shifting Goalposts",
+        "number": 74,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Responses to Trauma",
+        "number": 110,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Parvin Familiar",
+        "number": 148,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Motives of the Fae",
+        "number": 184,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Watcher of Nowhere",
+        "number": 41,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Synesthetic Curator",
+        "number": 76,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sensory Scramble",
+        "number": 111,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Try and Try Again",
+        "number": 150,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sower of Kernels",
+        "number": 185,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Anthem)",
+        "number": 15,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Transcendent Parvin",
+        "number": 77,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Edict)",
+        "number": 92,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(flinger but not)",
+        "number": 132,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Become Steve)",
+        "number": 164,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Blade)",
+        "number": 17,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Cloner draw)",
+        "number": 53,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Raise Dead)",
+        "number": 96,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Hexagonize)",
+        "number": 133,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(cathar crusader who)",
+        "number": 165,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Buttfighter)",
+        "number": 18,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(copy copy)",
+        "number": 54,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(The seizer of thoughts)",
+        "number": 98,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Prowesser)",
+        "number": 134,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(dig a tunnel)",
+        "number": 166,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Sculptor)",
+        "number": 20,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Flash Flyer)",
+        "number": 56,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Trick of tricks)",
+        "number": 99,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Sac outlet)",
+        "number": 135,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Kicker Kicked Miracle)",
+        "number": 168,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Seal in a Safe)",
+        "number": 21,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(flasher)",
+        "number": 57,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Dark Artisan",
+        "number": 102,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Smash and repurpose)",
+        "number": 136,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(PRolifera5te nonsense)",
+        "number": 172,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Smashing Through)",
+        "number": 23,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Go Mriacle)",
+        "number": 60,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Distorted Witness",
+        "number": 103,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Sphinx of Eviction)",
+        "number": 138,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Raging Badgerdude)",
+        "number": 173,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "All for Naught",
+        "number": 26,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Thesiser)",
+        "number": 65,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Leave to the Sands",
+        "number": 106,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(the mencer)",
+        "number": 140,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Removal)",
+        "number": 174,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Azoren Liason",
+        "number": 27,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(untapper)",
+        "number": 66,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Pain Rewiring",
+        "number": 107,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Very Swell Guard)",
+        "number": 141,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Caravan Sage",
+        "number": 178,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Census Keeper",
+        "number": 28,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Absorbing Information",
+        "number": 67,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Preserved Hellkite",
+        "number": 108,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Bolt from the Blue",
+        "number": 144,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Deep Jungle Tracker",
+        "number": 179,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Cherished Dancer",
+        "number": 29,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Consult",
+        "number": 68,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Quiverquill Scribe",
+        "number": 109,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Fervent Outcast",
+        "number": 145,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Devious Tremorlisk",
+        "number": 180,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Desert's Claim",
+        "number": 30,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Deft Deflection",
+        "number": 69,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Skeletal Repurposing",
+        "number": 112,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Manifested Bugbear",
+        "number": 147,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Tender of the Spiral",
+        "number": 186,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Expedition Champion",
+        "number": 31,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Forced Perspective",
+        "number": 70,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Stoneshroud Wurm",
+        "number": 113,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Scitoran Overseer",
+        "number": 149,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Utopist Guide",
+        "number": 187,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hand of the Azoren",
+        "number": 32,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Indulgent Beholder",
+        "number": 71,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Umwelder Artisan",
+        "number": 114,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Tyrant of Nowhere",
+        "number": 151,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Wonders of the World",
+        "number": 188,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Query Guardian",
+        "number": 39,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Superego Agent",
+        "number": 75,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Whispering Ancient",
+        "number": 115,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Wrathful Rebuttal",
+        "number": 152,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Worldview Shifter",
+        "number": 189,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hope Crushed by Reason",
+        "number": 272,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Withdraw into Thought",
+        "number": 78,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Observed Only in Death",
+        "number": 274,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Quickly Going Nowhere",
+        "number": 275,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "The Rule of Three",
+        "number": 276,
+        "shape": "saga",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Time Flowing Sideways",
+        "number": 273,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Throughline Navigator",
+        "number": 192,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Gilded Necrotect",
+        "number": 195,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Wretch of the Deep Earth",
+        "number": 198,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Worldshaper Apprentice",
+        "number": 201,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Bridled Essence",
+        "number": 204,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Azoren Redactor",
+        "number": 222,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(The thesis)",
+        "number": 224,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Combat trick)",
+        "number": 226,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Push for Ramp)",
+        "number": 228,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Where to Go from Here",
+        "number": 231,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Playful Apprentice",
+        "number": 223,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Favored Scholar",
+        "number": 225,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Joker)",
+        "number": 227,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Treasure Hunter)",
+        "number": 229,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Lonely Guy)",
+        "number": 230,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Actions Reflect Thought",
+        "number": 277,
+        "shape": "transform double faced",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Memory Rots the Truth",
+        "number": 279,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Following Ruin's Wake",
+        "number": 281,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Violence Not as a Means",
+        "number": 283,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Peel the Empty Shell",
+        "number": 285,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Masks on Blank Canvas",
+        "number": 278,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "One is a Harmony",
+        "number": 280,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Words Carved by Swords",
+        "number": 282,
+        "shape": "battle split",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Whispers Reverberating",
+        "number": 284,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Spoken Without Meaning",
+        "number": 286,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Enforcer of Unity",
+        "number": 207,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Leyline Roamer",
+        "number": 210,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Duder)",
+        "number": 213,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Payoff for Artifacts)",
+        "number": 217,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Playstyle)",
+        "number": 220,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Push for Tokenfall)",
+        "number": 232,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Capricious Orator",
+        "number": 234,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Whisperer of the Forbidden",
+        "number": 214,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Push for Artifacts)",
+        "number": 239,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Push for Flashgrro",
+        "number": 241,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Indentured Artisan",
+        "number": 233,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Promising Understudy",
+        "number": 235,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Bitterness)",
+        "number": 236,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Gets Bonesplitter)",
+        "number": 238,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Instant Wolf)",
+        "number": 240,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Life Flashes, Death Lingers",
+        "number": 287,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Right Moment Never Comes",
+        "number": 289,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Defiant Antiquarian",
+        "number": 237,
+        "shape": "adventure",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Relentless March of Time",
+        "number": 293,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Choices Splitting Timelines",
+        "number": 295,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Souls Shaped like Muscles",
+        "number": 288,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "The Self Made from Parts",
+        "number": 290,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(No way of gaining loyalty, but has ult",
+        "number": 291,
+        "shape": "planeswalker",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Tome of Unwritten Rules",
+        "number": 294,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Detailed Blurred by Dreams",
+        "number": 296,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Limits of the Umwelt",
+        "number": 292,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "(First spell from hand Storm)",
+        "number": 297,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "(make duders)",
+        "number": 4,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Book Wurm",
+        "number": 246,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Imposing Precedent",
+        "number": 248,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Wise Edifice",
+        "number": 251,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Brain Teaser",
+        "number": 247,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Painter of Distant Worlds",
+        "number": 249,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Potentiate Key",
+        "number": 250,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Apex, Out of Reach",
+        "number": 271,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Elevated District",
+        "number": 259,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sheltering Catacombs",
+        "number": 264,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Monstrous Habitat",
+        "number": 261,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Rugged Haven",
+        "number": 263,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Cultivated Meadow",
+        "number": 257,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Depleted Expanse",
+        "number": 258,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Wayward Vantage",
+        "number": 265,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Layered Framework",
+        "number": 260,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Remoreseless Dunes",
+        "number": 262,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Boundless Jungle",
+        "number": 256,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "(Prepare Land)",
+        "number": 254,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "(Evolving Wilds riff)",
+        "number": 253,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ash Barrens",
+        "number": 255,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ecosystem Acts as One",
+        "number": 298,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Nature Wrought by Nuture",
+        "number": 299,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Vibrance Leached onto Sand",
+        "number": 300,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Plains",
+        "number": 266,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Island",
+        "number": 267,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Swamp",
+        "number": 268,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Mountain",
+        "number": 269,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Forest",
+        "number": 270,
+        "shape": "normal",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Bonesplitter",
+        "number": 15,
+        "shape": "token",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Collapsing Charges",
+        "number": 16,
+        "shape": "token",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Construct",
+        "number": 17,
+        "shape": "token",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Lotus Petal",
+        "number": 18,
+        "shape": "token",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Manalith",
+        "number": 19,
+        "shape": "token",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Prismatic Lens",
+        "number": 20,
+        "shape": "token",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Scout",
+        "number": 21,
+        "shape": "token",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Thesis",
+        "number": 22,
+        "shape": "token",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Treasure",
+        "number": 23,
+        "shape": "token",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Elemental",
+        "number": 4,
+        "shape": "token",
+        "set": "SPX",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/SPX-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>SPX visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/SPX-files/logo.png" />
+	<img class="preload-hidden" src="../sets/ORD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SPX-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/SPX"><img src="../sets/SPX-files/icon.png">Splendor of Excelsior</a>
+	
+		<a class="set-bar inactive" href="../previews/ORD"><img src="../sets/ORD-files/icon.png">Crucible of Ordeval</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/SPX-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\SPX-files\img\16_(artifact lover).jpg" id="SPX_16_(artifact lover)" data-flag="@X" onclick="openSidebar('SPX_16_(artifact lover)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\61_(Miracle Mythic).jpg" id="SPX_61_(Miracle Mythic)" data-flag="@X" onclick="openSidebar('SPX_61_(Miracle Mythic)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\86_.jpg" id="SPX_86_" data-flag="@X" onclick="openSidebar('SPX_86_',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\126_(Artifact Engine).jpg" id="SPX_126_(Artifact Engine)" data-flag="@X" onclick="openSidebar('SPX_126_(Artifact Engine)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\163_(aura).jpg" id="SPX_163_(aura)" data-flag="@X" onclick="openSidebar('SPX_163_(aura)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\19_(Mabuse Almost).jpg" id="SPX_19_(Mabuse Almost)" data-flag="@X" onclick="openSidebar('SPX_19_(Mabuse Almost)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\51_(Become a Cool Guy).jpg" id="SPX_51_(Become a Cool Guy)" data-flag="@X" onclick="openSidebar('SPX_51_(Become a Cool Guy)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\89_(Demon lover).jpg" id="SPX_89_(Demon lover)" data-flag="@X" onclick="openSidebar('SPX_89_(Demon lover)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\127_(Big Sphinx).jpg" id="SPX_127_(Big Sphinx)" data-flag="@X" onclick="openSidebar('SPX_127_(Big Sphinx)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\167_(fighter).jpg" id="SPX_167_(fighter)" data-flag="@X" onclick="openSidebar('SPX_167_(fighter)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\22_(Smash).jpg" id="SPX_22_(Smash)" data-flag="@X" onclick="openSidebar('SPX_22_(Smash)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\52_(Big Man Sphinxtoise).jpg" id="SPX_52_(Big Man Sphinxtoise)" data-flag="@X" onclick="openSidebar('SPX_52_(Big Man Sphinxtoise)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\90_(discarder).jpg" id="SPX_90_(discarder)" data-flag="@X" onclick="openSidebar('SPX_90_(discarder)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\128_(by itself).jpg" id="SPX_128_(by itself)" data-flag="@X" onclick="openSidebar('SPX_128_(by itself)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\169_(land...).jpg" id="SPX_169_(land...)" data-flag="@X" onclick="openSidebar('SPX_169_(land...)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\24_(Tappytapyp).jpg" id="SPX_24_(Tappytapyp)" data-flag="@X" onclick="openSidebar('SPX_24_(Tappytapyp)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\55_(double clone).jpg" id="SPX_55_(double clone)" data-flag="@X" onclick="openSidebar('SPX_55_(double clone)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\93_(Enchantment farming).jpg" id="SPX_93_(Enchantment farming)" data-flag="@X" onclick="openSidebar('SPX_93_(Enchantment farming)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\129_(Concher).jpg" id="SPX_129_(Concher)" data-flag="@X" onclick="openSidebar('SPX_129_(Concher)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\170_(Looks at Dead Bodies).jpg" id="SPX_170_(Looks at Dead Bodies)" data-flag="@X" onclick="openSidebar('SPX_170_(Looks at Dead Bodies)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\25_(The Intangible Vritue).jpg" id="SPX_25_(The Intangible Vritue)" data-flag="@X" onclick="openSidebar('SPX_25_(The Intangible Vritue)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\58_(Flickerer).jpg" id="SPX_58_(Flickerer)" data-flag="@X" onclick="openSidebar('SPX_58_(Flickerer)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\94_(Get duders).jpg" id="SPX_94_(Get duders)" data-flag="@X" onclick="openSidebar('SPX_94_(Get duders)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\130_(deal damage to all).jpg" id="SPX_130_(deal damage to all)" data-flag="@X" onclick="openSidebar('SPX_130_(deal damage to all)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\171_(Prepared...).jpg" id="SPX_171_(Prepared...)" data-flag="@X" onclick="openSidebar('SPX_171_(Prepared...)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\33_The Hero's Journey.jpg" id="SPX_33_The Heros Journey" data-flag="@X" onclick="openSidebar('SPX_33_The Heros Journey',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\59_(Flying gnat).jpg" id="SPX_59_(Flying gnat)" data-flag="@X" onclick="openSidebar('SPX_59_(Flying gnat)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\95_(Get that thesis).jpg" id="SPX_95_(Get that thesis)" data-flag="@X" onclick="openSidebar('SPX_95_(Get that thesis)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\131_(Dwarf of Dwarfiness).jpg" id="SPX_131_(Dwarf of Dwarfiness)" data-flag="@X" onclick="openSidebar('SPX_131_(Dwarf of Dwarfiness)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\175_(slimer).jpg" id="SPX_175_(slimer)" data-flag="@X" onclick="openSidebar('SPX_175_(slimer)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\34_Mineshaft Foreman.jpg" id="SPX_34_Mineshaft Foreman" data-flag="@X" onclick="openSidebar('SPX_34_Mineshaft Foreman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\62_(Shpinx).jpg" id="SPX_62_(Shpinx)" data-flag="@X" onclick="openSidebar('SPX_62_(Shpinx)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\97_(Riddle Solver).jpg" id="SPX_97_(Riddle Solver)" data-flag="@X" onclick="openSidebar('SPX_97_(Riddle Solver)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\137_(smash).jpg" id="SPX_137_(smash)" data-flag="@X" onclick="openSidebar('SPX_137_(smash)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\176_(The Doubler) cara.jpg" id="SPX_176_(The Doubler) cara" data-flag="@X" onclick="openSidebar('SPX_176_(The Doubler) cara',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\35_Null Hypothesis.jpg" id="SPX_35_Null Hypothesis" data-flag="@X" onclick="openSidebar('SPX_35_Null Hypothesis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\63_(Snappiestcaster Mage).jpg" id="SPX_63_(Snappiestcaster Mage)" data-flag="@X" onclick="openSidebar('SPX_63_(Snappiestcaster Mage)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\100_(Unpleasant Minion).jpg" id="SPX_100_(Unpleasant Minion)" data-flag="@X" onclick="openSidebar('SPX_100_(Unpleasant Minion)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\139_(Sword).jpg" id="SPX_139_(Sword)" data-flag="@X" onclick="openSidebar('SPX_139_(Sword)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\177_Aloof Occlusion.jpg" id="SPX_177_Aloof Occlusion" data-flag="@X" onclick="openSidebar('SPX_177_Aloof Occlusion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\36_Parvin Battle-Scholar.jpg" id="SPX_36_Parvin Battle-Scholar" data-flag="@X" onclick="openSidebar('SPX_36_Parvin Battle-Scholar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\64_(Studier forever).jpg" id="SPX_64_(Studier forever)" data-flag="@X" onclick="openSidebar('SPX_64_(Studier forever)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\101_Beating a Dead Horse.jpg" id="SPX_101_Beating a Dead Horse" data-flag="@X" onclick="openSidebar('SPX_101_Beating a Dead Horse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\142_Arcane Anomaly.jpg" id="SPX_142_Arcane Anomaly" data-flag="@X" onclick="openSidebar('SPX_142_Arcane Anomaly',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\181_Essence Parasite.jpg" id="SPX_181_Essence Parasite" data-flag="@X" onclick="openSidebar('SPX_181_Essence Parasite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\37_Pursuit of Perfection.jpg" id="SPX_37_Pursuit of Perfection" data-flag="@X" onclick="openSidebar('SPX_37_Pursuit of Perfection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\72_Learning to Learn.jpg" id="SPX_72_Learning to Learn" data-flag="@X" onclick="openSidebar('SPX_72_Learning to Learn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\104_Encroaching Sands.jpg" id="SPX_104_Encroaching Sands" data-flag="@X" onclick="openSidebar('SPX_104_Encroaching Sands',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\143_Bloodshot Beholder.jpg" id="SPX_143_Bloodshot Beholder" data-flag="@X" onclick="openSidebar('SPX_143_Bloodshot Beholder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\182_Fostering Sphinx.jpg" id="SPX_182_Fostering Sphinx" data-flag="@X" onclick="openSidebar('SPX_182_Fostering Sphinx',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\38_Quarantine Warden.jpg" id="SPX_38_Quarantine Warden" data-flag="@X" onclick="openSidebar('SPX_38_Quarantine Warden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\73_Retroactive Continuity.jpg" id="SPX_73_Retroactive Continuity" data-flag="@X" onclick="openSidebar('SPX_73_Retroactive Continuity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\105_Gaze of Derukoskai.jpg" id="SPX_105_Gaze of Derukoskai" data-flag="@X" onclick="openSidebar('SPX_105_Gaze of Derukoskai',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\146_Irrepressible Instinct.jpg" id="SPX_146_Irrepressible Instinct" data-flag="@X" onclick="openSidebar('SPX_146_Irrepressible Instinct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\183_Gatekeeping.jpg" id="SPX_183_Gatekeeping" data-flag="@X" onclick="openSidebar('SPX_183_Gatekeeping',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\40_Tempest Queller.jpg" id="SPX_40_Tempest Queller" data-flag="@X" onclick="openSidebar('SPX_40_Tempest Queller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\74_Shifting Goalposts.jpg" id="SPX_74_Shifting Goalposts" data-flag="@X" onclick="openSidebar('SPX_74_Shifting Goalposts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\110_Responses to Trauma.jpg" id="SPX_110_Responses to Trauma" data-flag="@X" onclick="openSidebar('SPX_110_Responses to Trauma',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\148_Parvin Familiar.jpg" id="SPX_148_Parvin Familiar" data-flag="@X" onclick="openSidebar('SPX_148_Parvin Familiar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\184_Motives of the Fae.jpg" id="SPX_184_Motives of the Fae" data-flag="@X" onclick="openSidebar('SPX_184_Motives of the Fae',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\41_Watcher of Nowhere.jpg" id="SPX_41_Watcher of Nowhere" data-flag="@X" onclick="openSidebar('SPX_41_Watcher of Nowhere',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\76_Synesthetic Curator.jpg" id="SPX_76_Synesthetic Curator" data-flag="@X" onclick="openSidebar('SPX_76_Synesthetic Curator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\111_Sensory Scramble.jpg" id="SPX_111_Sensory Scramble" data-flag="@X" onclick="openSidebar('SPX_111_Sensory Scramble',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\150_Try and Try Again.jpg" id="SPX_150_Try and Try Again" data-flag="@X" onclick="openSidebar('SPX_150_Try and Try Again',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\185_Sower of Kernels.jpg" id="SPX_185_Sower of Kernels" data-flag="@X" onclick="openSidebar('SPX_185_Sower of Kernels',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\15_(Anthem).jpg" id="SPX_15_(Anthem)" data-flag="@X" onclick="openSidebar('SPX_15_(Anthem)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\77_Transcendent Parvin.jpg" id="SPX_77_Transcendent Parvin" data-flag="@X" onclick="openSidebar('SPX_77_Transcendent Parvin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\92_(Edict).jpg" id="SPX_92_(Edict)" data-flag="@X" onclick="openSidebar('SPX_92_(Edict)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\132_(flinger but not).jpg" id="SPX_132_(flinger but not)" data-flag="@X" onclick="openSidebar('SPX_132_(flinger but not)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\164_(Become Steve).jpg" id="SPX_164_(Become Steve)" data-flag="@X" onclick="openSidebar('SPX_164_(Become Steve)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\17_(Blade).jpg" id="SPX_17_(Blade)" data-flag="@X" onclick="openSidebar('SPX_17_(Blade)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\53_(Cloner draw).jpg" id="SPX_53_(Cloner draw)" data-flag="@X" onclick="openSidebar('SPX_53_(Cloner draw)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\96_(Raise Dead).jpg" id="SPX_96_(Raise Dead)" data-flag="@X" onclick="openSidebar('SPX_96_(Raise Dead)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\133_(Hexagonize).jpg" id="SPX_133_(Hexagonize)" data-flag="@X" onclick="openSidebar('SPX_133_(Hexagonize)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\165_(cathar crusader who).jpg" id="SPX_165_(cathar crusader who)" data-flag="@X" onclick="openSidebar('SPX_165_(cathar crusader who)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\18_(Buttfighter).jpg" id="SPX_18_(Buttfighter)" data-flag="@X" onclick="openSidebar('SPX_18_(Buttfighter)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\54_(copy copy).jpg" id="SPX_54_(copy copy)" data-flag="@X" onclick="openSidebar('SPX_54_(copy copy)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\98_(The seizer of thoughts).jpg" id="SPX_98_(The seizer of thoughts)" data-flag="@X" onclick="openSidebar('SPX_98_(The seizer of thoughts)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\134_(Prowesser).jpg" id="SPX_134_(Prowesser)" data-flag="@X" onclick="openSidebar('SPX_134_(Prowesser)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\166_(dig a tunnel).jpg" id="SPX_166_(dig a tunnel)" data-flag="@X" onclick="openSidebar('SPX_166_(dig a tunnel)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\20_(Sculptor).jpg" id="SPX_20_(Sculptor)" data-flag="@X" onclick="openSidebar('SPX_20_(Sculptor)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\56_(Flash Flyer).jpg" id="SPX_56_(Flash Flyer)" data-flag="@X" onclick="openSidebar('SPX_56_(Flash Flyer)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\99_(Trick of tricks).jpg" id="SPX_99_(Trick of tricks)" data-flag="@X" onclick="openSidebar('SPX_99_(Trick of tricks)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\135_(Sac outlet).jpg" id="SPX_135_(Sac outlet)" data-flag="@X" onclick="openSidebar('SPX_135_(Sac outlet)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\168_(Kicker Kicked Miracle).jpg" id="SPX_168_(Kicker Kicked Miracle)" data-flag="@X" onclick="openSidebar('SPX_168_(Kicker Kicked Miracle)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\21_(Seal in a Safe).jpg" id="SPX_21_(Seal in a Safe)" data-flag="@X" onclick="openSidebar('SPX_21_(Seal in a Safe)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\57_(flasher).jpg" id="SPX_57_(flasher)" data-flag="@X" onclick="openSidebar('SPX_57_(flasher)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\102_Dark Artisan.jpg" id="SPX_102_Dark Artisan" data-flag="@X" onclick="openSidebar('SPX_102_Dark Artisan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\136_(Smash and repurpose).jpg" id="SPX_136_(Smash and repurpose)" data-flag="@X" onclick="openSidebar('SPX_136_(Smash and repurpose)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\172_(PRolifera5te nonsense).jpg" id="SPX_172_(PRolifera5te nonsense)" data-flag="@X" onclick="openSidebar('SPX_172_(PRolifera5te nonsense)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\23_(Smashing Through).jpg" id="SPX_23_(Smashing Through)" data-flag="@X" onclick="openSidebar('SPX_23_(Smashing Through)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\60_(Go Mriacle).jpg" id="SPX_60_(Go Mriacle)" data-flag="@X" onclick="openSidebar('SPX_60_(Go Mriacle)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\103_Distorted Witness.jpg" id="SPX_103_Distorted Witness" data-flag="@X" onclick="openSidebar('SPX_103_Distorted Witness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\138_(Sphinx of Eviction).jpg" id="SPX_138_(Sphinx of Eviction)" data-flag="@X" onclick="openSidebar('SPX_138_(Sphinx of Eviction)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\173_(Raging Badgerdude).jpg" id="SPX_173_(Raging Badgerdude)" data-flag="@X" onclick="openSidebar('SPX_173_(Raging Badgerdude)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\26_All for Naught.jpg" id="SPX_26_All for Naught" data-flag="@X" onclick="openSidebar('SPX_26_All for Naught',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\65_(Thesiser).jpg" id="SPX_65_(Thesiser)" data-flag="@X" onclick="openSidebar('SPX_65_(Thesiser)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\106_Leave to the Sands.jpg" id="SPX_106_Leave to the Sands" data-flag="@X" onclick="openSidebar('SPX_106_Leave to the Sands',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\140_(the mencer).jpg" id="SPX_140_(the mencer)" data-flag="@X" onclick="openSidebar('SPX_140_(the mencer)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\174_(Removal).jpg" id="SPX_174_(Removal)" data-flag="@X" onclick="openSidebar('SPX_174_(Removal)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\27_Azoren Liason.jpg" id="SPX_27_Azoren Liason" data-flag="@X" onclick="openSidebar('SPX_27_Azoren Liason',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\66_(untapper).jpg" id="SPX_66_(untapper)" data-flag="@X" onclick="openSidebar('SPX_66_(untapper)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\107_Pain Rewiring.jpg" id="SPX_107_Pain Rewiring" data-flag="@X" onclick="openSidebar('SPX_107_Pain Rewiring',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\141_(Very Swell Guard).jpg" id="SPX_141_(Very Swell Guard)" data-flag="@X" onclick="openSidebar('SPX_141_(Very Swell Guard)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\178_Caravan Sage.jpg" id="SPX_178_Caravan Sage" data-flag="@X" onclick="openSidebar('SPX_178_Caravan Sage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\28_Census Keeper.jpg" id="SPX_28_Census Keeper" data-flag="@X" onclick="openSidebar('SPX_28_Census Keeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\67_Absorbing Information.jpg" id="SPX_67_Absorbing Information" data-flag="@X" onclick="openSidebar('SPX_67_Absorbing Information',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\108_Preserved Hellkite.jpg" id="SPX_108_Preserved Hellkite" data-flag="@X" onclick="openSidebar('SPX_108_Preserved Hellkite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\144_Bolt from the Blue.jpg" id="SPX_144_Bolt from the Blue" data-flag="@X" onclick="openSidebar('SPX_144_Bolt from the Blue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\179_Deep Jungle Tracker.jpg" id="SPX_179_Deep Jungle Tracker" data-flag="@X" onclick="openSidebar('SPX_179_Deep Jungle Tracker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\29_Cherished Dancer.jpg" id="SPX_29_Cherished Dancer" data-flag="@X" onclick="openSidebar('SPX_29_Cherished Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\68_Consult.jpg" id="SPX_68_Consult" data-flag="@X" onclick="openSidebar('SPX_68_Consult',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\109_Quiverquill Scribe.jpg" id="SPX_109_Quiverquill Scribe" data-flag="@X" onclick="openSidebar('SPX_109_Quiverquill Scribe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\145_Fervent Outcast.jpg" id="SPX_145_Fervent Outcast" data-flag="@X" onclick="openSidebar('SPX_145_Fervent Outcast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\180_Devious Tremorlisk.jpg" id="SPX_180_Devious Tremorlisk" data-flag="@X" onclick="openSidebar('SPX_180_Devious Tremorlisk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\30_Desert's Claim.jpg" id="SPX_30_Deserts Claim" data-flag="@X" onclick="openSidebar('SPX_30_Deserts Claim',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\69_Deft Deflection.jpg" id="SPX_69_Deft Deflection" data-flag="@X" onclick="openSidebar('SPX_69_Deft Deflection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\112_Skeletal Repurposing.jpg" id="SPX_112_Skeletal Repurposing" data-flag="@X" onclick="openSidebar('SPX_112_Skeletal Repurposing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\147_Manifested Bugbear.jpg" id="SPX_147_Manifested Bugbear" data-flag="@X" onclick="openSidebar('SPX_147_Manifested Bugbear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\186_Tender of the Spiral.jpg" id="SPX_186_Tender of the Spiral" data-flag="@X" onclick="openSidebar('SPX_186_Tender of the Spiral',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\31_Expedition Champion.jpg" id="SPX_31_Expedition Champion" data-flag="@X" onclick="openSidebar('SPX_31_Expedition Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\70_Forced Perspective.jpg" id="SPX_70_Forced Perspective" data-flag="@X" onclick="openSidebar('SPX_70_Forced Perspective',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\113_Stoneshroud Wurm.jpg" id="SPX_113_Stoneshroud Wurm" data-flag="@X" onclick="openSidebar('SPX_113_Stoneshroud Wurm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\149_Scitoran Overseer.jpg" id="SPX_149_Scitoran Overseer" data-flag="@X" onclick="openSidebar('SPX_149_Scitoran Overseer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\187_Utopist Guide.jpg" id="SPX_187_Utopist Guide" data-flag="@X" onclick="openSidebar('SPX_187_Utopist Guide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\32_Hand of the Azoren.jpg" id="SPX_32_Hand of the Azoren" data-flag="@X" onclick="openSidebar('SPX_32_Hand of the Azoren',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\71_Indulgent Beholder.jpg" id="SPX_71_Indulgent Beholder" data-flag="@X" onclick="openSidebar('SPX_71_Indulgent Beholder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\114_Umwelder Artisan.jpg" id="SPX_114_Umwelder Artisan" data-flag="@X" onclick="openSidebar('SPX_114_Umwelder Artisan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\151_Tyrant of Nowhere.jpg" id="SPX_151_Tyrant of Nowhere" data-flag="@X" onclick="openSidebar('SPX_151_Tyrant of Nowhere',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\188_Wonders of the World.jpg" id="SPX_188_Wonders of the World" data-flag="@X" onclick="openSidebar('SPX_188_Wonders of the World',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\39_Query Guardian.jpg" id="SPX_39_Query Guardian" data-flag="@X" onclick="openSidebar('SPX_39_Query Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\75_Superego Agent.jpg" id="SPX_75_Superego Agent" data-flag="@X" onclick="openSidebar('SPX_75_Superego Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\115_Whispering Ancient.jpg" id="SPX_115_Whispering Ancient" data-flag="@X" onclick="openSidebar('SPX_115_Whispering Ancient',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\152_Wrathful Rebuttal.jpg" id="SPX_152_Wrathful Rebuttal" data-flag="@X" onclick="openSidebar('SPX_152_Wrathful Rebuttal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\189_Worldview Shifter.jpg" id="SPX_189_Worldview Shifter" data-flag="@X" onclick="openSidebar('SPX_189_Worldview Shifter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\272_Hope Crushed by Reason.jpg" id="SPX_272_Hope Crushed by Reason" data-flag="@X" onclick="openSidebar('SPX_272_Hope Crushed by Reason',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\78_Withdraw into Thought.jpg" id="SPX_78_Withdraw into Thought" data-flag="@X" onclick="openSidebar('SPX_78_Withdraw into Thought',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\274_Observed Only in Death.jpg" id="SPX_274_Observed Only in Death" data-flag="@X" onclick="openSidebar('SPX_274_Observed Only in Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\275_Quickly Going Nowhere.jpg" id="SPX_275_Quickly Going Nowhere" data-flag="@X" onclick="openSidebar('SPX_275_Quickly Going Nowhere',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\276_The Rule of Three.jpg" id="SPX_276_The Rule of Three" data-flag="@X" onclick="openSidebar('SPX_276_The Rule of Three',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\273_Time Flowing Sideways.jpg" id="SPX_273_Time Flowing Sideways" data-flag="@X" onclick="openSidebar('SPX_273_Time Flowing Sideways',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\192_Throughline Navigator.jpg" id="SPX_192_Throughline Navigator" data-flag="@X" onclick="openSidebar('SPX_192_Throughline Navigator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\195_Gilded Necrotect.jpg" id="SPX_195_Gilded Necrotect" data-flag="@X" onclick="openSidebar('SPX_195_Gilded Necrotect',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\198_Wretch of the Deep Earth.jpg" id="SPX_198_Wretch of the Deep Earth" data-flag="@X" onclick="openSidebar('SPX_198_Wretch of the Deep Earth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\201_Worldshaper Apprentice.jpg" id="SPX_201_Worldshaper Apprentice" data-flag="@X" onclick="openSidebar('SPX_201_Worldshaper Apprentice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\204_Bridled Essence.jpg" id="SPX_204_Bridled Essence" data-flag="@X" onclick="openSidebar('SPX_204_Bridled Essence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\222_Azoren Redactor.jpg" id="SPX_222_Azoren Redactor" data-flag="@X" onclick="openSidebar('SPX_222_Azoren Redactor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\224_(The thesis).jpg" id="SPX_224_(The thesis)" data-flag="@X" onclick="openSidebar('SPX_224_(The thesis)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\226_(Combat trick).jpg" id="SPX_226_(Combat trick)" data-flag="@X" onclick="openSidebar('SPX_226_(Combat trick)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\228_(Push for Ramp).jpg" id="SPX_228_(Push for Ramp)" data-flag="@X" onclick="openSidebar('SPX_228_(Push for Ramp)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\231_Where to Go from Here.jpg" id="SPX_231_Where to Go from Here" data-flag="@X" onclick="openSidebar('SPX_231_Where to Go from Here',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\223_Playful Apprentice.jpg" id="SPX_223_Playful Apprentice" data-flag="@X" onclick="openSidebar('SPX_223_Playful Apprentice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\225_Favored Scholar.jpg" id="SPX_225_Favored Scholar" data-flag="@X" onclick="openSidebar('SPX_225_Favored Scholar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\227_(Joker).jpg" id="SPX_227_(Joker)" data-flag="@X" onclick="openSidebar('SPX_227_(Joker)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\229_(Treasure Hunter).jpg" id="SPX_229_(Treasure Hunter)" data-flag="@X" onclick="openSidebar('SPX_229_(Treasure Hunter)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\230_(Lonely Guy).jpg" id="SPX_230_(Lonely Guy)" data-flag="@X" onclick="openSidebar('SPX_230_(Lonely Guy)',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\SPX-files\img\277_Actions Reflect Thought_back.jpg" alt="sets\SPX-files\img\277_Actions Reflect Thought_front.jpg" id="SPX_277_Actions Reflect Thought" data-flag="@XD" onclick="openSidebar('SPX_277_Actions Reflect Thought',false)"><button class="flip-btn" onclick="imgFlip('SPX_277_Actions Reflect Thought')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\279_Memory Rots the Truth.jpg" id="SPX_279_Memory Rots the Truth" data-flag="@X" onclick="openSidebar('SPX_279_Memory Rots the Truth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\281_Following Ruin's Wake.jpg" id="SPX_281_Following Ruins Wake" data-flag="@X" onclick="openSidebar('SPX_281_Following Ruins Wake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\283_Violence Not as a Means.jpg" id="SPX_283_Violence Not as a Means" data-flag="@X" onclick="openSidebar('SPX_283_Violence Not as a Means',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\285_Peel the Empty Shell.jpg" id="SPX_285_Peel the Empty Shell" data-flag="@X" onclick="openSidebar('SPX_285_Peel the Empty Shell',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\278_Masks on Blank Canvas.jpg" id="SPX_278_Masks on Blank Canvas" data-flag="@X" onclick="openSidebar('SPX_278_Masks on Blank Canvas',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\280_One is a Harmony.jpg" id="SPX_280_One is a Harmony" data-flag="@X" onclick="openSidebar('SPX_280_One is a Harmony',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\282_Words Carved by Swords.jpg" id="SPX_282_Words Carved by Swords" data-flag="@X" onclick="openSidebar('SPX_282_Words Carved by Swords',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\284_Whispers Reverberating.jpg" id="SPX_284_Whispers Reverberating" data-flag="@X" onclick="openSidebar('SPX_284_Whispers Reverberating',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\286_Spoken Without Meaning.jpg" id="SPX_286_Spoken Without Meaning" data-flag="@X" onclick="openSidebar('SPX_286_Spoken Without Meaning',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\207_Enforcer of Unity.jpg" id="SPX_207_Enforcer of Unity" data-flag="@X" onclick="openSidebar('SPX_207_Enforcer of Unity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\210_Leyline Roamer.jpg" id="SPX_210_Leyline Roamer" data-flag="@X" onclick="openSidebar('SPX_210_Leyline Roamer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\213_(Duder).jpg" id="SPX_213_(Duder)" data-flag="@X" onclick="openSidebar('SPX_213_(Duder)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\217_(Payoff for Artifacts).jpg" id="SPX_217_(Payoff for Artifacts)" data-flag="@X" onclick="openSidebar('SPX_217_(Payoff for Artifacts)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\220_(Playstyle).jpg" id="SPX_220_(Playstyle)" data-flag="@X" onclick="openSidebar('SPX_220_(Playstyle)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\232_(Push for Tokenfall).jpg" id="SPX_232_(Push for Tokenfall)" data-flag="@X" onclick="openSidebar('SPX_232_(Push for Tokenfall)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\234_Capricious Orator.jpg" id="SPX_234_Capricious Orator" data-flag="@X" onclick="openSidebar('SPX_234_Capricious Orator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\214_Whisperer of the Forbidden.jpg" id="SPX_214_Whisperer of the Forbidden" data-flag="@X" onclick="openSidebar('SPX_214_Whisperer of the Forbidden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\239_(Push for Artifacts).jpg" id="SPX_239_(Push for Artifacts)" data-flag="@X" onclick="openSidebar('SPX_239_(Push for Artifacts)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\241_(Push for Flashgrro.jpg" id="SPX_241_(Push for Flashgrro" data-flag="@X" onclick="openSidebar('SPX_241_(Push for Flashgrro',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\233_Indentured Artisan.jpg" id="SPX_233_Indentured Artisan" data-flag="@X" onclick="openSidebar('SPX_233_Indentured Artisan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\235_Promising Understudy.jpg" id="SPX_235_Promising Understudy" data-flag="@X" onclick="openSidebar('SPX_235_Promising Understudy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\236_(Bitterness).jpg" id="SPX_236_(Bitterness)" data-flag="@X" onclick="openSidebar('SPX_236_(Bitterness)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\238_(Gets Bonesplitter).jpg" id="SPX_238_(Gets Bonesplitter)" data-flag="@X" onclick="openSidebar('SPX_238_(Gets Bonesplitter)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\240_(Instant Wolf).jpg" id="SPX_240_(Instant Wolf)" data-flag="@X" onclick="openSidebar('SPX_240_(Instant Wolf)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\287_Life Flashes, Death Lingers.jpg" id="SPX_287_Life Flashes, Death Lingers" data-flag="@X" onclick="openSidebar('SPX_287_Life Flashes, Death Lingers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\289_Right Moment Never Comes.jpg" id="SPX_289_Right Moment Never Comes" data-flag="@X" onclick="openSidebar('SPX_289_Right Moment Never Comes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\237_Defiant Antiquarian.jpg" id="SPX_237_Defiant Antiquarian" data-flag="@X" onclick="openSidebar('SPX_237_Defiant Antiquarian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\293_Relentless March of Time.jpg" id="SPX_293_Relentless March of Time" data-flag="@X" onclick="openSidebar('SPX_293_Relentless March of Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\295_Choices Splitting Timelines.jpg" id="SPX_295_Choices Splitting Timelines" data-flag="@X" onclick="openSidebar('SPX_295_Choices Splitting Timelines',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\288_Souls Shaped like Muscles.jpg" id="SPX_288_Souls Shaped like Muscles" data-flag="@X" onclick="openSidebar('SPX_288_Souls Shaped like Muscles',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\290_The Self Made from Parts.jpg" id="SPX_290_The Self Made from Parts" data-flag="@X" onclick="openSidebar('SPX_290_The Self Made from Parts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\291_(No way of gaining loyalty, but has ult.jpg" id="SPX_291_(No way of gaining loyalty, but has ult" data-flag="@X" onclick="openSidebar('SPX_291_(No way of gaining loyalty, but has ult',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\294_Tome of Unwritten Rules.jpg" id="SPX_294_Tome of Unwritten Rules" data-flag="@X" onclick="openSidebar('SPX_294_Tome of Unwritten Rules',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\296_Detailed Blurred by Dreams.jpg" id="SPX_296_Detailed Blurred by Dreams" data-flag="@X" onclick="openSidebar('SPX_296_Detailed Blurred by Dreams',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\292_Limits of the Umwelt.jpg" id="SPX_292_Limits of the Umwelt" data-flag="@X" onclick="openSidebar('SPX_292_Limits of the Umwelt',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\297_(First spell from hand Storm).jpg" id="SPX_297_(First spell from hand Storm)" data-flag="@X" onclick="openSidebar('SPX_297_(First spell from hand Storm)',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\4_(make duders).jpg" id="SPX_4_(make duders)" data-flag="@X" onclick="openSidebar('SPX_4_(make duders)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\246_Book Wurm.jpg" id="SPX_246_Book Wurm" data-flag="@X" onclick="openSidebar('SPX_246_Book Wurm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\248_Imposing Precedent.jpg" id="SPX_248_Imposing Precedent" data-flag="@X" onclick="openSidebar('SPX_248_Imposing Precedent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\251_Wise Edifice.jpg" id="SPX_251_Wise Edifice" data-flag="@X" onclick="openSidebar('SPX_251_Wise Edifice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\247_Brain Teaser.jpg" id="SPX_247_Brain Teaser" data-flag="@X" onclick="openSidebar('SPX_247_Brain Teaser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\249_Painter of Distant Worlds.jpg" id="SPX_249_Painter of Distant Worlds" data-flag="@X" onclick="openSidebar('SPX_249_Painter of Distant Worlds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\250_Potentiate Key.jpg" id="SPX_250_Potentiate Key" data-flag="@X" onclick="openSidebar('SPX_250_Potentiate Key',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\271_Apex, Out of Reach.jpg" id="SPX_271_Apex, Out of Reach" data-flag="@X" onclick="openSidebar('SPX_271_Apex, Out of Reach',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\259_Elevated District.jpg" id="SPX_259_Elevated District" data-flag="@X" onclick="openSidebar('SPX_259_Elevated District',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\264_Sheltering Catacombs.jpg" id="SPX_264_Sheltering Catacombs" data-flag="@X" onclick="openSidebar('SPX_264_Sheltering Catacombs',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\261_Monstrous Habitat.jpg" id="SPX_261_Monstrous Habitat" data-flag="@X" onclick="openSidebar('SPX_261_Monstrous Habitat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\263_Rugged Haven.jpg" id="SPX_263_Rugged Haven" data-flag="@X" onclick="openSidebar('SPX_263_Rugged Haven',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\257_Cultivated Meadow.jpg" id="SPX_257_Cultivated Meadow" data-flag="@X" onclick="openSidebar('SPX_257_Cultivated Meadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\258_Depleted Expanse.jpg" id="SPX_258_Depleted Expanse" data-flag="@X" onclick="openSidebar('SPX_258_Depleted Expanse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\265_Wayward Vantage.jpg" id="SPX_265_Wayward Vantage" data-flag="@X" onclick="openSidebar('SPX_265_Wayward Vantage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\260_Layered Framework.jpg" id="SPX_260_Layered Framework" data-flag="@X" onclick="openSidebar('SPX_260_Layered Framework',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\262_Remoreseless Dunes.jpg" id="SPX_262_Remoreseless Dunes" data-flag="@X" onclick="openSidebar('SPX_262_Remoreseless Dunes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\256_Boundless Jungle.jpg" id="SPX_256_Boundless Jungle" data-flag="@X" onclick="openSidebar('SPX_256_Boundless Jungle',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\254_(Prepare Land).jpg" id="SPX_254_(Prepare Land)" data-flag="@X" onclick="openSidebar('SPX_254_(Prepare Land)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\253_(Evolving Wilds riff).jpg" id="SPX_253_(Evolving Wilds riff)" data-flag="@X" onclick="openSidebar('SPX_253_(Evolving Wilds riff)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\255_Ash Barrens.jpg" id="SPX_255_Ash Barrens" data-flag="@X" onclick="openSidebar('SPX_255_Ash Barrens',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\298_Ecosystem Acts as One.jpg" id="SPX_298_Ecosystem Acts as One" data-flag="@X" onclick="openSidebar('SPX_298_Ecosystem Acts as One',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\299_Nature Wrought by Nuture.jpg" id="SPX_299_Nature Wrought by Nuture" data-flag="@X" onclick="openSidebar('SPX_299_Nature Wrought by Nuture',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\300_Vibrance Leached onto Sand.jpg" id="SPX_300_Vibrance Leached onto Sand" data-flag="@X" onclick="openSidebar('SPX_300_Vibrance Leached onto Sand',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SPX_e" data-flag="@E" onclick="openSidebar('SPX_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\266_Plains.jpg" id="SPX_266_Plains" data-flag="@X" onclick="openSidebar('SPX_266_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\267_Island.jpg" id="SPX_267_Island" data-flag="@X" onclick="openSidebar('SPX_267_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\268_Swamp.jpg" id="SPX_268_Swamp" data-flag="@X" onclick="openSidebar('SPX_268_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\269_Mountain.jpg" id="SPX_269_Mountain" data-flag="@X" onclick="openSidebar('SPX_269_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\270_Forest.jpg" id="SPX_270_Forest" data-flag="@X" onclick="openSidebar('SPX_270_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\15t_Bonesplitter.jpg" id="SPX_15t_Bonesplitter" data-flag="@X" onclick="openSidebar('SPX_15t_Bonesplitter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\16t_Collapsing Charges.jpg" id="SPX_16t_Collapsing Charges" data-flag="@X" onclick="openSidebar('SPX_16t_Collapsing Charges',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\17t_Construct.jpg" id="SPX_17t_Construct" data-flag="@X" onclick="openSidebar('SPX_17t_Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\18t_Lotus Petal.jpg" id="SPX_18t_Lotus Petal" data-flag="@X" onclick="openSidebar('SPX_18t_Lotus Petal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\19t_Manalith.jpg" id="SPX_19t_Manalith" data-flag="@X" onclick="openSidebar('SPX_19t_Manalith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\20t_Prismatic Lens.jpg" id="SPX_20t_Prismatic Lens" data-flag="@X" onclick="openSidebar('SPX_20t_Prismatic Lens',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\21t_Scout.jpg" id="SPX_21t_Scout" data-flag="@X" onclick="openSidebar('SPX_21t_Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\22t_Thesis.jpg" id="SPX_22t_Thesis" data-flag="@X" onclick="openSidebar('SPX_22t_Thesis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\23t_Treasure.jpg" id="SPX_23t_Treasure" data-flag="@X" onclick="openSidebar('SPX_23t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPX-files\img\4t_Elemental.jpg" id="SPX_4t_Elemental" data-flag="@X" onclick="openSidebar('SPX_4t_Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SPX_er" data-flag="@E" onclick="openSidebar('SPX_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

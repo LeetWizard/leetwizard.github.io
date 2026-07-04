@@ -4,6 +4,11 @@
             "set_code": "ORD",
             "set_name": "Crucible of Ordeval",
             "formats": ""
+        },
+        {
+            "set_code": "SPX",
+            "set_name": "Splendor of Excelsior",
+            "formats": ""
         }
     ]
 }
