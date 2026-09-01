@@ -1,4 +1,910 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+(Blue Battle) added.
+(Battle of tokens) added.
+(Draw operation) added.
+(Jellyfish...) added.
+(Exalted) added.
+Ash Wastes Observer added.
+Dissent Sleeper added.
+Trinket Specialist added.
+Rapid Burnout added.
+Obsess Over Secrets added.
+Aggressive Terraforming added.
+Cascading Thoughts added.
+Sensate Ceremony added.
+Tactician Exemplar added.
+Isolated Scholar added.
+Artisan of Whims added.
+Instinctual Strike added.
+Pledged Apothecary added.
+Adrift Moonfish added.
+Obliged Beyond Death added.
+Impulsive Twitcher added.
+Resolute Spellbreaker added.
+Emblem of Everywhere added.
+Orderly Provost added.
+Flow Sculptor added.
+Invoke the Forbidden added.
+March to Paradise added.
+Spirit's Duty added.
+Erratic Understudy added.
+Rehabilitation Vault added.
+Petty Necromancy added.
+Reflect Inwards added.
+Desert Packmaster added.
+Devoted Excruciator added.
+Senior Archivist added.
+Spire Thaumaturge added.
+Apophenia added.
+Souls Trained like Muscles added.
+Unnatural Habitat added.
+Azoran Redactor added.
+Neglected Creeper added.
+Bitterness added.
+Uplifted Legate added.
+Shape the Biosphere added.
+Voidgullet added.
+Earth's Reclaimer added.
+Fleshcrafting added.
+Scitoran Initiation added.
+Mumuring Vestige added.
+Disgraced Scitoran added.
+Geoskitter Drone added.
+Disgraced Maftet added.
+Sightmite added.
+Gaze of Derukoskai added.
+(Makes guys) added.
+Epiphany added.
+(Very mill, Very Mindful) added.
+Arbiter of Passion added.
+Perspective Seeker added.
+(Restorer Antiquarian) added.
+(Studier) added.
+(Reveal) added.
+(Gain Knowledge) added.
+Arbiter of Instinct added.
+(Jellyfish) added.
+(Under the Sun of Nowhere) added.
+(The Countererer) added.
+(Blast) added.
+(ImposingSphinx) added.
+(Sneaky Demon) added.
+(Cool Rabbit) added.
+Arbiter of Law added.
+Arbiter of Perfection added.
+Arbiter of Agency added.
+(Orange Cat) added.
+(Auramancer guy) added.
+(Choose Death Sphinx) added.
+Reforge the Mind added.
+(Not-Quite-Phyrexian Arena) added.
+(Just a little guy) added.
+(NEEDSDESIGNED) added.
+(NEEDSDESIGNED) added.
+(NEEDSDESIGNED) added.
+(Very Big Guy) added.
+(NEEDSDESIGNED) added.
+Sphinx of Black Quartz added.
+(NEEDSDESIGNED) added.
+(Auramancer guy) added.
+(NEEDSDESIGNED) added.
+(Talks to Birds) added.
+(NEEDSDESIGNED) added.
+(NEEDSDESIGNED) added.
+(NEEDSDESIGNED) added.
+(NEEDSDESIGNED) added.
+(NEEDSDESIGNED) added.
+(NEEDSDESIGNED) added.
+(NEEDSDESIGNED) added.
+Forlorn Hope added.
+(NEEDSDESIGNED) added.
+(Flash Lover) added.
+(Mean Guy) added.
+Storm Conductor added.
+(Ready to Risk it All.) added.
+Excision Agent added.
+(Dobule hands) added.
+(Shrine of Wondering) added.
+Locus of Flux added.
+(Oasis of Treasure) added.
+(NEEDSDESIGNED) added.
+(Scholar of Disappear) added.
+(NEEDSDESIGNED) added.
+Sovereign of Nowhere added.
+Afflicted Prodigy added.
+(Auramancer) added.
+(NEEDSDESIGNED) added.
+(Lucky 7) added.
+(NEEDSDESIGNED) added.
+(Wurm) added.
+Ameret, Some Cool Shit added.
+(NEEDSDESIGNED) added.
+(NEEDSDESIGNED) added.
+(NEEDSDESIGNED) added.
+Deep and Dread Truth added.
+(NEEDSDESIGNED) added.
+Ideal, Apex of Insight added.
+(NEEDSDESIGNED) added.
+Lotus Bud added.
+Black Lotus added.
+Jellyfish added.
+Pet of Vagabond added.
+The Suncore added.
+Wistful Sphinx added.
+
+(flasher) removed.
+(The seizer of thoughts) removed.
+(Sculptor) removed.
+(flinger but not) removed.
+(copy copy) removed.
+(Become Steve) removed.
+(Hexagonize) removed.
+(PRolifera5te nonsense) removed.
+(Anthem) removed.
+(Flash Flyer) removed.
+(Sphinx of Eviction) removed.
+(Removal) removed.
+(Blade) removed.
+(Very Swell Guard) removed.
+(cathar crusader who) removed.
+(Buttfighter) removed.
+(Thesiser) removed.
+(untapper) removed.
+(Edict) removed.
+(dig a tunnel) removed.
+(Smashing Through) removed.
+(the mencer) removed.
+(Seal in a Safe) removed.
+(Trick of tricks) removed.
+(Cloner draw) removed.
+(Sac outlet) removed.
+(Joker) removed.
+(Treasure Hunter) removed.
+(Instant Wolf) removed.
+(First spell from hand Storm) removed.
+Souls Shaped like Muscles removed.
+(No way of gaining loyalty, but has ult removed.
+(Evolving Wilds riff) removed.
+Azoren Redactor removed.
+(Push for Ramp) removed.
+(Bitterness) removed.
+(Playstyle) removed.
+(make duders) removed.
+(artifact lover) removed.
+(slimer) removed.
+(Get duders) removed.
+(Become a Cool Guy) removed.
+(Enchantment farming) removed.
+(Big Sphinx) removed.
+(land...) removed.
+(Unpleasant Minion) removed.
+(Flying gnat) removed.
+(Duder) removed.
+Lotus Petal removed.
+(Raise Dead) removed.
+(Go Mriacle) removed.
+(discarder) removed.
+
+Words Carved by Swords
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+Prevent all damage that would be dealt to Words Carved by Swords.
+When Words Carved by Swords enters or is defeated, return up to one target creature card in your graveyard to the battlefield with a menace counter on it. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+Prevent all damage that would be dealt to this Enigma.
+When this Enigma enters or is defeated, return up to one target creature card in your graveyard to the battlefield with a menace counter on it.
+
+Where to Go from Here
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When Where to Go from Here enters or is defeated, create two 1/1 colorless Scout artifact creature tokens. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters or is defeated, create two 1/1 colorless Scout artifact creature tokens.
+
+Learning to Learn
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When Learning to Learn enters or is defeated, draw two cards. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters or is defeated, draw two cards.
+
+Shifting Goalposts
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When Shifting Goalposts enters or is defeated, exile up to one target nonland permanent you don't control. For as long as that card remains exiled, its owner may cast it. A spell cast this way costs {2} more to cast. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters or is defeated, exile up to one target nonland permanent you don't control. For as long as that card remains exiled, its owner may cast it. A spell cast this way costs {2} more to cast.
+
+Beating a Dead Horse
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When Beating a Dead Horse enters, exile target creature card with mana value 3 or less from your graveyard. Create a token that's a copy of it.
+When Beating a Dead Horse is defeated, return the exiled card to the battlefield under your control. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters, exile target creature card with mana value 3 or less from your graveyard. Create a token that's a copy of it.
+When this Enigma is defeated, return the exiled card to the battlefield under your control.
+
+Pursuit of Perfection
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When Pursuit of Perfection enters, you gain 3 life and draw a card.
+When Pursuit of Perfection is defeated, distribute three +1/+1 counters among creatures you control. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters, you gain 3 life and draw a card.
+When this Enigma is defeated, distribute three +1/+1 counters among creatures you control.
+
+Motives of the Fae
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When Motives of the Fae enters or is defeated, put a +1/+1 counter on each creature you control. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters or is defeated, put a +1/+1 counter on each creature you control.
+loyalty:  => 3
+
+Arcane Anomaly
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When Arcane Anomaly enters, it deals 4 damage to any other target.
+When Arcane Anomaly is defeated, each creature you control becomes prepared. [i](Only creatures with prepare spells can become prepared.)[/i] => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters, it deals 4 damage to any other target.
+When this Enigma is defeated, each creature you control becomes prepared. [i](Only creatures with prepare spells can become prepared.)[/i]
+
+Responses to Trauma
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When Responses to Trauma enters, if it was cast, each opponent discards a card.
+When Responses to Trauma is defeated, create a 2/2 black Eye Horror creature token. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters, if it was cast, each opponent discards a card.
+When this Enigma is defeated, create a 2/2 black Eye Horror creature token.
+
+Try and Try Again
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When Try and Try Again enters or is defeated, you may create a token that's a copy of target artifact or creature you control. It gains haste. Sacrifice it at the beginning of your next turn's end step. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters or is defeated, you may create a token that's a copy of target artifact or creature you control. It gains haste. Sacrifice it at the beginning of your next turn's end step.
+
+Gatekeeping
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When Gatekeeping enters or is defeated, you may put a land card from your hand onto the battlefield tapped. If you don't, search your library for a Forest card, reveal it, put it into your hand, then shuffle. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters or is defeated, you may put a land card from your hand onto the battlefield tapped. If you don't, search your library for a Forest card, reveal it, put it into your hand, then shuffle.
+
+The Hero's Journey
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When The Hero's Journey enters, create two 2/2 white Knight creature tokens with vigilance.
+When The Hero's Journey is defeated, create a token that's a copy of target token you control. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters, create two 2/2 white Knight creature tokens with vigilance.
+When this Enigma is defeated, create a token that's a copy of target token you control.
+
+Expedition Champion
+rules_text: Vigilance
+When Expedition Champion enters, choose one —
+• Put a +1/+1 counter on each other creature you control.
+• Untap each creature you control. => Vigilance
+When this creature enters, choose one —
+• Put a +1/+1 counter on each other creature you control.
+• Untap each creature you control.
+
+Wrathful Rebuttal
+rules_text: Damage dealt by Wrathful Rebuttal can't be prevented.
+Wrathful Rebuttal deals 6 damage to any nonplayer target. 
+You may discard a card. If you do, draw a card. => Damage dealt by this spell can't be prevented.
+This spell deals 6 damage to any nonplayer target. 
+You may discard a card. If you do, draw a card.
+
+Utopist Guide
+rules_text: Flying
+Whenever Utopist Guide attacks, defending player choose a creature they control. That creature gains reach until end of turn.
+Forestcycling {2} [i]({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)[/i] => Flying
+Whenever this creature attacks, defending player choose a creature they control. That creature gains reach until end of turn.
+Forestcycling {2} [i]({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Withdraw into Thought
+rules_text: Enchant creature
+Withdraw into Thought enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+Enchanted creature can't become untapped and loses all abilities. => Enchant creature
+This Aura enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+Enchanted creature can't become untapped and loses all abilities.
+
+Dark Artisan
+rules_text: Menace
+When Dark Artisan dies, choose one —
+• Target creature you control becomes prepared.
+• Remove three counters from target permanent. => Menace
+When this creature dies, choose one —
+• Target creature you control becomes prepared.
+• Remove three counters from target permanent.
+
+Devious Tremorlisk
+rules_text: Reach
+When Devious Tremorlisk enters, you gain 4 life. If Devious Tremorlisk was a miracle, you gain 7 life instead.
+Miracle {5}{G}{G} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => Reach
+When this creature enters, you gain 4 life. If this creature was a miracle, you gain 7 life instead.
+Miracle {5}{G}{G} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Azoren Liason
+
+Preserved Hellkite
+rules_text: Flying
+Preserved Hellkite enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Flying
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Census Keeper
+rules_text: Flying
+Census Keeper enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Flying
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(Kicker Kicked Miracle)
+rules_text: Target creature you control deals damage equal to its power to another target creature. If (Kicker Kicked Miracle) was a miracle, it does twice that amount of damage instead.
+Miracle {1}{G} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => Target creature you control deals damage equal to its power to another target creature. If this spell was a miracle, it does twice that amount of damage instead.
+Miracle {1}{G} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Cherished Dancer
+rules_text: Cherished Dancer enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+Whenever you gain life, put a +1/+1 counter on Cherished Dancer. => This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+Whenever you gain life, put a +1/+1 counter on this creature.
+
+Stoneshroud Wurm
+rules_text: When Stoneshroud Wurm enters, scry 2.
+Whenever you cast a noncreature spell, Stoneshroud Wurm gains indestructible until end of turn. => When this creature enters, scry 2.
+Whenever you cast a noncreature spell, this creature gains indestructible until end of turn.
+
+Tyrant of Nowhere
+rules_text: Haste
+Whenever you draw your second card each turn, Tyrant of Nowhere gets +2/+0 and gains trample until end of turn. => Haste
+Whenever you draw your second card each turn, this creature gets +2/+0 and gains trample until end of turn.
+
+Caravan Sage
+rules_text: During your turn, Caravan Sage has deathtouch.
+When Caravan Sage dies, create a Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i] => During your turn, this creature has deathtouch.
+When this creature dies, create a Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+
+Hand of the Azoren
+rules_text: Lifelink
+When Hand of the Azoren enters, create a 1/1 artifact Scout creature token. You gain 1 life. => Lifelink
+When this creature enters, create a 1/1 artifact Scout creature token. You gain 1 life.
+
+Superego Agent
+rules_text: Flying
+When Superego Agent enters, you may exile target permanent you control without flying, then return it to the battlefield tapped at the beginning of your next end step.
+Islandcycling {2} [i]({2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)[/i] => Flying
+When this creature enters, you may exile target permanent you control without flying, then return it to the battlefield tapped at the beginning of your next end step.
+Islandcycling {2} [i]({2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Distorted Witness
+rules_text: When Distorted Witness dies, create a Thesis token and you lose 1 life. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i] => When this creature dies, create a Thesis token and you lose 1 life. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+
+Bolt from the Blue
+rules_text: Bolt from the Blue deals 2 damage to any target. If Bolt from the Blue was a miracle, it deals 4 damage to that target instead.
+Miracle {2}{R} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => This spell deals 2 damage to any target. If this spell was a miracle, it deals 4 damage to that target instead.
+Miracle {2}{R} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Umwelder Artisan
+rules_text: Flying
+When Umwelder Artisan enters, create two 1/1 colorless Scout artifact creature tokens.
+Swampcycling {2} [i]({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)[/i] => Flying
+When this creature enters, create two 1/1 colorless Scout artifact creature tokens.
+Swampcycling {2} [i]({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Skeletal Repurposing
+rules_text: Enchant creature you control
+When Skeletal Repurposing enters, exile target creature or planeswalker you don't control.
+Enchanted creature gets +2/+2. => Enchant creature you control
+When this Aura enters, exile target creature or planeswalker you don't control.
+Enchanted creature gets +2/+2.
+
+Fervent Outcast
+rules_text: Reach
+Whenever an artifact you control enters, Fervent Outcast deals 1 damage to each opponent. => Reach
+Whenever an artifact you control enters, this creature deals 1 damage to each opponent.
+
+Deep Jungle Tracker
+rules_text: Deep Jungle Tracker enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Query Guardian
+rules_text: When Query Guardian enters, create a Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i] => When this creature enters, create a Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+
+Scitoran Overseer
+rules_text: Flying
+When Scitoran Overseer enters, create two Treasure tokens. [i](They're artifacts with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+Mountaincycling {2} [i]({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)[/i] => Flying
+When this creature enters, create two Treasure tokens. [i](They're artifacts with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+Mountaincycling {2} [i]({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Wonders of the World
+
+All for Naught
+
+Indulgent Beholder
+rules_text: Vigilance
+When Indulgent Beholder enters, create a Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i] => Vigilance
+When this creature enters, create a Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+
+Pain Rewiring
+rules_text: Flash
+Enchant creature
+When Pain Rewiring enters, enchanted creature gains indestructible until end of turn.
+Enchanted creature gets +2/+0. => Flash
+Enchant creature
+When this Aura enters, enchanted creature gains indestructible until end of turn.
+Enchanted creature gets +2/+0.
+
+(Prowesser)
+rules_text: Prowess
+(Prowesser) enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Prowess
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Quiverquill Scribe
+rules_text: Deathtouch
+Quiverquill Scribe enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Deathtouch
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Worldview Shifter
+rules_text: Worldview Shifter enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Forced Perspective
+rules_text: Return target nonland permanent to its owner's hand. If Forced Perspective was a miracle, draw a card.
+Miracle {2}{U} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => Return target nonland permanent to its owner's hand. If this spell was a miracle, draw a card.
+Miracle {2}{U} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Manifested Bugbear
+rules_text: {T}: Add {R}. When this mana is spent to cast a noncreature spell, Manifested Bugbear deals 1 damage to each opponent. => {T}: Add {R}. When this mana is spent to cast a noncreature spell, this creature deals 1 damage to each opponent.
+pt: 1/2 => 2/2
+
+Tender of the Spiral
+rules_text: Tender of the Spiral enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+{T}: Untap target artifact or land you control. => This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+{T}: Untap target artifact or land you control.
+
+Desert's Claim
+rules_text: Exile target creature if it's tapped or if Desert's Claim was a miracle.
+Miracle {1}{W} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => Exile target creature if it's tapped or if this spell was a miracle.
+Miracle {1}{W} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Leave to the Sands
+rules_text: Destroy target creature. If Leave to the Sands was a miracle, you gain 3 life.
+Miracle {1}{B}{B} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => Destroy target creature. If this spell was a miracle, you gain 3 life.
+Miracle {1}{B}{B} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Playful Apprentice
+rules_text: Flying
+Playful Apprentice enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Flying
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Favored Scholar
+rules_text: Favored Scholar enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(Lonely Guy)
+rules_text: (Lonely Guy) enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+Whenever (Lonely Guy) attacks, creatures you control get +1/+0 until end of turn. => This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+Whenever this creature attacks, creatures you control get +1/+0 until end of turn.
+
+Indentured Artisan
+rules_text: Lifelink
+Indentured Artisan enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Lifelink
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Promising Understudy
+rules_text: Promising Understudy can't attack unless you've drawn two or more cards this turn.
+Promising Understudy enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => This creature can't attack unless you've drawn two or more cards this turn.
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Defiant Antiquarian
+rules_text: Deathtouch
+Defiant Antiquarian enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Deathtouch
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(Gets Bonesplitter)
+rules_text: During your turn, (Gets Bonesplitter) has first strike.
+(Gets Bonesplitter) enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => During your turn, this creature has first strike.
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Violence Not as a Means
+rules_text: Reach, trample, haste
+At the beginning of your second main phase, Violence Not as a Means gets +3/+4 until end of turn. => Reach, trample, haste
+At the beginning of your second main phase, this creature gets +3/+4 until end of turn.
+
+Spoken Without Meaning
+rules_text: Lifelink
+Whenever Spoken Without Meaning attacks or blocks, it gets -X/+X until end of turn, where X is its power. => Lifelink
+Whenever this creature attacks or blocks, it gets -X/+X until end of turn, where X is its power.
+
+Right Moment Never Comes
+rules_text: Choose one — 
+• Counter target spell. Right Moment Never Comes deals 3 damage to that spell's controller.
+• Draw two cards, then discard a card. => Choose one — 
+• Counter target spell. This spell deals 3 damage to that spell's controller.
+• Draw two cards, then discard a card.
+
+Memory Rots the Truth
+rules_text: Memory Rots the Truth's power is equal to the number of card types among cards in your graveyard and its toughness is equal to that number plus 1.
+At the beginning of your end step, you may exile a card from your graveyard. If you do, you may put a card you own from outside the game that doesn't a type with that card into your graveyard. => This creature's power is equal to the number of card types among cards in your graveyard and its toughness is equal to that number plus 1.
+At the beginning of your end step, you may exile a card from your graveyard. If you do, you may put a card you own from outside the game that doesn't a type with that card into your graveyard.
+
+Following Ruin's Wake
+rules_text: Other attacking creatures you control get -2/-0.
+Whenever Following Ruin's Wake attacks, other creatures you control gain double strike until end of turn. => Other attacking creatures you control get -2/-0.
+Whenever this creature attacks, other creatures you control gain double strike until end of turn.
+
+Hope Crushed by Reason
+rules_text: Flying
+Hope Crushed by Reason can attack while it's tapped, but not while it's untapped.
+You have hexproof. => Flying
+This creature can attack while it's tapped, but not while it's untapped.
+You have hexproof.
+
+Time Flowing Sideways
+rules_text: Take an extra turn after this one. You can't activate abilities of permanents you control and creatures you control can't attack players during that turn.
+Exile Time Flowing Sideways. => Take an extra turn after this one. You can't activate abilities of permanents you control and creatures you control can't attack players during that turn.
+Exile this card.
+
+The Rule of Three
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Create a 1/1 white Advisor creature token.
+You gain 2 life.
+Target creature you control gets +3/+3 until end of turn. Remove all lore counters from The Rule of Three.
+Reveal the top four cards of your library. Put up to two permanent cards revealed this way onto the battlefield tapped. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Create a 1/1 white Advisor creature token.
+II — You gain 2 life.
+III — Target creature you control gets +3/+3 until end of turn. Remove all lore counters from this Saga.
+IV — Reveal the top four cards of your library. Put up to two permanent cards revealed this way onto the battlefield tapped.
+
+Observed Only in Death
+rules_text: Deathtouch
+Whenever Observed Only in Death deals combat damage, mill three cards.
+{2}{B}, Discard Observed Only in Death: Target creature gets -3/-3 until end of turn. => Deathtouch
+Whenever this creature deals combat damage, mill three cards.
+{2}{B}, Discard this creature: Target creature gets -3/-3 until end of turn.
+
+Quickly Going Nowhere
+rules_text: Creatures you control that have entered this turn get +2/+0.
+When Quickly Going Nowhere enters, create two 1/1 colorless Scout artifact creature tokens. => Creatures you control that have entered this turn get +2/+0.
+When this creature enters, create two 1/1 colorless Scout artifact creature tokens.
+
+Detailed Blurred by Dreams
+
+Tome of Unwritten Rules
+rules_text: Whenever a creature you control enters, put a +1/+1 counter on that creature and a +1/+1 counter on Tome of Unwritten Rules.
+When Tome of Unwritten Rules leaves the battlefield, put its counters on target creature you control. => Whenever a creature you control enters, put a +1/+1 counter on that creature and a +1/+1 counter on this Book.
+When this Book leaves the battlefield, put its counters on target creature you control.
+
+Relentless March of Time
+rules_text: Relentless March of Time has first strike as long as it's attacking.
+Whenever this creature attacks, create a 1/1 white Advisor creature token. If this is the second time this ability has resolved this turn, create a 4/4 red Elemental creature token with flying instead. Tokens created this way enter tapped and attacking. => This creature has first strike as long as it's attacking.
+Whenever this creature attacks, create a 1/1 white Advisor creature token. If this is the second time this ability has resolved this turn, create a 4/4 red Elemental creature token with flying instead. Tokens created this way enter tapped and attacking.
+
+Choices Splitting Timelines
+rules_text: Flash
+Whenever you cast this spell, counter it. When you do, counter up to one target spell.
+Flying
+When Choices Splitting Timelines enters, if you cast it, return target permanent card from your graveyard to your hand. => Flash
+Whenever you cast this spell, counter it. When you do, counter up to one target spell.
+Flying
+When this creature enters, if you cast it, return target permanent card from your graveyard to your hand.
+
+Ecosystem Acts as One
+rules_text: {T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+Whenever Ecosystem Acts as One deals combat damage to a noncreature, draw a card, then you may put a land card from your hand onto the battlefield tapped. => {T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+Whenever this land deals combat damage to a noncreature, draw a card, then you may put a land card from your hand onto the battlefield tapped.
+
+Vibrance Leached onto Sand
+rules_text: {T}: Add {C}. Until end of turn, Vibrance Leached onto Sand gains “{2}, {T}: Create a 0/0 colorless Construct artifact creature token with ‘This token gets +1/+1 for each artifact you control.' It can't block this turn.” => {T}: Add {C}. Until end of turn, this land gains “{2}, {T}: Create a 0/0 colorless Construct artifact creature token with ‘This token gets +1/+1 for each artifact you control.' It can't block this turn.”
+
+Nature Wrought by Nuture
+rules_text: When Nature Wrought by Nuture enters tapped, put a ??? counter on it.
+{T}: Add {C}.
+{T}: Add one mana of any color. You gain 1 life. Activate only if Nature Wrought by Nuture has a ??? counter on it. => When this land enters tapped, put a utopia counter on it.
+{T}: Add {C}.
+{T}: Add one mana of any color. You gain 1 life. Activate only if this land has one or more counters on it.
+
+(Prepare Land)
+rules_text: {T}: Add {C}.
+{1}, {T}, Exile three cards from your graveyard: Target creature becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => {T}: Add {C}.
+{1}, {T}, Exile three cards from your graveyard: Target creature you control becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Elevated District
+rules_text: Elevated District enters tapped if permanents you control could produce three or more colors.
+{T}: Add {W} or {U}. => This land enters tapped if permanents you control could produce three or more colors of mana.
+{T}: Add {W} or {U}.
+
+Sheltering Catacombs
+rules_text: Sheltering Catacombs enters tapped if permanents you control could produce three or more colors.
+{T}: Add {U} or {B}. => This land enters tapped if permanents you control could produce three or more colors of mana.
+{T}: Add {U} or {B}.
+
+Monstrous Habitat
+rules_text: Monstrous Habitat enters tapped if permanents you control could produce three or more colors.
+{T}: Add {B} or {R}. => This land enters tapped if permanents you control could produce three or more colors of mana.
+{T}: Add {B} or {R}.
+
+Rugged Haven
+rules_text: Rugged Haven enters tapped if permanents you control could produce three or more colors.
+{T}: Add {R} or {G}. => This land enters tapped if permanents you control could produce three or more colors of mana.
+{T}: Add {R} or {G}.
+
+Cultivated Meadow
+rules_text: Cultivated Meadow enters tapped if permanents you control could produce three or more colors.
+{T}: Add {G} or {W}. => This land enters tapped if permanents you control could produce three or more colors of mana.
+{T}: Add {G} or {W}.
+
+Depleted Expanse
+rules_text: Depleted Expanse enters tapped if permanents you control could produce three or more colors.
+{T}: Add {W} or {B}. => This land enters tapped if permanents you control could produce three or more colors of mana.
+{T}: Add {W} or {B}.
+
+Wayward Vantage
+rules_text: Wayward Vantage enters tapped if permanents you control could produce three or more colors.
+{T}: Add {U} or {R}. => This land enters tapped if permanents you control could produce three or more colors of mana.
+{T}: Add {U} or {R}.
+
+Remoreseless Dunes
+rules_text: Remoreseless Dunes enters tapped if permanents you control could produce three or more colors.
+{T}: Add {R} or {W}. => This land enters tapped if permanents you control could produce three or more colors of mana.
+{T}: Add {R} or {W}.
+
+Boundless Jungle
+rules_text: Boundless Jungle enters tapped if permanents you control could produce three or more colors.
+{T}: Add {G} or {U}. => This land enters tapped if permanents you control could produce three or more colors of mana.
+{T}: Add {G} or {U}.
+
+Layered Framework
+rules_text: Layered Framework enters tapped if permanents you control could produce three or more colors.
+{T}: Add {B} or {G}. => This land enters tapped if permanents you control could produce three or more colors of mana.
+{T}: Add {B} or {G}.
+
+Brain Teaser
+rules_text: Reach
+When Brain Teaser enters, you may discard a card. If you do, search your library for a riddle card, reveal it, put it into your hand, then shuffle. => Reach
+When this creature enters, you may discard a card. If you do, search your library for a riddle card, reveal it, put it into your hand, then shuffle.
+
+Painter of Distant Worlds
+rules_text: Tap an untapped permanent you control, {T}: Add one mana of any color. => {T}, Tap an untapped permanent you control: Add one mana of any color.
+
+Potentiate Key
+rules_text: {2}, {T}, Sacrifice Potentiate Key and a land: Search your library for a land card, put it onto the battlefield tapped, then shuffle.
+{7}, {T}, Sacrifice Potentiate Key: Destroy target nonland permanent. => {2}, {T}, Sacrifice this artifact and a land: Search your library for a land card, put it onto the battlefield tapped, then shuffle.
+{7}, {T}, Sacrifice this artifact: Destroy target nonland permanent.
+
+(The thesis)
+rules_text: Create a tapped Thesis token. If (The thesis) was a miracle, create two of those tokens instead. [i](Theses are artifacts with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.)[/i]
+Miracle {1}{UB}{UB} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => Create a tapped Thesis token. If this spell was a miracle, create two of those tokens instead. [i](Theses are artifacts with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.)[/i]
+Miracle {1}{UB}{UB} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+(Push for Tokenfall)
+rules_text: Lifelink
+Whenever (Push for Tokenfall) or a nontoken creature you control dies, create a 1/1 white Advisor creature token. => Lifelink
+Whenever this creature or a nontoken creature you control dies, create a 1/1 white Advisor creature token.
+
+(Push for Artifacts)
+rules_text: Whenever an artifact you control enters, put a +1/+1 counter on (Push for Artifacts).
+Whenever (Push for Artifacts) attacks, target creature can't block this turn. => Whenever an artifact you control enters, put a +1/+1 counter on this creature.
+Whenever this creature attacks, target creature can't block this turn.
+
+(Push for Flashgrro
+rules_text: Flash
+When (Push for Flashgrro enters, choose one —
+• Counter up to one target activated or triggered ability from a nonland source.
+• Draw a card. => Flash
+When this creature enters, choose one —
+• Counter up to one target activated or triggered ability from a nonland source.
+• Draw a card.
+
+Throughline Navigator
+rules_text: Whenever a nontoken creature you control enters, if it wasn't cast from your hand, put a +1/+1 counter on Throughline Navigator. Scry 1. => Whenever a nontoken creature you control enters, if it wasn't cast from your hand, put a +1/+1 counter on this creature. Scry 1.
+
+Gilded Necrotect
+rules_text: Flying
+When Gilded Necrotect enters, if it was a miracle, put two +1/+1 counters on it.
+Whenever you draw a card, each opponent loses 1 life and you gain 1 life.
+Miracle {3}{U}{B} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => Flying
+This creature enters with two +1/+1 counters on it if it was a miracle.
+Whenever you draw a card, each opponent loses 1 life and you gain 1 life.
+Miracle {3}{U}{B} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Wretch of the Deep Earth
+rules_text: Menace
+Whenever you cast your first noncreature spell each turn, torment each opponent loses 3 life unless that player sacrifices a nonland permanent of their choice or discards a card. => Menace
+Whenever you cast your first noncreature spell each turn, each opponent loses 3 life unless that player sacrifices a nonland permanent of their choice or discards a card.
+
+Worldshaper Apprentice
+type: Creature — Kor Druid => Creature — Human Artificer
+rules_text: Worldshaper Apprentice enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+Whenever you cast a spell with mana value 4 or greater, Worldshaper Apprentice becomes prepared. => This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+Whenever you cast a spell with mana value 4 or greater, this creature becomes prepared.
+
+Bridled Essence
+rules_text: Bridled Essence's power is equal to the number of creatures you control.
+Other creatures you control get +1/+1. => This creature's power is equal to the number of creatures you control.
+Other creatures you control get +1/+1.
+
+Enforcer of Unity
+
+Leyline Roamer
+rules_text: When Leyline Roamer enters, create a Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+Whenever Leyline Roamer attacks, if you've drawn two or more cards this turn, it becomes a 5/5 Elemental with flying until end of turn. => When this creature enters, create a Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+Whenever this creature attacks, if you've drawn two or more cards this turn, it becomes a 5/5 Elemental with flying until end of turn.
+
+Whisperer of the Forbidden
+rules_text: Menace
+Whenever another enchanted creature you control dies, Whisperer of the Forbidden becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Menace
+Whenever another enchanted creature you control dies, this creature becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(Payoff for Artifacts)
+rules_text: Haste
+Whenever (Payoff for Artifacts) attacks, you may tap two untapped artifacts you control. If you do, draw a card. => Haste
+Whenever this creature attacks, you may tap two untapped artifacts you control. If you do, draw a card.
+
+(Duder)
+rules_text: Whenever you cast an Aura spell, (Duder) becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Whenever you cast an Aura spell, this creature becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(Dwarf of Dwarfiness)
+type: Creature — Human Artificer => Creature — Kor Artificer
+rules_text: Whenever you cast your first nonartifact, noncreature spell each turn, (Dwarf of Dwarfiness) becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Whenever you cast your first nonartifact, noncreature spell each turn, this creature becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+pt: 3/3 => 3/4
+
+(aura)
+rules_text: When you cast this spell, copy it if it's a miracle. You may choose new targets for the copy.
+Enchant creature
+Enchanted creature gets +2/+2 and has “Whenever this creature deals combat damage to a player or battle, draw a card.
+Miracle {2}{G}{G} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => When you cast this spell, copy it if it's a miracle. You may choose new targets for the copy.
+Enchant creature
+Enchanted creature gets +2/+2 and has “Whenever this creature deals combat damage to a player or battle, draw a card.”
+Miracle {2}{G}{G} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Retroactive Continuity
+
+(Demon lover)
+rules_text: Menace
+{B}, Sacrifice another creature: (Demon lover) becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Menace
+{B}, Sacrifice another creature: This creature becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(deal damage to all)
+rules_text: (deal damage to all) deals 1 damage to each creature, planeswalker, and battle. If (deal damage to all) was a miracle, it deals 2 damage to each creature, planeswalker, and battle instead.
+Miracle {1}{R} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => This spell deals 1 damage to each creature, planeswalker, and battle. If this spell was a miracle, it deals 2 damage to each creature, planeswalker, and battle instead.
+Miracle {1}{R} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+(Concher)
+rules_text: Haste
+When (Concher) dies, you may discard a card. If you do, create a Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i] => Haste
+When this creature dies, you may discard a card. If you do, create a Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+
+Quarantine Warden
+rules_text: Flash
+Flying
+Quarantine Warden enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Flash
+Flying
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(Sword)
+
+(Prepared...)
+rules_text: Flash
+(Prepared...) enters tapped and prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Flash
+This creature enters tapped and prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(Snappiestcaster Mage)
+type: Creature => Creature — Human Wizard
+rules_text: Flash
+When (Snappiestcaster Mage) enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. If that card's mana value is 4 or less and (Snappiestcaster Mage) was a miracle, the flashback cost is {0} instead.
+Miracle {3}{U} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => Flash
+When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. If that card's mana value is 4 or less and this creature was a miracle, the flashback cost is {0} instead.
+Miracle {3}{U} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+(Artifact Engine)
+rules_text: Whenever (Artifact Engine) enters and you draw your second card each turn, put a charge counter on (Artifact Engine).
+{2}, {T}: Remove any number of counters from (Artifact Engine). Put twice that many +1/+1 counters on target permanent you control. You may have it becomes a 0/0 Elemental creature in addition to its other types. Activate only as a sorcery. => When this artifact enters and whenever you draw your second card each turn, put a charge counter on this artifact.
+{2}, {T}: Remove any number of counters from this artifact. Put twice that many +1/+1 counters on target permanent you control. You may have it becomes a 0/0 Elemental creature in addition to its other types. Activate only as a sorcery.
+
+Essence Parasite
+rules_text: Flash
+Reach
+When Essence Parasite enters, you may sacrifice another creature. If you do, you gain X life and draw X cards, where X is that creature's power. => Flash
+Reach
+When this creature enters, you may sacrifice another creature. If you do, you gain X life and draw X cards, where X is that creature's power.
+
+(The Intangible Vritue)
+type: Creature => Creature — Human Noble
+rules_text: Token creatures you control get +1/+1.
+When (The Intangible Vritue) enters, if it as a miracle, create two 1/1 white Advisor creature tokens.
+Miracle {4}{W}{W} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => Token creatures you control get +1/+1.
+When this enchantment enters, if it as a miracle, create two 1/1 white Advisor creature tokens.
+Miracle {4}{W}{W} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Transcendent Parvin
+rules_text: Flying
+When Transcendent Parvin enters, tap target nonland permanent an opponent controls and put two stun counters on it. It loses all abilities until it untaps. => Flying
+When this creature enters, tap target nonland permanent an opponent controls and put two stun counters on it. It loses all abilities until it untaps.
+
+Parvin Familiar
+rules_text: At the beginning of your end step, Parvin Familiar becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => At the beginning of your end step, this creature becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Aloof Occlusion
+
+(Smash)
+rules_text: (Smash) deals 3 damage to target attacking or blocking creature. Scry 1. => This spell deals 3 damage to target attacking or blocking creature. Scry 1.
+
+(Big Man Sphinxtoise)
+rules_text: Flying, vigilance
+Whenever (Big Man Sphinxtoise) enters, create two Thesis tokens. [i](They're artifacts with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+Whenever (Big Man Sphinxtoise) attacks, you may shuffle your library. => Flying, vigilance
+When this creature enters, create two Thesis tokens. [i](They're artifacts with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+Whenever this creature attacks, you may shuffle your library.
+
+Bloodshot Beholder
+rules_text: When Bloodshot Beholder enters, you may discard a card. If you do, Bloodshot Beholder deals damage to up to one nonplayer target equal to half the amount of mana spent to cast Bloodshot Beholder, rounded up.
+Miracle {X}{2}{R}{R} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => When this creature enters, you may discard a card. If you do, this creature deals damage to up to one nonplayer target equal to half the amount of mana spent to cast this creature, rounded up.
+Miracle {X}{2}{R}{R} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+(The Doubler) cara
+rules_text: When (The Doubler) cara enters, put a +1/+1 counter on target creature you control.
+{2}{G}{G}: For any number of permanents you control, choose a kind of counter on it. You may give that permanent another of that kind or remove one from it. => When this creature enters, put a +1/+1 counter on target creature you control.
+{2}{G}{G}: For any number of permanents you control, choose a kind of counter on it. You may give that permanent another of that kind or remove one from it.
+
+Gaze of Derukoskai
+type: Enchantment — Aura Curse => Sorcery
+cost: {4}{B}{B} => {B}
+rules_text: Enchant player
+Whenever Gaze of Derukoskai or another permanent enters, enchanted player loses 1 life. => Target opponent discards a card. If this card was a miracle and it isn't that player's draw step, instead that player discards three cards.
+Miracle {3}{B}{B} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Mineshaft Foreman
+rules_text: Lifelink
+At the beginning of your second main phase, if an opponent has four or more cards in their graveyard and you don't control an artifact named Collapsing Charges Mineshaft Foreman becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Lifelink
+At the beginning of your second main phase, if an opponent has four or more cards in their graveyard and you don't control an artifact named Collapsing Charges this creature becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(Flickerer)
+rules_text: Vigilance
+Whenever you draw your third card each turn, (Flickerer) becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Vigilance
+Whenever you draw your third card each turn, this creature becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(fighter)
+rules_text: Enchant creature you control
+When (fighter) enters, enchanted creature deals damage equal to its power to up to one target creature or battle.
+Enchanted creature gets +2/+1. => Enchant creature you control
+When this Aura enters, enchanted creature deals damage equal to its power to up to one target creature or battle.
+Enchanted creature gets +2/+1.
+
+(Mabuse Almost)
+rules_text: When (Mabuse Almost) enters, each player creates a tapped Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+Whenever a player sacrifices an artifact, each of that player's opponents creates a 1/1 white Dude creature token. => When this creature enters, each player creates a tapped Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+Whenever a player sacrifices an artifact, each of that player's opponents creates a 1/1 white Dude creature token.
+
+Synesthetic Curator
+rules_text: Flash
+Flying
+Whenever Synesthetic Curator attacks, it becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Flash
+Flying
+Whenever this creature attacks, it becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Encroaching Sands
+
+Fostering Sphinx
+rules_text: Trample, vigilance
+When Fostering Sphinx enters, mill five cards. You may return a nonland permanent card and a land card milled this way to your hand.
+[i]Landfall[/i] — Whenever a land you control enters, creatures you control get +1/+1 and gain haste until end of turn. => Trample, vigilance
+When this creature enters, mill five cards. You may return a nonland permanent card and a land card milled this way to your hand.
+[i]Landfall[/i] — Whenever a land you control enters, creatures you control get +1/+1 and gain haste until end of turn.
+
+Watcher of Nowhere
+rules_text: Whenever you create one or more tokens, put a +1/+1 counter on Watcher of Nowhere. => Whenever you create one or more tokens, put a +1/+1 counter on this creature.
+
+Sensory Scramble
+rules_text: Choose up to two. If Sensory Scramble was a miracle, instead choose four and you may choose the same mode more than once.
+• Target creature gets +1/+1 until end of turn.
+• Target creature gets -1/-1 until end of turn.
+Miracle {2}{B}{B} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => Choose up to two. If this spell was a miracle, instead choose four and you may choose the same mode more than once.
+• Target creature gets +1/+1 until end of turn.
+• Target creature gets -1/-1 until end of turn.
+Miracle {2}{B}{B} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Sower of Kernels
+rules_text: Other Elementals you control get +1/+1.
+{3}{G}, Exile Sower of Kernels from your graveyard: Look at the top five cards of your library. You may reveal a Elemental, land, or riddle card, put it into your hand, and the rest on the bottom of your library in any order. => Other Elementals you control get +1/+1.
+{3}{G}, Exile this card from your graveyard: Look at the top five cards of your library. You may reveal a Elemental, land, or riddle card, put it into your hand, and the rest on the bottom of your library in any order.
+
+Force of Savagery
+
+Keen Sense
+rules_text: Enchant creature
+Whenever enchanted creature deals damage to an opponent, you may draw a card. => Enchant creature
+Whenever enchanted creature deals damage to an opponent, you may draw a card.
+[i](This token's mana cost is {G}.)[/i]
+
+Actions Reflect Thought
+rules_text: You can't cast Actions Reflect Thought if you control three or more permanents.
+Flying, double strike, lifelink
+Discard a card: Actions Reflect Thought gains hexproof until end of turn. Tap it. => You can't cast this spell if you control three or more permanents.
+Flying, double strike, lifelink
+Discard a card: This creature gains hexproof until end of turn. Tap it.
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

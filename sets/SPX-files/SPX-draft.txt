@@ -1,0 +1,4150 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Words Carved by Swords",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Riddle Battle — Enigma",
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/282_Words Carved by Swords.jpg"
+			}
+		},
+		{
+			"name": "Where to Go from Here",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G/W}{G/W}",
+			"type": "Battle — Enigma",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/230_Where to Go from Here.jpg"
+			}
+		},
+		{
+			"name": "Learning to Learn",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Battle — Enigma",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/63_Learning to Learn.jpg"
+			}
+		},
+		{
+			"name": "Shifting Goalposts",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Battle — Enigma",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/70_Shifting Goalposts.jpg"
+			}
+		},
+		{
+			"name": "Beating a Dead Horse",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Battle — Enigma",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/90_Beating a Dead Horse.jpg"
+			}
+		},
+		{
+			"name": "Pursuit of Perfection",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Battle — Enigma",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/30_Pursuit of Perfection.jpg"
+			}
+		},
+		{
+			"name": "Motives of the Fae",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Battle — Enigma",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/179_Motives of the Fae.jpg"
+			}
+		},
+		{
+			"name": "Arcane Anomaly",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Battle — Enigma",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/132_Arcane Anomaly.jpg"
+			}
+		},
+		{
+			"name": "Responses to Trauma",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Battle — Enigma",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/108_Responses to Trauma.jpg"
+			}
+		},
+		{
+			"name": "Try and Try Again",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Battle — Enigma",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/148_Try and Try Again.jpg"
+			}
+		},
+		{
+			"name": "Gatekeeping",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Battle — Enigma",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/175_Gatekeeping.jpg"
+			}
+		},
+		{
+			"name": "The Hero's Journey",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Battle — Enigma",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/25_The Hero's Journey.jpg"
+			}
+		},
+		{
+			"name": "(Blue Battle)",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Battle — Enigma",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/41_(Blue Battle).jpg"
+			}
+		},
+		{
+			"name": "(Battle of tokens)",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Battle — Enigma",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/77_(Battle of tokens).jpg"
+			}
+		},
+		{
+			"name": "(Draw operation)",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Battle — Enigma",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/118_(Draw operation).jpg"
+			}
+		},
+		{
+			"name": "(Jellyfish...)",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}",
+			"type": "Battle — Enigma",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/155_(Jellyfish...).jpg"
+			}
+		},
+		{
+			"name": "(Exalted)",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Battle — Enigma",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/5_(Exalted).jpg"
+			}
+		},
+		{
+			"name": "Expedition Champion",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Azra Soldier",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/23_Expedition Champion.jpg"
+			}
+		},
+		{
+			"name": "Ash Wastes Observer",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Spellshaper",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/55_Ash Wastes Observer.jpg"
+			}
+		},
+		{
+			"name": "Dissent Sleeper",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/94_Dissent Sleeper.jpg"
+			}
+		},
+		{
+			"name": "Wrathful Rebuttal",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/150_Wrathful Rebuttal.jpg"
+			}
+		},
+		{
+			"name": "Utopist Guide",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Sphinx Druid",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/185_Utopist Guide.jpg"
+			}
+		},
+		{
+			"name": "Trinket Specialist",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Kor Artificer",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/37_Trinket Specialist.jpg"
+			}
+		},
+		{
+			"name": "Withdraw into Thought",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/76_Withdraw into Thought.jpg"
+			}
+		},
+		{
+			"name": "Dark Artisan",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Wizard",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/91_Dark Artisan.jpg"
+			}
+		},
+		{
+			"name": "Rapid Burnout",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/145_Rapid Burnout.jpg"
+			}
+		},
+		{
+			"name": "Devious Tremorlisk",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Insect Beast",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/171_Devious Tremorlisk.jpg"
+			}
+		},
+		{
+			"name": "Azoren Liason",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Sphinx",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/18_Azoren Liason.jpg"
+			}
+		},
+		{
+			"name": "Obsess Over Secrets",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/64_Obsess Over Secrets.jpg"
+			}
+		},
+		{
+			"name": "Preserved Hellkite",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Dragon Zombie",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/106_Preserved Hellkite.jpg"
+			}
+		},
+		{
+			"name": "(Smash and repurpose)",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/127_(Smash and repurpose).jpg"
+			}
+		},
+		{
+			"name": "Aggressive Terraforming",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/166_Aggressive Terraforming.jpg"
+			}
+		},
+		{
+			"name": "Census Keeper",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Sphinx",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/19_Census Keeper.jpg"
+			}
+		},
+		{
+			"name": "Consult",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/56_Consult.jpg"
+			}
+		},
+		{
+			"name": "Whispering Ancient",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Cleric",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/113_Whispering Ancient.jpg"
+			}
+		},
+		{
+			"name": "Cascading Thoughts",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/136_Cascading Thoughts.jpg"
+			}
+		},
+		{
+			"name": "(Kicker Kicked Miracle)",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/156_(Kicker Kicked Miracle).jpg"
+			}
+		},
+		{
+			"name": "Cherished Dancer",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Monk",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/20_Cherished Dancer.jpg"
+			}
+		},
+		{
+			"name": "Absorbing Information",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Instant",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/52_Absorbing Information.jpg"
+			}
+		},
+		{
+			"name": "Stoneshroud Wurm",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Wurm",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/111_Stoneshroud Wurm.jpg"
+			}
+		},
+		{
+			"name": "Tyrant of Nowhere",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Cat Beast",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/149_Tyrant of Nowhere.jpg"
+			}
+		},
+		{
+			"name": "Caravan Sage",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/169_Caravan Sage.jpg"
+			}
+		},
+		{
+			"name": "Hand of the Azoren",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/24_Hand of the Azoren.jpg"
+			}
+		},
+		{
+			"name": "Superego Agent",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Sphinx",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/73_Superego Agent.jpg"
+			}
+		},
+		{
+			"name": "Distorted Witness",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Eye Horror",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/95_Distorted Witness.jpg"
+			}
+		},
+		{
+			"name": "Bolt from the Blue",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/135_Bolt from the Blue.jpg"
+			}
+		},
+		{
+			"name": "Sensate Ceremony",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/182_Sensate Ceremony.jpg"
+			}
+		},
+		{
+			"name": "Tactician Exemplar",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Sphinx",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/35_Tactician Exemplar.jpg"
+			}
+		},
+		{
+			"name": "Isolated Scholar",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Sphinx",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/62_Isolated Scholar.jpg"
+			}
+		},
+		{
+			"name": "Umwelder Artisan",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Sphinx",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/112_Umwelder Artisan.jpg"
+			}
+		},
+		{
+			"name": "Artisan of Whims",
+			"rarity": "common",
+			"mana_cost": "{6}{R}",
+			"type": "Creature — Sphinx",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/133_Artisan of Whims.jpg"
+			}
+		},
+		{
+			"name": "Instinctual Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/177_Instinctual Strike.jpg"
+			}
+		},
+		{
+			"name": "Pledged Apothecary",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Kithkin Artificer",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/29_Pledged Apothecary.jpg"
+			}
+		},
+		{
+			"name": "Adrift Moonfish",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Fish",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/53_Adrift Moonfish.jpg"
+			}
+		},
+		{
+			"name": "Obliged Beyond Death",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/103_Obliged Beyond Death.jpg"
+			}
+		},
+		{
+			"name": "Impulsive Twitcher",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Horror",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/141_Impulsive Twitcher.jpg"
+			}
+		},
+		{
+			"name": "Resolute Spellbreaker",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Soldier",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/181_Resolute Spellbreaker.jpg"
+			}
+		},
+		{
+			"name": "Emblem of Everywhere",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/22_Emblem of Everywhere.jpg"
+			}
+		},
+		{
+			"name": "Orderly Provost",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/65_Orderly Provost.jpg"
+			}
+		},
+		{
+			"name": "Skeletal Repurposing",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/110_Skeletal Repurposing.jpg"
+			}
+		},
+		{
+			"name": "Fervent Outcast",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Kor Warrior",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/140_Fervent Outcast.jpg"
+			}
+		},
+		{
+			"name": "Deep Jungle Tracker",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/170_Deep Jungle Tracker.jpg"
+			}
+		},
+		{
+			"name": "Query Guardian",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Cat Soldier",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/32_Query Guardian.jpg"
+			}
+		},
+		{
+			"name": "Flow Sculptor",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Kor Wizard",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/59_Flow Sculptor.jpg"
+			}
+		},
+		{
+			"name": "Invoke the Forbidden",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/100_Invoke the Forbidden.jpg"
+			}
+		},
+		{
+			"name": "Scitoran Overseer",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Sphinx",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/146_Scitoran Overseer.jpg"
+			}
+		},
+		{
+			"name": "Wonders of the World",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/186_Wonders of the World.jpg"
+			}
+		},
+		{
+			"name": "All for Naught",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/16_All for Naught.jpg"
+			}
+		},
+		{
+			"name": "Indulgent Beholder",
+			"rarity": "common",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Horror",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/61_Indulgent Beholder.jpg"
+			}
+		},
+		{
+			"name": "Pain Rewiring",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/104_Pain Rewiring.jpg"
+			}
+		},
+		{
+			"name": "(Prowesser)",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/126_(Prowesser).jpg"
+			}
+		},
+		{
+			"name": "March to Paradise",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/178_March to Paradise.jpg"
+			}
+		},
+		{
+			"name": "Spirit's Duty",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/34_Spirit's Duty.jpg"
+			}
+		},
+		{
+			"name": "Deft Deflection",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/57_Deft Deflection.jpg"
+			}
+		},
+		{
+			"name": "Quiverquill Scribe",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Horror Wizard",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/107_Quiverquill Scribe.jpg"
+			}
+		},
+		{
+			"name": "Erratic Understudy",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/139_Erratic Understudy.jpg"
+			}
+		},
+		{
+			"name": "Worldview Shifter",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/187_Worldview Shifter.jpg"
+			}
+		},
+		{
+			"name": "Rehabilitation Vault",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/33_Rehabilitation Vault.jpg"
+			}
+		},
+		{
+			"name": "Forced Perspective",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/60_Forced Perspective.jpg"
+			}
+		},
+		{
+			"name": "Petty Necromancy",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/105_Petty Necromancy.jpg"
+			}
+		},
+		{
+			"name": "Manifested Bugbear",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Goblin Elemental",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/143_Manifested Bugbear.jpg"
+			}
+		},
+		{
+			"name": "Tender of the Spiral",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/184_Tender of the Spiral.jpg"
+			}
+		},
+		{
+			"name": "Desert's Claim",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/21_Desert's Claim.jpg"
+			}
+		},
+		{
+			"name": "Reflect Inwards",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/66_Reflect Inwards.jpg"
+			}
+		},
+		{
+			"name": "Leave to the Sands",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/101_Leave to the Sands.jpg"
+			}
+		},
+		{
+			"name": "Desert Packmaster",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Azra Survivor",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/137_Desert Packmaster.jpg"
+			}
+		},
+		{
+			"name": "(Raging Badgerdude)",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/161_(Raging Badgerdude).jpg"
+			}
+		},
+		{
+			"name": "Playful Apprentice",
+			"rarity": "common",
+			"mana_cost": "{W/U}",
+			"type": "Creature — Cat Wizard",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/222_Playful Apprentice.jpg"
+			}
+		},
+		{
+			"name": "Favored Scholar",
+			"rarity": "common",
+			"mana_cost": "{U/B}{U/B}",
+			"type": "Creature — Zombie Wizard",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/224_Favored Scholar.jpg"
+			}
+		},
+		{
+			"name": "Devoted Excruciator",
+			"rarity": "common",
+			"mana_cost": "{B/R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/226_Devoted Excruciator.jpg"
+			}
+		},
+		{
+			"name": "Senior Archivist",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/228_Senior Archivist.jpg"
+			}
+		},
+		{
+			"name": "(Lonely Guy)",
+			"rarity": "common",
+			"mana_cost": "{3}{G/W}{G/W}",
+			"type": "Creature",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/229_(Lonely Guy).jpg"
+			}
+		},
+		{
+			"name": "Indentured Artisan",
+			"rarity": "common",
+			"mana_cost": "{2}{W/B}{W/B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/232_Indentured Artisan.jpg"
+			}
+		},
+		{
+			"name": "Promising Understudy",
+			"rarity": "common",
+			"mana_cost": "{U/R}{U/R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/234_Promising Understudy.jpg"
+			}
+		},
+		{
+			"name": "Defiant Antiquarian",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}",
+			"type": "Creature — Kor Warlock",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/236_Defiant Antiquarian.jpg"
+			}
+		},
+		{
+			"name": "(Gets Bonesplitter)",
+			"rarity": "common",
+			"mana_cost": "{1}{R/W}",
+			"type": "Creature",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/237_(Gets Bonesplitter).jpg"
+			}
+		},
+		{
+			"name": "Spire Thaumaturge",
+			"rarity": "common",
+			"mana_cost": "{1}{G/U}{G/U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/240_Spire Thaumaturge.jpg"
+			}
+		},
+		{
+			"name": "Life Flashes, Death Lingers",
+			"rarity": "special",
+			"mana_cost": "{W}{B}",
+			"type": "Riddle Creature — Elemental",
+			"collector_number": "287",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/287_Life Flashes, Death Lingers.jpg"
+			}
+		},
+		{
+			"name": "Masks on Blank Canvas",
+			"rarity": "special",
+			"mana_cost": "{W}{U}",
+			"type": "Riddle Creature — Elemental",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/278_Masks on Blank Canvas.jpg"
+			}
+		},
+		{
+			"name": "Whispers Reverberating",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Riddle Creature — Elemental",
+			"collector_number": "284",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/284_Whispers Reverberating.jpg"
+			}
+		},
+		{
+			"name": "Violence Not as a Means",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Riddle Creature — Elemental",
+			"collector_number": "283",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/283_Violence Not as a Means.jpg"
+			}
+		},
+		{
+			"name": "Spoken Without Meaning",
+			"rarity": "special",
+			"mana_cost": "{G}{W}",
+			"type": "Riddle Creature — Elemental",
+			"collector_number": "286",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/286_Spoken Without Meaning.jpg"
+			}
+		},
+		{
+			"name": "Right Moment Never Comes",
+			"rarity": "special",
+			"mana_cost": "{U}{R}",
+			"type": "Riddle Sorcery",
+			"collector_number": "289",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/289_Right Moment Never Comes.jpg"
+			}
+		},
+		{
+			"name": "Memory Rots the Truth",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Riddle Creature — Elemental",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/279_Memory Rots the Truth.jpg"
+			}
+		},
+		{
+			"name": "Following Ruin's Wake",
+			"rarity": "special",
+			"mana_cost": "{B}{R}",
+			"type": "Riddle Creature — Elemental",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/281_Following Ruin's Wake.jpg"
+			}
+		},
+		{
+			"name": "Hope Crushed by Reason",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Riddle Artifact Creature — Angel Elemental",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/272_Hope Crushed by Reason.jpg"
+			}
+		},
+		{
+			"name": "Time Flowing Sideways",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Riddle Sorcery",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/273_Time Flowing Sideways.jpg"
+			}
+		},
+		{
+			"name": "Limits of the Umwelt",
+			"rarity": "special",
+			"mana_cost": "{B}{G}",
+			"type": "Riddle Sorcery",
+			"collector_number": "291",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/291_Limits of the Umwelt.jpg"
+			}
+		},
+		{
+			"name": "The Rule of Three",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Riddle Enchantment — Saga",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/276_The Rule of Three.jpg"
+			}
+		},
+		{
+			"name": "Apophenia",
+			"rarity": "special",
+			"mana_cost": "{W}{U}{B}{R}{G}",
+			"type": "Legendary Riddle Creature — Sphinx",
+			"collector_number": "297",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/297_Apophenia.jpg"
+			}
+		},
+		{
+			"name": "Observed Only in Death",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Riddle Creature — Elemental",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/274_Observed Only in Death.jpg"
+			}
+		},
+		{
+			"name": "Quickly Going Nowhere",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Riddle Creature — Elemental",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/275_Quickly Going Nowhere.jpg"
+			}
+		},
+		{
+			"name": "Detailed Blurred by Dreams",
+			"rarity": "special",
+			"mana_cost": "{G}{U}",
+			"type": "Riddle Instant",
+			"collector_number": "296",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/296_Detailed Blurred by Dreams.jpg"
+			}
+		},
+		{
+			"name": "One is a Harmony",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Riddle Creature — Sliver Elemental",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/280_One is a Harmony.jpg"
+			}
+		},
+		{
+			"name": "Tome of Unwritten Rules",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Riddle Artifact — Book",
+			"collector_number": "294",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/294_Tome of Unwritten Rules.jpg"
+			}
+		},
+		{
+			"name": "Peel the Empty Shell",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Riddle Sorcery",
+			"collector_number": "285",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/285_Peel the Empty Shell.jpg"
+			}
+		},
+		{
+			"name": "Souls Trained like Muscles",
+			"rarity": "special",
+			"mana_cost": "{W}{B}",
+			"type": "Riddle Enchantment",
+			"collector_number": "288",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/288_Souls Trained like Muscles.jpg"
+			}
+		},
+		{
+			"name": "The Self Made from Parts",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Riddle Sorcery",
+			"collector_number": "290",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/290_The Self Made from Parts.jpg"
+			}
+		},
+		{
+			"name": "Relentless March of Time",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Riddle Artifact Creature — Elemental",
+			"collector_number": "293",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/293_Relentless March of Time.jpg"
+			}
+		},
+		{
+			"name": "Choices Splitting Timelines",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Riddle Creature — Elemental Sphinx",
+			"collector_number": "295",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/295_Choices Splitting Timelines.jpg"
+			}
+		},
+		{
+			"name": "Apex, Out of Reach",
+			"rarity": "special",
+			"mana_cost": "{5}",
+			"type": "Legendary Riddle Creature — Elemental",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/271_Apex, Out of Reach.jpg"
+			}
+		},
+		{
+			"name": "Ecosystem Acts as One",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Riddle Land",
+			"collector_number": "298",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/298_Ecosystem Acts as One.jpg"
+			}
+		},
+		{
+			"name": "Vibrance Leached onto Sand",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Riddle Land",
+			"collector_number": "300",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/300_Vibrance Leached onto Sand.jpg"
+			}
+		},
+		{
+			"name": "Nature Wrought by Nuture",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Riddle Land",
+			"collector_number": "299",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/299_Nature Wrought by Nuture.jpg"
+			}
+		},
+		{
+			"name": "(Prepare Land)",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/252_(Prepare Land).jpg"
+			}
+		},
+		{
+			"name": "Elevated District",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/258_Elevated District.jpg"
+			}
+		},
+		{
+			"name": "Sheltering Catacombs",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/263_Sheltering Catacombs.jpg"
+			}
+		},
+		{
+			"name": "Monstrous Habitat",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/260_Monstrous Habitat.jpg"
+			}
+		},
+		{
+			"name": "Rugged Haven",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/262_Rugged Haven.jpg"
+			}
+		},
+		{
+			"name": "Cultivated Meadow",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/256_Cultivated Meadow.jpg"
+			}
+		},
+		{
+			"name": "Depleted Expanse",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/257_Depleted Expanse.jpg"
+			}
+		},
+		{
+			"name": "Wayward Vantage",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/265_Wayward Vantage.jpg"
+			}
+		},
+		{
+			"name": "Remoreseless Dunes",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/261_Remoreseless Dunes.jpg"
+			}
+		},
+		{
+			"name": "Boundless Jungle",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/255_Boundless Jungle.jpg"
+			}
+		},
+		{
+			"name": "Layered Framework",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/259_Layered Framework.jpg"
+			}
+		},
+		{
+			"name": "Book Wurm",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Book Wurm",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/242_Book Wurm.jpg"
+			}
+		},
+		{
+			"name": "Brain Teaser",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct Elemental",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/243_Brain Teaser.jpg"
+			}
+		},
+		{
+			"name": "Painter of Distant Worlds",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Scout Artist",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/247_Painter of Distant Worlds.jpg"
+			}
+		},
+		{
+			"name": "Potentiate Key",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/248_Potentiate Key.jpg"
+			}
+		},
+		{
+			"name": "Unnatural Habitat",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/264_Unnatural Habitat.jpg"
+			}
+		},
+		{
+			"name": "Ash Barrens",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/254_Ash Barrens.jpg"
+			}
+		},
+		{
+			"name": "Azoran Redactor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/U}{W/U}",
+			"type": "Creature — Sphinx Advisor Wizard",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/221_Azoran Redactor.jpg"
+			}
+		},
+		{
+			"name": "(The thesis)",
+			"rarity": "uncommon",
+			"mana_cost": "{U/B}",
+			"type": "Instant",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/223_(The thesis).jpg"
+			}
+		},
+		{
+			"name": "(Combat trick)",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B/R}",
+			"type": "Sorcery",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/225_(Combat trick).jpg"
+			}
+		},
+		{
+			"name": "Neglected Creeper",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R/G}{R/G}",
+			"type": "Creature — Plant Hydra",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/227_Neglected Creeper.jpg"
+			}
+		},
+		{
+			"name": "(Push for Tokenfall)",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W/B}{W/B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/231_(Push for Tokenfall).jpg"
+			}
+		},
+		{
+			"name": "Capricious Orator",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U/R}{U/R}",
+			"type": "Creature — Sphinx",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/233_Capricious Orator.jpg"
+			}
+		},
+		{
+			"name": "Bitterness",
+			"rarity": "uncommon",
+			"mana_cost": "{B/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/235_Bitterness.jpg"
+			}
+		},
+		{
+			"name": "(Push for Artifacts)",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R/W}{R/W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/238_(Push for Artifacts).jpg"
+			}
+		},
+		{
+			"name": "(Push for Flashgrro",
+			"rarity": "uncommon",
+			"mana_cost": "{G/U}{G/U}{G/U}",
+			"type": "Creature — Elf Rogue",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/239_(Push for Flashgrro.jpg"
+			}
+		},
+		{
+			"name": "Throughline Navigator",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Creature — Kor Wizard",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/190_Throughline Navigator.jpg"
+			}
+		},
+		{
+			"name": "Gilded Necrotect",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Creature — Zombie Sphinx Artificer",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/193_Gilded Necrotect.jpg"
+			}
+		},
+		{
+			"name": "Wretch of the Deep Earth",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Demon",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/196_Wretch of the Deep Earth.jpg"
+			}
+		},
+		{
+			"name": "Worldshaper Apprentice",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/199_Worldshaper Apprentice.jpg"
+			}
+		},
+		{
+			"name": "Bridled Essence",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{G}{W}{W}",
+			"type": "Creature — Elemental Elk",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/202_Bridled Essence.jpg"
+			}
+		},
+		{
+			"name": "Enforcer of Unity",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}{B}",
+			"type": "Creature — Sphinx Warrior",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/204_Enforcer of Unity.jpg"
+			}
+		},
+		{
+			"name": "Leyline Roamer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Jellyfish Elemental",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/208_Leyline Roamer.jpg"
+			}
+		},
+		{
+			"name": "Whisperer of the Forbidden",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Azra Warlock",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/212_Whisperer of the Forbidden.jpg"
+			}
+		},
+		{
+			"name": "(Payoff for Artifacts)",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Creature",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/214_(Payoff for Artifacts).jpg"
+			}
+		},
+		{
+			"name": "Uplifted Legate",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Creature — Sphinx Human Warrior",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/219_Uplifted Legate.jpg"
+			}
+		},
+		{
+			"name": "Imposing Precedent",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Book Construct",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/245_Imposing Precedent.jpg"
+			}
+		},
+		{
+			"name": "Wise Edifice",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/250_Wise Edifice.jpg"
+			}
+		},
+		{
+			"name": "Shape the Biosphere",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Sorcery",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/2_Shape the Biosphere.jpg"
+			}
+		},
+		{
+			"name": "Parvin Battle-Scholar",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Cat Wizard",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/28_Parvin Battle-Scholar.jpg"
+			}
+		},
+		{
+			"name": "(double clone)",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/42_(double clone).jpg"
+			}
+		},
+		{
+			"name": "(Duder)",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/79_(Duder).jpg"
+			}
+		},
+		{
+			"name": "(Dwarf of Dwarfiness)",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Kor Artificer",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/119_(Dwarf of Dwarfiness).jpg"
+			}
+		},
+		{
+			"name": "(aura)",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/151_(aura).jpg"
+			}
+		},
+		{
+			"name": "Voidgullet",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Insect Elemental",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/38_Voidgullet.jpg"
+			}
+		},
+		{
+			"name": "Retroactive Continuity",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/68_Retroactive Continuity.jpg"
+			}
+		},
+		{
+			"name": "(Demon lover)",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/78_(Demon lover).jpg"
+			}
+		},
+		{
+			"name": "(deal damage to all)",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/117_(deal damage to all).jpg"
+			}
+		},
+		{
+			"name": "(Looks at Dead Bodies)",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Bird Bear",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/157_(Looks at Dead Bodies).jpg"
+			}
+		},
+		{
+			"name": "Tempest Queller",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Sphinx",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/36_Tempest Queller.jpg"
+			}
+		},
+		{
+			"name": "(Riddle Solver)",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/85_(Riddle Solver).jpg"
+			}
+		},
+		{
+			"name": "(Concher)",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Lizard",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/116_(Concher).jpg"
+			}
+		},
+		{
+			"name": "Earth's Reclaimer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Elemental",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/172_Earth's Reclaimer.jpg"
+			}
+		},
+		{
+			"name": "Quarantine Warden",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Sphinx",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/31_Quarantine Warden.jpg"
+			}
+		},
+		{
+			"name": "Fleshcrafting",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/97_Fleshcrafting.jpg"
+			}
+		},
+		{
+			"name": "(Sword)",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/129_(Sword).jpg"
+			}
+		},
+		{
+			"name": "(Prepared...)",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Kithkin Wizard",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/160_(Prepared...).jpg"
+			}
+		},
+		{
+			"name": "Null Hypothesis",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/27_Null Hypothesis.jpg"
+			}
+		},
+		{
+			"name": "(Snappiestcaster Mage)",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/49_(Snappiestcaster Mage).jpg"
+			}
+		},
+		{
+			"name": "(Get that thesis)",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Demon",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/80_(Get that thesis).jpg"
+			}
+		},
+		{
+			"name": "(Artifact Engine)",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/114_(Artifact Engine).jpg"
+			}
+		},
+		{
+			"name": "Essence Parasite",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Spider Elemental",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/173_Essence Parasite.jpg"
+			}
+		},
+		{
+			"name": "(Tappytapyp)",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/14_(Tappytapyp).jpg"
+			}
+		},
+		{
+			"name": "Scitoran Initiation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/69_Scitoran Initiation.jpg"
+			}
+		},
+		{
+			"name": "Mumuring Vestige",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Demon",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/102_Mumuring Vestige.jpg"
+			}
+		},
+		{
+			"name": "Disgraced Scitoran",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Creature — Sphinx",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/138_Disgraced Scitoran.jpg"
+			}
+		},
+		{
+			"name": "Geoskitter Drone",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/176_Geoskitter Drone.jpg"
+			}
+		},
+		{
+			"name": "(The Intangible Vritue)",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Noble",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/15_(The Intangible Vritue).jpg"
+			}
+		},
+		{
+			"name": "Transcendent Parvin",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Cat Mutant Wizard",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/75_Transcendent Parvin.jpg"
+			}
+		},
+		{
+			"name": "Disgraced Maftet",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Sphinx Human Warlock",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/93_Disgraced Maftet.jpg"
+			}
+		},
+		{
+			"name": "Parvin Familiar",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Cat Wizard",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/144_Parvin Familiar.jpg"
+			}
+		},
+		{
+			"name": "Aloof Occlusion",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/167_Aloof Occlusion.jpg"
+			}
+		},
+		{
+			"name": "(Smash)",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/13_(Smash).jpg"
+			}
+		},
+		{
+			"name": "(Big Man Sphinxtoise)",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Sphinx",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/40_(Big Man Sphinxtoise).jpg"
+			}
+		},
+		{
+			"name": "Bloodshot Beholder",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Eye Horror",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/134_Bloodshot Beholder.jpg"
+			}
+		},
+		{
+			"name": "(The Doubler) cara",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Azra Merchant",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/164_(The Doubler) cara.jpg"
+			}
+		},
+		{
+			"name": "Sightmite",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Eye Horror",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/71_Sightmite.jpg"
+			}
+		},
+		{
+			"name": "Gaze of Derukoskai",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/98_Gaze of Derukoskai.jpg"
+			}
+		},
+		{
+			"name": "(by itself)",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Kor Wizard",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/115_(by itself).jpg"
+			}
+		},
+		{
+			"name": "Mineshaft Foreman",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Cat Scout Wizard",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/26_Mineshaft Foreman.jpg"
+			}
+		},
+		{
+			"name": "(Flickerer)",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Spellshaper",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/44_(Flickerer).jpg"
+			}
+		},
+		{
+			"name": "Gaze of Derukoskai",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/99_Gaze of Derukoskai.jpg"
+			}
+		},
+		{
+			"name": "(fighter)",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/154_(fighter).jpg"
+			}
+		},
+		{
+			"name": "(Mabuse Almost)",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Azra Advisor",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/7_(Mabuse Almost).jpg"
+			}
+		},
+		{
+			"name": "Synesthetic Curator",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Horror Wizard",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/74_Synesthetic Curator.jpg"
+			}
+		},
+		{
+			"name": "Encroaching Sands",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/96_Encroaching Sands.jpg"
+			}
+		},
+		{
+			"name": "Irrepressible Instinct",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/142_Irrepressible Instinct.jpg"
+			}
+		},
+		{
+			"name": "Fostering Sphinx",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Sphinx Druid",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/174_Fostering Sphinx.jpg"
+			}
+		},
+		{
+			"name": "Watcher of Nowhere",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Cat Soldier",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/39_Watcher of Nowhere.jpg"
+			}
+		},
+		{
+			"name": "(Studier forever)",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Illusion Elemental",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/50_(Studier forever).jpg"
+			}
+		},
+		{
+			"name": "(Shpinx)",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/48_(Shpinx).jpg"
+			}
+		},
+		{
+			"name": "Sensory Scramble",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/109_Sensory Scramble.jpg"
+			}
+		},
+		{
+			"name": "(smash)",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Fox",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/128_(smash).jpg"
+			}
+		},
+		{
+			"name": "Sower of Kernels",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Treefolk Elemental",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/183_Sower of Kernels.jpg"
+			}
+		},
+		{
+			"name": "(Makes guys)",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/8_(Makes guys).jpg"
+			}
+		},
+		{
+			"name": "Epiphany",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/58_Epiphany.jpg"
+			}
+		},
+		{
+			"name": "(Very mill, Very Mindful)",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Sphinx Human Wizard",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/87_(Very mill, Very Mindful).jpg"
+			}
+		},
+		{
+			"name": "Arbiter of Passion",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Sphinx",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/131_Arbiter of Passion.jpg"
+			}
+		},
+		{
+			"name": "Perspective Seeker",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Sphinx",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/180_Perspective Seeker.jpg"
+			}
+		},
+		{
+			"name": "(Restorer Antiquarian)",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Sphinx",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/11_(Restorer Antiquarian).jpg"
+			}
+		},
+		{
+			"name": "(Studier)",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/51_(Studier).jpg"
+			}
+		},
+		{
+			"name": "(Reveal)",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/84_(Reveal).jpg"
+			}
+		},
+		{
+			"name": "(Gain Knowledge)",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/120_(Gain Knowledge).jpg"
+			}
+		},
+		{
+			"name": "Arbiter of Instinct",
+			"rarity": "mythic",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Sphinx",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/168_Arbiter of Instinct.jpg"
+			}
+		},
+		{
+			"name": "(Jellyfish)",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Jellyfish",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/6_(Jellyfish).jpg"
+			}
+		},
+		{
+			"name": "(Under the Sun of Nowhere)",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/130_(Under the Sun of Nowhere).jpg"
+			}
+		},
+		{
+			"name": "(The Countererer)",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Bird",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/163_(The Countererer).jpg"
+			}
+		},
+		{
+			"name": "(Blast)",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/3_(Blast).jpg"
+			}
+		},
+		{
+			"name": "(ImposingSphinx)",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Sphinx",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/45_(ImposingSphinx).jpg"
+			}
+		},
+		{
+			"name": "(Sneaky Demon)",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Demon",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/86_(Sneaky Demon).jpg"
+			}
+		},
+		{
+			"name": "(Cool Rabbit)",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/153_(Cool Rabbit).jpg"
+			}
+		},
+		{
+			"name": "Arbiter of Law",
+			"rarity": "mythic",
+			"mana_cost": "{W}",
+			"type": "Creature — Sphinx",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/17_Arbiter of Law.jpg"
+			}
+		},
+		{
+			"name": "Arbiter of Perfection",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Sphinx",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/54_Arbiter of Perfection.jpg"
+			}
+		},
+		{
+			"name": "Arbiter of Agency",
+			"rarity": "mythic",
+			"mana_cost": "{B}",
+			"type": "Creature — Sphinx",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/89_Arbiter of Agency.jpg"
+			}
+		},
+		{
+			"name": "(Orange Cat)",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Sphinx",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/125_(Orange Cat).jpg"
+			}
+		},
+		{
+			"name": "(Auramancer guy)",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/152_(Auramancer guy).jpg"
+			}
+		},
+		{
+			"name": "(Choose Death Sphinx)",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Sphinx",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/4_(Choose Death Sphinx).jpg"
+			}
+		},
+		{
+			"name": "Reforge the Mind",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/67_Reforge the Mind.jpg"
+			}
+		},
+		{
+			"name": "(Not-Quite-Phyrexian Arena)",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/83_(Not-Quite-Phyrexian Arena).jpg"
+			}
+		},
+		{
+			"name": "(Just a little guy)",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Demon",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/121_(Just a little guy).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "archetype — flicker",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/188_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Creature — generic Eye Horror",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/191_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "generic",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/195_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(Very Big Guy)",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Kithkin Wizard",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/198_(Very Big Guy).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "generic",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/201_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "Sphinx of Black Quartz",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}{B}{B}",
+			"type": "Creature — Sphinx",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/205_Sphinx of Black Quartz.jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}",
+			"type": "generic",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/206_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(Auramancer guy)",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "generic",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/209_(Auramancer guy).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}",
+			"type": "archetype — Cat",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/213_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(Talks to Birds)",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Sphinx Human",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/218_(Talks to Birds).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "generic",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/189_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Creature archetype — Sphinx Zombie",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/192_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Creature archetype — Elemental",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/194_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}",
+			"type": "archetype — ramp",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/197_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "archetype — go wide",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/200_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "archetype — tokens",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/203_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Creature archetype — Human Wizard",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/207_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "archetype — auras",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/211_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "Forlorn Hope",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/216_Forlorn Hope.jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "generic",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/217_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(Flash Lover)",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Creature — Sphinx Human Wizard",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/43_(Flash Lover).jpg"
+			}
+		},
+		{
+			"name": "(Mean Guy)",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Demon",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/81_(Mean Guy).jpg"
+			}
+		},
+		{
+			"name": "Storm Conductor",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Sphinx",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/147_Storm Conductor.jpg"
+			}
+		},
+		{
+			"name": "(Ready to Risk it All.)",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Spellshaper",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/162_(Ready to Risk it All.).jpg"
+			}
+		},
+		{
+			"name": "Excision Agent",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Scout Assassin",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/244_Excision Agent.jpg"
+			}
+		},
+		{
+			"name": "(Dobule hands)",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Artifact",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/241_(Dobule hands).jpg"
+			}
+		},
+		{
+			"name": "(Shrine of Wondering)",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/253_(Shrine of Wondering).jpg"
+			}
+		},
+		{
+			"name": "Locus of Flux",
+			"rarity": "rare",
+			"mana_cost": "{6}",
+			"type": "Legendary Artifact",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/246_Locus of Flux.jpg"
+			}
+		},
+		{
+			"name": "(Oasis of Treasure)",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/251_(Oasis of Treasure).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/10_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(Scholar of Disappear)",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/12_(Scholar of Disappear).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Legendary Planeswalker",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/1_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "Sovereign of Nowhere",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Sphinx Advisor",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/72_Sovereign of Nowhere.jpg"
+			}
+		},
+		{
+			"name": "Afflicted Prodigy",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Sphinx Zombie",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/88_Afflicted Prodigy.jpg"
+			}
+		},
+		{
+			"name": "(Auramancer)",
+			"rarity": "mythic",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/210_(Auramancer).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/123_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(Lucky 7)",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/122_(Lucky 7).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/159_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(Wurm)",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Wurm",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/165_(Wurm).jpg"
+			}
+		},
+		{
+			"name": "Ameret, Some Cool Shit",
+			"rarity": "mythic",
+			"mana_cost": "{5}{R}{W}",
+			"type": "Legendary Planeswalker — Ameret",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/215_Ameret, Some Cool Shit.jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Creature — Angel",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/9_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(Miracle Mythic)",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/46_(Miracle Mythic).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/47_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/82_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "Deep and Dread Truth",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/92_Deep and Dread Truth.jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/124_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "Ideal, Apex of Insight",
+			"rarity": "mythic",
+			"mana_cost": "{W}{U}{B}{R}{G}",
+			"type": "Legendary Creature — Sphinx Avatar",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/220_Ideal, Apex of Insight.jpg"
+			}
+		},
+		{
+			"name": "(NEEDSDESIGNED)",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/158_(NEEDSDESIGNED).jpg"
+			}
+		},
+		{
+			"name": "Force of Savagery",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/10t_Force of Savagery.jpg"
+			}
+		},
+		{
+			"name": "Thesis",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Thesis",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/24t_Thesis.jpg"
+			}
+		},
+		{
+			"name": "Primordial Might",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment — Aura",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/15t_Primordial Might.jpg"
+			}
+		},
+		{
+			"name": "Ancient Majesty",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment — Aura",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/14t_Ancient Majesty.jpg"
+			}
+		},
+		{
+			"name": "Wild Growth",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment — Aura",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/13t_Wild Growth.jpg"
+			}
+		},
+		{
+			"name": "(lander)",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment — Aura",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/9t_(lander).jpg"
+			}
+		},
+		{
+			"name": "(Deal with Demon)",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment — Aura",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/5t_(Deal with Demon).jpg"
+			}
+		},
+		{
+			"name": "Keen Sense",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment — Aura",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/12t_Keen Sense.jpg"
+			}
+		},
+		{
+			"name": "Construct",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Construct",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/19t_Construct.jpg"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/25t_Treasure.jpg"
+			}
+		},
+		{
+			"name": "Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/8t_Elemental.jpg"
+			}
+		},
+		{
+			"name": "Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/3t_Elemental.jpg"
+			}
+		},
+		{
+			"name": "Eye Horror",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Eye Horror",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/6t_Eye Horror.jpg"
+			}
+		},
+		{
+			"name": "Eye Horror",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Eye Horror",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/7t_Eye Horror.jpg"
+			}
+		},
+		{
+			"name": "Scout",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Scout",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/23t_Scout.jpg"
+			}
+		},
+		{
+			"name": "Advisor",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Advisor",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/1t_Advisor.jpg"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/266_Plains.jpg"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/267_Island.jpg"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/268_Swamp.jpg"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/269_Mountain.jpg"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/270_Forest.jpg"
+			}
+		},
+		{
+			"name": "Shapeshifter",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Shapeshifter",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/4t_Shapeshifter.jpg"
+			}
+		},
+		{
+			"name": "Collapsing Charges",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/18t_Collapsing Charges.jpg"
+			}
+		},
+		{
+			"name": "Bonesplitter",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/17t_Bonesplitter.jpg"
+			}
+		},
+		{
+			"name": "Prismatic Lens",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/22t_Prismatic Lens.jpg"
+			}
+		},
+		{
+			"name": "Manalith",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/21t_Manalith.jpg"
+			}
+		},
+		{
+			"name": "Lotus Bud",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/20t_Lotus Bud.jpg"
+			}
+		},
+		{
+			"name": "Knight",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Knight",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/2t_Knight.jpg"
+			}
+		},
+		{
+			"name": "Black Lotus",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/16t_Black Lotus.jpg"
+			}
+		},
+		{
+			"name": "Jellyfish",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Jellyfish",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/11t_Jellyfish.jpg"
+			}
+		},
+		{
+			"name": "Pet of Vagabond",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Riddle Planeswalker — Derukoskai",
+			"collector_number": "292",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/292_Pet of Vagabond.jpg"
+			}
+		},
+		{
+			"name": "The Suncore",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/249_The Suncore.jpg"
+			}
+		},
+		{
+			"name": "Actions Reflect Thought",
+			"rarity": "special",
+			"mana_cost": "{3}{W}{U}",
+			"type": "Riddle Creature — Elemental",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/277_Actions Reflect Thought.jpg"
+			}
+		},
+		{
+			"name": "Wistful Sphinx",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Sphinx",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/277_Wistful Sphinx.jpg"
+			}
+		}
+	]
+
+[rare(1)]
+	2 (Blue Battle)
+	2 (Battle of tokens)
+	2 (Draw operation)
+	2 (Jellyfish...)
+	2 (Exalted)
+	2 (Makes guys)
+	2 Epiphany
+	2 (Very mill, Very Mindful)
+	1 Arbiter of Passion
+	2 Perspective Seeker
+	2 (Restorer Antiquarian)
+	2 (Studier)
+	2 (Reveal)
+	2 (Gain Knowledge)
+	1 Arbiter of Instinct
+	2 (Jellyfish)
+	2 (Under the Sun of Nowhere)
+	2 (The Countererer)
+	2 (Blast)
+	2 (ImposingSphinx)
+	2 (Sneaky Demon)
+	2 (Cool Rabbit)
+	1 Arbiter of Law
+	1 Arbiter of Perfection
+	1 Arbiter of Agency
+	2 (Orange Cat)
+	2 (Auramancer guy)
+	2 (Choose Death Sphinx)
+	2 Reforge the Mind
+	2 (Not-Quite-Phyrexian Arena)
+	2 (Just a little guy)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (Very Big Guy)
+	2 (NEEDSDESIGNED)
+	2 Sphinx of Black Quartz
+	2 (NEEDSDESIGNED)
+	2 (Auramancer guy)
+	2 (NEEDSDESIGNED)
+	2 (Talks to Birds)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 Forlorn Hope
+	2 (NEEDSDESIGNED)
+	2 (Flash Lover)
+	2 (Mean Guy)
+	2 Storm Conductor
+	2 (Ready to Risk it All.)
+	2 Excision Agent
+	2 (Dobule hands)
+	2 (Shrine of Wondering)
+	2 Locus of Flux
+	2 (Oasis of Treasure)
+	1 (NEEDSDESIGNED)
+	2 (Scholar of Disappear)
+	1 (NEEDSDESIGNED)
+	2 Sovereign of Nowhere
+	2 Afflicted Prodigy
+	1 (Auramancer)
+	1 (NEEDSDESIGNED)
+	2 (Lucky 7)
+	1 (NEEDSDESIGNED)
+	2 (Wurm)
+	1 Ameret, Some Cool Shit
+	1 (NEEDSDESIGNED)
+	1 (Miracle Mythic)
+	1 (NEEDSDESIGNED)
+	1 (NEEDSDESIGNED)
+	1 Deep and Dread Truth
+	1 (NEEDSDESIGNED)
+	1 Ideal, Apex of Insight
+	1 (NEEDSDESIGNED)
+	1 The Suncore
+[uncommon(3)]
+	4 Where to Go from Here
+	4 Learning to Learn
+	4 Shifting Goalposts
+	4 Beating a Dead Horse
+	4 Pursuit of Perfection
+	4 Motives of the Fae
+	4 Arcane Anomaly
+	4 Responses to Trauma
+	4 Try and Try Again
+	4 Gatekeeping
+	4 The Hero's Journey
+	4 (Prepare Land)
+	4 Elevated District
+	4 Sheltering Catacombs
+	4 Monstrous Habitat
+	4 Rugged Haven
+	4 Cultivated Meadow
+	4 Depleted Expanse
+	4 Wayward Vantage
+	4 Remoreseless Dunes
+	4 Boundless Jungle
+	4 Layered Framework
+	4 Book Wurm
+	4 Azoran Redactor
+	4 (The thesis)
+	4 (Combat trick)
+	4 Neglected Creeper
+	4 (Push for Tokenfall)
+	4 Capricious Orator
+	4 Bitterness
+	4 (Push for Artifacts)
+	4 (Push for Flashgrro
+	4 Throughline Navigator
+	4 Gilded Necrotect
+	4 Wretch of the Deep Earth
+	4 Worldshaper Apprentice
+	4 Bridled Essence
+	4 Enforcer of Unity
+	4 Leyline Roamer
+	4 Whisperer of the Forbidden
+	4 (Payoff for Artifacts)
+	4 Uplifted Legate
+	4 Imposing Precedent
+	4 Wise Edifice
+	4 Shape the Biosphere
+	4 Parvin Battle-Scholar
+	4 (double clone)
+	4 (Duder)
+	4 (Dwarf of Dwarfiness)
+	4 (aura)
+	4 Voidgullet
+	4 Retroactive Continuity
+	4 (Demon lover)
+	4 (deal damage to all)
+	4 (Looks at Dead Bodies)
+	4 Tempest Queller
+	4 (Riddle Solver)
+	4 (Concher)
+	4 Earth's Reclaimer
+	4 Quarantine Warden
+	4 Fleshcrafting
+	4 (Sword)
+	4 (Prepared...)
+	4 Null Hypothesis
+	4 (Snappiestcaster Mage)
+	4 (Get that thesis)
+	4 (Artifact Engine)
+	4 Essence Parasite
+	4 (Tappytapyp)
+	4 Scitoran Initiation
+	4 Mumuring Vestige
+	4 Disgraced Scitoran
+	4 Geoskitter Drone
+	4 (The Intangible Vritue)
+	4 Transcendent Parvin
+	4 Disgraced Maftet
+	4 Parvin Familiar
+	4 Aloof Occlusion
+	4 (Smash)
+	4 (Big Man Sphinxtoise)
+	4 Bloodshot Beholder
+	4 (The Doubler) cara
+	4 Sightmite
+	4 Gaze of Derukoskai
+	4 (by itself)
+	4 Mineshaft Foreman
+	4 (Flickerer)
+	4 Gaze of Derukoskai
+	4 (fighter)
+	4 (Mabuse Almost)
+	4 Synesthetic Curator
+	4 Encroaching Sands
+	4 Irrepressible Instinct
+	4 Fostering Sphinx
+	4 Watcher of Nowhere
+	4 (Studier forever)
+	4 (Shpinx)
+	4 Sensory Scramble
+	4 (smash)
+	4 Sower of Kernels
+[common(6)]
+	8 Expedition Champion
+	8 Ash Wastes Observer
+	8 Dissent Sleeper
+	8 Wrathful Rebuttal
+	8 Utopist Guide
+	8 Trinket Specialist
+	8 Withdraw into Thought
+	8 Dark Artisan
+	8 Rapid Burnout
+	8 Devious Tremorlisk
+	8 Azoren Liason
+	8 Obsess Over Secrets
+	8 Preserved Hellkite
+	8 (Smash and repurpose)
+	8 Aggressive Terraforming
+	8 Census Keeper
+	8 Consult
+	8 Whispering Ancient
+	8 Cascading Thoughts
+	8 (Kicker Kicked Miracle)
+	8 Cherished Dancer
+	8 Absorbing Information
+	8 Stoneshroud Wurm
+	8 Tyrant of Nowhere
+	8 Caravan Sage
+	8 Hand of the Azoren
+	8 Superego Agent
+	8 Distorted Witness
+	8 Bolt from the Blue
+	8 Sensate Ceremony
+	8 Tactician Exemplar
+	8 Isolated Scholar
+	8 Umwelder Artisan
+	8 Artisan of Whims
+	8 Instinctual Strike
+	8 Pledged Apothecary
+	8 Adrift Moonfish
+	8 Obliged Beyond Death
+	8 Impulsive Twitcher
+	8 Resolute Spellbreaker
+	8 Emblem of Everywhere
+	8 Orderly Provost
+	8 Skeletal Repurposing
+	8 Fervent Outcast
+	8 Deep Jungle Tracker
+	8 Query Guardian
+	8 Flow Sculptor
+	8 Invoke the Forbidden
+	8 Scitoran Overseer
+	8 Wonders of the World
+	8 All for Naught
+	8 Indulgent Beholder
+	8 Pain Rewiring
+	8 (Prowesser)
+	8 March to Paradise
+	8 Spirit's Duty
+	8 Deft Deflection
+	8 Quiverquill Scribe
+	8 Erratic Understudy
+	8 Worldview Shifter
+	8 Rehabilitation Vault
+	8 Forced Perspective
+	8 Petty Necromancy
+	8 Manifested Bugbear
+	8 Tender of the Spiral
+	8 Desert's Claim
+	8 Reflect Inwards
+	8 Leave to the Sands
+	8 Desert Packmaster
+	8 (Raging Badgerdude)
+	8 Playful Apprentice
+	8 Favored Scholar
+	8 Devoted Excruciator
+	8 Senior Archivist
+	8 (Lonely Guy)
+	8 Indentured Artisan
+	8 Promising Understudy
+	8 Defiant Antiquarian
+	8 (Gets Bonesplitter)
+	8 Spire Thaumaturge
+	8 Brain Teaser
+	8 Painter of Distant Worlds
+	8 Potentiate Key
+	8 Unnatural Habitat
+	8 Ash Barrens
+[common | masterpiece(1)]
+	8 Expedition Champion
+	8 Ash Wastes Observer
+	8 Dissent Sleeper
+	8 Wrathful Rebuttal
+	8 Utopist Guide
+	8 Trinket Specialist
+	8 Withdraw into Thought
+	8 Dark Artisan
+	8 Rapid Burnout
+	8 Devious Tremorlisk
+	8 Azoren Liason
+	8 Obsess Over Secrets
+	8 Preserved Hellkite
+	8 (Smash and repurpose)
+	8 Aggressive Terraforming
+	8 Census Keeper
+	8 Consult
+	8 Whispering Ancient
+	8 Cascading Thoughts
+	8 (Kicker Kicked Miracle)
+	8 Cherished Dancer
+	8 Absorbing Information
+	8 Stoneshroud Wurm
+	8 Tyrant of Nowhere
+	8 Caravan Sage
+	8 Hand of the Azoren
+	8 Superego Agent
+	8 Distorted Witness
+	8 Bolt from the Blue
+	8 Sensate Ceremony
+	8 Tactician Exemplar
+	8 Isolated Scholar
+	8 Umwelder Artisan
+	8 Artisan of Whims
+	8 Instinctual Strike
+	8 Pledged Apothecary
+	8 Adrift Moonfish
+	8 Obliged Beyond Death
+	8 Impulsive Twitcher
+	8 Resolute Spellbreaker
+	8 Emblem of Everywhere
+	8 Orderly Provost
+	8 Skeletal Repurposing
+	8 Fervent Outcast
+	8 Deep Jungle Tracker
+	8 Query Guardian
+	8 Flow Sculptor
+	8 Invoke the Forbidden
+	8 Scitoran Overseer
+	8 Wonders of the World
+	8 All for Naught
+	8 Indulgent Beholder
+	8 Pain Rewiring
+	8 (Prowesser)
+	8 March to Paradise
+	8 Spirit's Duty
+	8 Deft Deflection
+	8 Quiverquill Scribe
+	8 Erratic Understudy
+	8 Worldview Shifter
+	8 Rehabilitation Vault
+	8 Forced Perspective
+	8 Petty Necromancy
+	8 Manifested Bugbear
+	8 Tender of the Spiral
+	8 Desert's Claim
+	8 Reflect Inwards
+	8 Leave to the Sands
+	8 Desert Packmaster
+	8 (Raging Badgerdude)
+	8 Playful Apprentice
+	8 Favored Scholar
+	8 Devoted Excruciator
+	8 Senior Archivist
+	8 (Lonely Guy)
+	8 Indentured Artisan
+	8 Promising Understudy
+	8 Defiant Antiquarian
+	8 (Gets Bonesplitter)
+	8 Spire Thaumaturge
+	8 Brain Teaser
+	8 Painter of Distant Worlds
+	8 Potentiate Key
+	8 Unnatural Habitat
+	8 Ash Barrens
+[foil(1)]
+	6 Where to Go from Here
+	6 Learning to Learn
+	6 Shifting Goalposts
+	6 Beating a Dead Horse
+	6 Pursuit of Perfection
+	6 Motives of the Fae
+	6 Arcane Anomaly
+	6 Responses to Trauma
+	6 Try and Try Again
+	6 Gatekeeping
+	6 The Hero's Journey
+	2 (Blue Battle)
+	2 (Battle of tokens)
+	2 (Draw operation)
+	2 (Jellyfish...)
+	2 (Exalted)
+	12 Expedition Champion
+	12 Ash Wastes Observer
+	12 Dissent Sleeper
+	12 Wrathful Rebuttal
+	12 Utopist Guide
+	12 Trinket Specialist
+	12 Withdraw into Thought
+	12 Dark Artisan
+	12 Rapid Burnout
+	12 Devious Tremorlisk
+	12 Azoren Liason
+	12 Obsess Over Secrets
+	12 Preserved Hellkite
+	12 (Smash and repurpose)
+	12 Aggressive Terraforming
+	12 Census Keeper
+	12 Consult
+	12 Whispering Ancient
+	12 Cascading Thoughts
+	12 (Kicker Kicked Miracle)
+	12 Cherished Dancer
+	12 Absorbing Information
+	12 Stoneshroud Wurm
+	12 Tyrant of Nowhere
+	12 Caravan Sage
+	12 Hand of the Azoren
+	12 Superego Agent
+	12 Distorted Witness
+	12 Bolt from the Blue
+	12 Sensate Ceremony
+	12 Tactician Exemplar
+	12 Isolated Scholar
+	12 Umwelder Artisan
+	12 Artisan of Whims
+	12 Instinctual Strike
+	12 Pledged Apothecary
+	12 Adrift Moonfish
+	12 Obliged Beyond Death
+	12 Impulsive Twitcher
+	12 Resolute Spellbreaker
+	12 Emblem of Everywhere
+	12 Orderly Provost
+	12 Skeletal Repurposing
+	12 Fervent Outcast
+	12 Deep Jungle Tracker
+	12 Query Guardian
+	12 Flow Sculptor
+	12 Invoke the Forbidden
+	12 Scitoran Overseer
+	12 Wonders of the World
+	12 All for Naught
+	12 Indulgent Beholder
+	12 Pain Rewiring
+	12 (Prowesser)
+	12 March to Paradise
+	12 Spirit's Duty
+	12 Deft Deflection
+	12 Quiverquill Scribe
+	12 Erratic Understudy
+	12 Worldview Shifter
+	12 Rehabilitation Vault
+	12 Forced Perspective
+	12 Petty Necromancy
+	12 Manifested Bugbear
+	12 Tender of the Spiral
+	12 Desert's Claim
+	12 Reflect Inwards
+	12 Leave to the Sands
+	12 Desert Packmaster
+	12 (Raging Badgerdude)
+	12 Playful Apprentice
+	12 Favored Scholar
+	12 Devoted Excruciator
+	12 Senior Archivist
+	12 (Lonely Guy)
+	12 Indentured Artisan
+	12 Promising Understudy
+	12 Defiant Antiquarian
+	12 (Gets Bonesplitter)
+	12 Spire Thaumaturge
+	6 (Prepare Land)
+	6 Elevated District
+	6 Sheltering Catacombs
+	6 Monstrous Habitat
+	6 Rugged Haven
+	6 Cultivated Meadow
+	6 Depleted Expanse
+	6 Wayward Vantage
+	6 Remoreseless Dunes
+	6 Boundless Jungle
+	6 Layered Framework
+	6 Book Wurm
+	12 Brain Teaser
+	12 Painter of Distant Worlds
+	12 Potentiate Key
+	12 Unnatural Habitat
+	12 Ash Barrens
+	6 Azoran Redactor
+	6 (The thesis)
+	6 (Combat trick)
+	6 Neglected Creeper
+	6 (Push for Tokenfall)
+	6 Capricious Orator
+	6 Bitterness
+	6 (Push for Artifacts)
+	6 (Push for Flashgrro
+	6 Throughline Navigator
+	6 Gilded Necrotect
+	6 Wretch of the Deep Earth
+	6 Worldshaper Apprentice
+	6 Bridled Essence
+	6 Enforcer of Unity
+	6 Leyline Roamer
+	6 Whisperer of the Forbidden
+	6 (Payoff for Artifacts)
+	6 Uplifted Legate
+	6 Imposing Precedent
+	6 Wise Edifice
+	6 Shape the Biosphere
+	6 Parvin Battle-Scholar
+	6 (double clone)
+	6 (Duder)
+	6 (Dwarf of Dwarfiness)
+	6 (aura)
+	6 Voidgullet
+	6 Retroactive Continuity
+	6 (Demon lover)
+	6 (deal damage to all)
+	6 (Looks at Dead Bodies)
+	6 Tempest Queller
+	6 (Riddle Solver)
+	6 (Concher)
+	6 Earth's Reclaimer
+	6 Quarantine Warden
+	6 Fleshcrafting
+	6 (Sword)
+	6 (Prepared...)
+	6 Null Hypothesis
+	6 (Snappiestcaster Mage)
+	6 (Get that thesis)
+	6 (Artifact Engine)
+	6 Essence Parasite
+	6 (Tappytapyp)
+	6 Scitoran Initiation
+	6 Mumuring Vestige
+	6 Disgraced Scitoran
+	6 Geoskitter Drone
+	6 (The Intangible Vritue)
+	6 Transcendent Parvin
+	6 Disgraced Maftet
+	6 Parvin Familiar
+	6 Aloof Occlusion
+	6 (Smash)
+	6 (Big Man Sphinxtoise)
+	6 Bloodshot Beholder
+	6 (The Doubler) cara
+	6 Sightmite
+	6 Gaze of Derukoskai
+	6 (by itself)
+	6 Mineshaft Foreman
+	6 (Flickerer)
+	6 Gaze of Derukoskai
+	6 (fighter)
+	6 (Mabuse Almost)
+	6 Synesthetic Curator
+	6 Encroaching Sands
+	6 Irrepressible Instinct
+	6 Fostering Sphinx
+	6 Watcher of Nowhere
+	6 (Studier forever)
+	6 (Shpinx)
+	6 Sensory Scramble
+	6 (smash)
+	6 Sower of Kernels
+	2 (Makes guys)
+	2 Epiphany
+	2 (Very mill, Very Mindful)
+	1 Arbiter of Passion
+	2 Perspective Seeker
+	2 (Restorer Antiquarian)
+	2 (Studier)
+	2 (Reveal)
+	2 (Gain Knowledge)
+	1 Arbiter of Instinct
+	2 (Jellyfish)
+	2 (Under the Sun of Nowhere)
+	2 (The Countererer)
+	2 (Blast)
+	2 (ImposingSphinx)
+	2 (Sneaky Demon)
+	2 (Cool Rabbit)
+	1 Arbiter of Law
+	1 Arbiter of Perfection
+	1 Arbiter of Agency
+	2 (Orange Cat)
+	2 (Auramancer guy)
+	2 (Choose Death Sphinx)
+	2 Reforge the Mind
+	2 (Not-Quite-Phyrexian Arena)
+	2 (Just a little guy)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (Very Big Guy)
+	2 (NEEDSDESIGNED)
+	2 Sphinx of Black Quartz
+	2 (NEEDSDESIGNED)
+	2 (Auramancer guy)
+	2 (NEEDSDESIGNED)
+	2 (Talks to Birds)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 (NEEDSDESIGNED)
+	2 Forlorn Hope
+	2 (NEEDSDESIGNED)
+	2 (Flash Lover)
+	2 (Mean Guy)
+	2 Storm Conductor
+	2 (Ready to Risk it All.)
+	2 Excision Agent
+	2 (Dobule hands)
+	2 (Shrine of Wondering)
+	2 Locus of Flux
+	2 (Oasis of Treasure)
+	1 (NEEDSDESIGNED)
+	2 (Scholar of Disappear)
+	1 (NEEDSDESIGNED)
+	2 Sovereign of Nowhere
+	2 Afflicted Prodigy
+	1 (Auramancer)
+	1 (NEEDSDESIGNED)
+	2 (Lucky 7)
+	1 (NEEDSDESIGNED)
+	2 (Wurm)
+	1 Ameret, Some Cool Shit
+	1 (NEEDSDESIGNED)
+	1 (Miracle Mythic)
+	1 (NEEDSDESIGNED)
+	1 (NEEDSDESIGNED)
+	1 Deep and Dread Truth
+	1 (NEEDSDESIGNED)
+	1 Ideal, Apex of Insight
+	1 (NEEDSDESIGNED)
+	1 The Suncore
+[wildcard(1)]
+	15 Where to Go from Here
+	15 Learning to Learn
+	15 Shifting Goalposts
+	15 Beating a Dead Horse
+	15 Pursuit of Perfection
+	15 Motives of the Fae
+	15 Arcane Anomaly
+	15 Responses to Trauma
+	15 Try and Try Again
+	15 Gatekeeping
+	15 The Hero's Journey
+	7 (Blue Battle)
+	7 (Battle of tokens)
+	7 (Draw operation)
+	7 (Jellyfish...)
+	7 (Exalted)
+	6 Expedition Champion
+	6 Ash Wastes Observer
+	6 Dissent Sleeper
+	6 Wrathful Rebuttal
+	6 Utopist Guide
+	6 Trinket Specialist
+	6 Withdraw into Thought
+	6 Dark Artisan
+	6 Rapid Burnout
+	6 Devious Tremorlisk
+	6 Azoren Liason
+	6 Obsess Over Secrets
+	6 Preserved Hellkite
+	6 (Smash and repurpose)
+	6 Aggressive Terraforming
+	6 Census Keeper
+	6 Consult
+	6 Whispering Ancient
+	6 Cascading Thoughts
+	6 (Kicker Kicked Miracle)
+	6 Cherished Dancer
+	6 Absorbing Information
+	6 Stoneshroud Wurm
+	6 Tyrant of Nowhere
+	6 Caravan Sage
+	6 Hand of the Azoren
+	6 Superego Agent
+	6 Distorted Witness
+	6 Bolt from the Blue
+	6 Sensate Ceremony
+	6 Tactician Exemplar
+	6 Isolated Scholar
+	6 Umwelder Artisan
+	6 Artisan of Whims
+	6 Instinctual Strike
+	6 Pledged Apothecary
+	6 Adrift Moonfish
+	6 Obliged Beyond Death
+	6 Impulsive Twitcher
+	6 Resolute Spellbreaker
+	6 Emblem of Everywhere
+	6 Orderly Provost
+	6 Skeletal Repurposing
+	6 Fervent Outcast
+	6 Deep Jungle Tracker
+	6 Query Guardian
+	6 Flow Sculptor
+	6 Invoke the Forbidden
+	6 Scitoran Overseer
+	6 Wonders of the World
+	6 All for Naught
+	6 Indulgent Beholder
+	6 Pain Rewiring
+	6 (Prowesser)
+	6 March to Paradise
+	6 Spirit's Duty
+	6 Deft Deflection
+	6 Quiverquill Scribe
+	6 Erratic Understudy
+	6 Worldview Shifter
+	6 Rehabilitation Vault
+	6 Forced Perspective
+	6 Petty Necromancy
+	6 Manifested Bugbear
+	6 Tender of the Spiral
+	6 Desert's Claim
+	6 Reflect Inwards
+	6 Leave to the Sands
+	6 Desert Packmaster
+	6 (Raging Badgerdude)
+	6 Playful Apprentice
+	6 Favored Scholar
+	6 Devoted Excruciator
+	6 Senior Archivist
+	6 (Lonely Guy)
+	6 Indentured Artisan
+	6 Promising Understudy
+	6 Defiant Antiquarian
+	6 (Gets Bonesplitter)
+	6 Spire Thaumaturge
+	15 (Prepare Land)
+	15 Elevated District
+	15 Sheltering Catacombs
+	15 Monstrous Habitat
+	15 Rugged Haven
+	15 Cultivated Meadow
+	15 Depleted Expanse
+	15 Wayward Vantage
+	15 Remoreseless Dunes
+	15 Boundless Jungle
+	15 Layered Framework
+	15 Book Wurm
+	6 Brain Teaser
+	6 Painter of Distant Worlds
+	6 Potentiate Key
+	6 Unnatural Habitat
+	6 Ash Barrens
+	15 Azoran Redactor
+	15 (The thesis)
+	15 (Combat trick)
+	15 Neglected Creeper
+	15 (Push for Tokenfall)
+	15 Capricious Orator
+	15 Bitterness
+	15 (Push for Artifacts)
+	15 (Push for Flashgrro
+	15 Throughline Navigator
+	15 Gilded Necrotect
+	15 Wretch of the Deep Earth
+	15 Worldshaper Apprentice
+	15 Bridled Essence
+	15 Enforcer of Unity
+	15 Leyline Roamer
+	15 Whisperer of the Forbidden
+	15 (Payoff for Artifacts)
+	15 Uplifted Legate
+	15 Imposing Precedent
+	15 Wise Edifice
+	15 Shape the Biosphere
+	15 Parvin Battle-Scholar
+	15 (double clone)
+	15 (Duder)
+	15 (Dwarf of Dwarfiness)
+	15 (aura)
+	15 Voidgullet
+	15 Retroactive Continuity
+	15 (Demon lover)
+	15 (deal damage to all)
+	15 (Looks at Dead Bodies)
+	15 Tempest Queller
+	15 (Riddle Solver)
+	15 (Concher)
+	15 Earth's Reclaimer
+	15 Quarantine Warden
+	15 Fleshcrafting
+	15 (Sword)
+	15 (Prepared...)
+	15 Null Hypothesis
+	15 (Snappiestcaster Mage)
+	15 (Get that thesis)
+	15 (Artifact Engine)
+	15 Essence Parasite
+	15 (Tappytapyp)
+	15 Scitoran Initiation
+	15 Mumuring Vestige
+	15 Disgraced Scitoran
+	15 Geoskitter Drone
+	15 (The Intangible Vritue)
+	15 Transcendent Parvin
+	15 Disgraced Maftet
+	15 Parvin Familiar
+	15 Aloof Occlusion
+	15 (Smash)
+	15 (Big Man Sphinxtoise)
+	15 Bloodshot Beholder
+	15 (The Doubler) cara
+	15 Sightmite
+	15 Gaze of Derukoskai
+	15 (by itself)
+	15 Mineshaft Foreman
+	15 (Flickerer)
+	15 Gaze of Derukoskai
+	15 (fighter)
+	15 (Mabuse Almost)
+	15 Synesthetic Curator
+	15 Encroaching Sands
+	15 Irrepressible Instinct
+	15 Fostering Sphinx
+	15 Watcher of Nowhere
+	15 (Studier forever)
+	15 (Shpinx)
+	15 Sensory Scramble
+	15 (smash)
+	15 Sower of Kernels
+	7 (Makes guys)
+	7 Epiphany
+	7 (Very mill, Very Mindful)
+	4 Arbiter of Passion
+	7 Perspective Seeker
+	7 (Restorer Antiquarian)
+	7 (Studier)
+	7 (Reveal)
+	7 (Gain Knowledge)
+	4 Arbiter of Instinct
+	7 (Jellyfish)
+	7 (Under the Sun of Nowhere)
+	7 (The Countererer)
+	7 (Blast)
+	7 (ImposingSphinx)
+	7 (Sneaky Demon)
+	7 (Cool Rabbit)
+	4 Arbiter of Law
+	4 Arbiter of Perfection
+	4 Arbiter of Agency
+	7 (Orange Cat)
+	7 (Auramancer guy)
+	7 (Choose Death Sphinx)
+	7 Reforge the Mind
+	7 (Not-Quite-Phyrexian Arena)
+	7 (Just a little guy)
+	7 (NEEDSDESIGNED)
+	7 (NEEDSDESIGNED)
+	7 (NEEDSDESIGNED)
+	7 (Very Big Guy)
+	7 (NEEDSDESIGNED)
+	7 Sphinx of Black Quartz
+	7 (NEEDSDESIGNED)
+	7 (Auramancer guy)
+	7 (NEEDSDESIGNED)
+	7 (Talks to Birds)
+	7 (NEEDSDESIGNED)
+	7 (NEEDSDESIGNED)
+	7 (NEEDSDESIGNED)
+	7 (NEEDSDESIGNED)
+	7 (NEEDSDESIGNED)
+	7 (NEEDSDESIGNED)
+	7 (NEEDSDESIGNED)
+	7 (NEEDSDESIGNED)
+	7 Forlorn Hope
+	7 (NEEDSDESIGNED)
+	7 (Flash Lover)
+	7 (Mean Guy)
+	7 Storm Conductor
+	7 (Ready to Risk it All.)
+	7 Excision Agent
+	7 (Dobule hands)
+	7 (Shrine of Wondering)
+	7 Locus of Flux
+	7 (Oasis of Treasure)
+	4 (NEEDSDESIGNED)
+	7 (Scholar of Disappear)
+	4 (NEEDSDESIGNED)
+	7 Sovereign of Nowhere
+	7 Afflicted Prodigy
+	4 (Auramancer)
+	4 (NEEDSDESIGNED)
+	7 (Lucky 7)
+	4 (NEEDSDESIGNED)
+	7 (Wurm)
+	4 Ameret, Some Cool Shit
+	4 (NEEDSDESIGNED)
+	4 (Miracle Mythic)
+	4 (NEEDSDESIGNED)
+	4 (NEEDSDESIGNED)
+	4 Deep and Dread Truth
+	4 (NEEDSDESIGNED)
+	4 Ideal, Apex of Insight
+	4 (NEEDSDESIGNED)
+	4 The Suncore
