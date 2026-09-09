@@ -1,4 +1,272 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Oxidaat's Disciple added.
+Synthesis added.
+Details Blurred by Dreams added.
+Antithesis added.
+Archive of Everywhere added.
+Vivarium Ravager added.
+Cinderspittle added.
+Malevolent Anomaly added.
+Jaded Scavenger added.
+Renegade Orator added.
+Appeal to Probability added.
+Appeal to Wealth added.
+Inquisitive Behemoth added.
+Appeal to Emotion added.
+Spores of Oxidaat added.
+Appeal to Tradition added.
+(Fragmented Mind) added.
+(EyeGuy) added.
+(Vagabond), Title) added.
+(Mechageometrilologist) added.
+(Learn how to spell, please) added.
+(Phoenix Elemental) added.
+(Eyeball) added.
+(Sneaky person) added.
+(Explore the Wastes) added.
+Appeal to Purity added.
+Theater of the Mind added.
+Khasan, (Title) added.
+(Angel of Traitors) added.
+Curse of Stolen Knowledge added.
+Hypothesis added.
+(Auramancer and bf) added.
+(Big thing) added.
+Oxidaat, Deep Decay added.
+Corruption Screecher added.
+(Bashing Artifacts and Enchantments) added.
+Timeless Orator added.
+Ameret, Faith and Fury added.
+Snake added.
+Lyon, Epithet added.
+
+(Blue Battle) removed.
+(Battle of tokens) removed.
+(Draw operation) removed.
+(Jellyfish...) removed.
+(Exalted) removed.
+Dark Artisan removed.
+Apophenia removed.
+Detailed Blurred by Dreams removed.
+Apex, Out of Reach removed.
+(Prepare Land) removed.
+(Looks at Dead Bodies) removed.
+(Concher) removed.
+(Get that thesis) removed.
+(The Doubler) cara removed.
+(Mabuse Almost) removed.
+(The Countererer) removed.
+(Sneaky Demon) removed.
+(Not-Quite-Phyrexian Arena) removed.
+(Just a little guy) removed.
+(NEEDSDESIGNED) removed.
+(NEEDSDESIGNED) removed.
+(NEEDSDESIGNED) removed.
+(NEEDSDESIGNED) removed.
+(NEEDSDESIGNED) removed.
+(NEEDSDESIGNED) removed.
+(Shrine of Wondering) removed.
+(NEEDSDESIGNED) removed.
+(NEEDSDESIGNED) removed.
+(Auramancer) removed.
+(NEEDSDESIGNED) removed.
+(NEEDSDESIGNED) removed.
+Ameret, Some Cool Shit removed.
+(NEEDSDESIGNED) removed.
+(NEEDSDESIGNED) removed.
+(NEEDSDESIGNED) removed.
+(NEEDSDESIGNED) removed.
+Ideal, Apex of Insight removed.
+(NEEDSDESIGNED) removed.
+
+Whispering Ancient
+rules_text: Whenever a token enters under your control, each opponent loses 1 life and you gain 1 life. => Whenever a token your control enters, each opponent loses 1 life and you gain 1 life.
+
+(Kicker Kicked Miracle)
+
+Stoneshroud Wurm
+
+Skeletal Repurposing
+
+Leave to the Sands
+cost: {2}{B} => {1}{B}{B}
+rules_text: Destroy target creature. If this spell was a miracle, you gain 3 life.
+Miracle {1}{B}{B} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => Destroy target creature. If this spell was a miracle, you gain 3 life.
+Miracle {2}{B} [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+
+Desert Packmaster
+
+(Raging Badgerdude)
+type: Creature => Creature — Eye Horror
+
+Life Flashes, Death Lingers
+rules_text: Lifelink
+If you would gain life, you instead gain 1 life that many times.
+{3}{W}: Create a 1/1 ?? creature token. It can't block this turn. => Lifelink
+If you would gain life, you instead gain 1 life that many times.
+{3}{W}: Create a 1/1 black Snake creature token. It can't block this turn.
+
+Masks on Blank Canvas
+rules_text: Prowess
+Boast — {T}: Create a blue 3/3 Elemental creature token. Draw a card. [i](Activate only if this creature attacked this turn and only once each turn.)[/i] => Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]
+Boast — {T}: Create a blue 3/3 Elemental creature token. Draw a card. [i](Activate only if this creature attacked this turn and only once each turn.)[/i]
+
+Violence Not as a Means
+
+Hope Crushed by Reason
+
+Elevated District
+
+Rugged Haven
+
+Cultivated Meadow
+
+Layered Framework
+
+Ash Barrens
+
+(Push for Tokenfall)
+type: Creature — Human Wizard => Creature — Elk Beast
+rules_text: Lifelink
+Whenever this creature or a nontoken creature you control dies, create a 1/1 white Advisor creature token. => Lifelink
+Whenever a nontoken creature you control dies, create a 1/1 colorless Scout artifact creature token.
+
+(Push for Flashgrro
+
+Wretch of the Deep Earth
+
+(aura)
+
+Scitoran Initiation
+rules_text: At the beginning of your upkeep, you may discard a card. If you do, draw a card and put a ?? counter on this enchantment. Then if there are ?? or more ?? counters on it, you may have it become a 4/4 blue Sphinx creature with flying. => At the beginning of your precombat main phase, you may discard a card. If you do, draw a card and put a ??? counter on this enchantment. Then if there are four or more ??? counters on it, it becomes a 4/4 blue Sphinx creature with flying.
+
+(Reveal)
+
+(NEEDSDESIGNED)
+type: archetype — flicker => generic
+cost: {W}{U} => {U}{R}
+
+(NEEDSDESIGNED)
+type: Creature — generic Eye Horror => archetype — go wide
+cost: {U}{B} => {G}{W}
+
+(NEEDSDESIGNED)
+type: generic => Legendary Creature archetype — Human Wizard
+cost: {B}{R} => {U}{R}
+
+(Mean Guy)
+rules_text: Ward—Discard a card.
+If you would draw a card, instead create two Thesis tokens. [i](This includes by Thesis tokens. A Thesis token is an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.)[/i]
+{B}, Sacrifice an artifact or creature: This creature loses all abilities until end of turn. You may shuffle your library. => Ward—Discard a card.
+If you would draw a card and you haven't sacrificed a Thesis token this turn, instead create a Thesis token.. [i](This includes by Thesis tokens. A Thesis token is an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.)[/i]
+
+(NEEDSDESIGNED)
+type: generic => 
+cost: {G}{W} => 
+
+Afflicted Prodigy
+cost: {1}{B}{B} => {3}{B}{B}
+rules_text: Flying, trample
+Whenever this creature is dealt damage, you lose that much life.
+Whenever you cast a noncreature spell, you gain 2 life. => Flying, trample
+When this creature dies, mill five cards. An opponent may have you return each creature card milled this way to the battlefield. If they don't, return this card to the battlefield and you lose 3 life.
+
+(NEEDSDESIGNED)
+type: generic => 
+cost: {U}{R} => 
+
+(Lucky 7)
+rules_text: Menace, haste
+Whenever this creature attacks, look at the top seven cards of your library. You may put any number of creature cards with total power 7 or less from among them onto the battlefield tapped and attacking. Put the rest on the bottom of your library in a random order. => Trample
+Ward—Pay 7 life.
+Whenever this creature deals combat damage to a player, create a token that's a copy of this creature unless that player has this creature deal 7 damage to them.
+
+(NEEDSDESIGNED)
+type: archetype — Cat => Creature — Kithkin Wizard
+cost: {R}{W} => 
+
+(Wurm)
+rules_text: As an additional cost to cast creature spells, you may pay {G} and reveal this card from your hand. If you do, create a tapped Thesis token. It gains “This token doesn't untap during your untap step unless you control a Wurm.” [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+Trample
+Whenever this creature enters or attacks, you may sacrifice an artifact. If you do, creatures you control get +1/+0 and gain haste until end of turn. => As an additional cost to cast creature spells, you may pay {G} and reveal this card from your hand. If you do, create a tapped Thesis token. It gains “This token doesn't untap during your untap step unless you control a Wurm.” [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+Whenever this creature enters or attacks, you may sacrifice an artifact. If you do, creatures you control get +1/+0 and gain trample and haste until end of turn.
+
+(Miracle Mythic)
+type: Instant => Enchantment
+rules_text: Miracle—Tap three untapped creatures you control. [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+Draw three cards. => Miracle—Tap three untapped creatures you control. [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i]
+Whenever you cast a creature spell that doesn't share a creature type with a creature you control, copy that spell. [i](Copies of permanent spells become tokens.)[/i]
+
+(NEEDSDESIGNED)
+type: generic => Creature — Elemental
+cost: {W}{U} => 
+
+(NEEDSDESIGNED)
+type: Creature archetype — Sphinx Zombie => 
+cost: {U}{B} => 
+rules_text: Flying
+This creature enters prepared if it was a miracle. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+Miracle cost [i](You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)[/i] => 
+
+The Suncore
+
+(Prowesser)
+rules_text: Prowess
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(Gets Bonesplitter)
+type: Creature => Creature — Human Artificer
+
+Earth's Reclaimer
+
+(Very mill, Very Mindful)
+rules_text: This creature can't block or be blocked.
+Whenever this creature deals combat damage to a player, it becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Flying
+Whenever this creature attacks, it becomes prepared.
+Escape—Exile fifteen other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]
+pt: 2/3 => 2/1
+
+(Jellyfish)
+type: Creature — Jellyfish => Creature — Jellyfish Elemental
+
+Arbiter of Law
+
+Arbiter of Perfection
+rules_text: Flash
+Arbiter of Perfection can't be countered.
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Flash
+Flying
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+pt: 4/4 => 5/5
+
+Arbiter of Agency
+cost: {B} => {3}{B}{B}
+rules_text: Flying, 
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Flying, menace
+This creature enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+(Auramancer guy)
+
+(Auramancer guy)
+type: generic => Enchantment — Aura Curse
+rules_text:  => Enchant player
+Whenever enchanted player is dealt combat damage, this Curse becomes prepared. If it was already prepared, that player loses 1 life. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Primordial Might
+
+Ancient Majesty
+
+(lander)
+
+Collapsing Charges
+
+Pet of Vagabond
+
+
+VERSION 2 CHANGELOG
 ====================
 
 (Blue Battle) added.
