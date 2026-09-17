@@ -951,13 +951,13 @@
 			}
 		},
 		{
-			"name": "Book Wurm",
+			"name": "Book Worm",
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
-			"type": "Artifact Creature — Book Wurm",
+			"type": "Artifact Creature — Book Worm",
 			"collector_number": "241",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/241_Book Wurm.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/241_Book Worm.jpg"
 			}
 		},
 		{
@@ -1011,13 +1011,13 @@
 			}
 		},
 		{
-			"name": "Azoran Redactor",
+			"name": "Azoren Redactor",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W/U}{W/U}",
 			"type": "Creature — Sphinx Advisor Wizard",
 			"collector_number": "221",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/221_Azoran Redactor.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/221_Azoren Redactor.jpg"
 			}
 		},
 		{
@@ -1061,13 +1061,13 @@
 			}
 		},
 		{
-			"name": "Dread Waste Catoblepas",
+			"name": "Dread Wastes Catoblepas",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W/B}{W/B}",
 			"type": "Creature — Elk Beast",
 			"collector_number": "231",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/231_Dread Waste Catoblepas.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/231_Dread Wastes Catoblepas.jpg"
 			}
 		},
 		{
@@ -1561,13 +1561,13 @@
 			}
 		},
 		{
-			"name": "Warmage of the Waste",
+			"name": "Warmage of the Wastes",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Kor Wizard",
 			"collector_number": "149",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/149_Warmage of the Waste.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/149_Warmage of the Wastes.jpg"
 			}
 		},
 		{
@@ -2381,13 +2381,13 @@
 			}
 		},
 		{
-			"name": "Dread Waste Observer",
+			"name": "Dread Wastes Observer",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Spellshaper",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/46_Dread Waste Observer.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/46_Dread Wastes Observer.jpg"
 			}
 		},
 		{
@@ -3251,13 +3251,13 @@
 			}
 		},
 		{
-			"name": "Lyon, Mage of the Waste",
+			"name": "Lyon, Mage of the Wastes",
 			"rarity": "mythic",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Legendary Planeswalker — Lyon",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/57_Lyon, Mage of the Waste.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/57_Lyon, Mage of the Wastes.jpg"
 			}
 		},
 		{
@@ -3402,7 +3402,7 @@
 	2 Seer of the Blind Eternities
 	2 Sovereign of Nowhere
 	1 Ameret, Faith and Fury
-	1 Lyon, Mage of the Waste
+	1 Lyon, Mage of the Wastes
 [uncommon(3)]
 	4 Archive of Everywhere
 	4 Elevated District
@@ -3415,13 +3415,13 @@
 	4 Remoreseless Dunes
 	4 Boundless Jungle
 	4 Layered Framework
-	4 Book Wurm
-	4 Azoran Redactor
+	4 Book Worm
+	4 Azoren Redactor
 	4 Instrusive Insight
 	4 Touch of Vagabond
 	4 Neglected Creeper
 	4 Where to Go from Here
-	4 Dread Waste Catoblepas
+	4 Dread Wastes Catoblepas
 	4 Capricious Orator
 	4 Bitterness
 	4 Relic Cataloguer
@@ -3471,7 +3471,7 @@
 	4 Pursuit of Perfection
 	4 Sightmite
 	4 Gaze of Derukoskai
-	4 Warmage of the Waste
+	4 Warmage of the Wastes
 	4 Motives of the Fae
 	4 Pitiless Gaze
 	4 Arcane Anomaly
@@ -3567,7 +3567,7 @@
 	8 Potentiate Key
 	8 Unnatural Habitat
 	8 Ash Barrens
-	8 Dread Waste Observer
+	8 Dread Wastes Observer
 	8 Dissent Sleeper
 	8 Trinket Specialist
 	8 Withdraw into Thought
@@ -3653,7 +3653,7 @@
 	8 Potentiate Key
 	8 Unnatural Habitat
 	8 Ash Barrens
-	8 Dread Waste Observer
+	8 Dread Wastes Observer
 	8 Dissent Sleeper
 	8 Trinket Specialist
 	8 Withdraw into Thought
@@ -3745,18 +3745,18 @@
 	6 Remoreseless Dunes
 	6 Boundless Jungle
 	6 Layered Framework
-	6 Book Wurm
+	6 Book Worm
 	12 Brain Teaser
 	12 Painter of Distant Worlds
 	12 Potentiate Key
 	12 Unnatural Habitat
 	12 Ash Barrens
-	6 Azoran Redactor
+	6 Azoren Redactor
 	6 Instrusive Insight
 	6 Touch of Vagabond
 	6 Neglected Creeper
 	6 Where to Go from Here
-	6 Dread Waste Catoblepas
+	6 Dread Wastes Catoblepas
 	6 Capricious Orator
 	6 Bitterness
 	6 Relic Cataloguer
@@ -3806,7 +3806,7 @@
 	6 Pursuit of Perfection
 	6 Sightmite
 	6 Gaze of Derukoskai
-	6 Warmage of the Waste
+	6 Warmage of the Wastes
 	6 Motives of the Fae
 	6 Pitiless Gaze
 	6 Arcane Anomaly
@@ -3883,7 +3883,7 @@
 	1 Bound Together
 	1 The Suncore
 	2 Whimshifter
-	12 Dread Waste Observer
+	12 Dread Wastes Observer
 	12 Dissent Sleeper
 	12 Trinket Specialist
 	12 Withdraw into Thought
@@ -3941,7 +3941,7 @@
 	2 Seer of the Blind Eternities
 	2 Sovereign of Nowhere
 	1 Ameret, Faith and Fury
-	1 Lyon, Mage of the Waste
+	1 Lyon, Mage of the Wastes
 [wildcard(1)]
 	6 Expedition Champion
 	6 Wrathful Rebuttal
@@ -4011,18 +4011,18 @@
 	15 Remoreseless Dunes
 	15 Boundless Jungle
 	15 Layered Framework
-	15 Book Wurm
+	15 Book Worm
 	6 Brain Teaser
 	6 Painter of Distant Worlds
 	6 Potentiate Key
 	6 Unnatural Habitat
 	6 Ash Barrens
-	15 Azoran Redactor
+	15 Azoren Redactor
 	15 Instrusive Insight
 	15 Touch of Vagabond
 	15 Neglected Creeper
 	15 Where to Go from Here
-	15 Dread Waste Catoblepas
+	15 Dread Wastes Catoblepas
 	15 Capricious Orator
 	15 Bitterness
 	15 Relic Cataloguer
@@ -4072,7 +4072,7 @@
 	15 Pursuit of Perfection
 	15 Sightmite
 	15 Gaze of Derukoskai
-	15 Warmage of the Waste
+	15 Warmage of the Wastes
 	15 Motives of the Fae
 	15 Pitiless Gaze
 	15 Arcane Anomaly
@@ -4149,7 +4149,7 @@
 	4 Bound Together
 	4 The Suncore
 	7 Whimshifter
-	6 Dread Waste Observer
+	6 Dread Wastes Observer
 	6 Dissent Sleeper
 	6 Trinket Specialist
 	6 Withdraw into Thought
@@ -4207,4 +4207,4 @@
 	7 Seer of the Blind Eternities
 	7 Sovereign of Nowhere
 	4 Ameret, Faith and Fury
-	4 Lyon, Mage of the Waste
+	4 Lyon, Mage of the Wastes

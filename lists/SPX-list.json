@@ -128,7 +128,7 @@
         "position": ""
     },
     {
-        "card_name": "Lyon, Mage of the Waste",
+        "card_name": "Lyon, Mage of the Wastes",
         "number": 57,
         "shape": "planeswalker",
         "set": "SPX",
@@ -904,7 +904,7 @@
         "position": ""
     },
     {
-        "card_name": "Warmage of the Waste",
+        "card_name": "Warmage of the Wastes",
         "number": 149,
         "shape": "normal",
         "set": "SPX",
@@ -1128,7 +1128,7 @@
         "position": ""
     },
     {
-        "card_name": "Dread Waste Observer",
+        "card_name": "Dread Wastes Observer",
         "number": 46,
         "shape": "adventure",
         "set": "SPX",
@@ -1673,7 +1673,7 @@
         "position": ""
     },
     {
-        "card_name": "Azoran Redactor",
+        "card_name": "Azoren Redactor",
         "number": 221,
         "shape": "normal",
         "set": "SPX",
@@ -1988,7 +1988,7 @@
         "position": ""
     },
     {
-        "card_name": "Dread Waste Catoblepas",
+        "card_name": "Dread Wastes Catoblepas",
         "number": 231,
         "shape": "normal",
         "set": "SPX",
@@ -2266,7 +2266,7 @@
         "position": ""
     },
     {
-        "card_name": "Book Wurm",
+        "card_name": "Book Worm",
         "number": 241,
         "shape": "normal",
         "set": "SPX",

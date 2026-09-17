@@ -5,7 +5,7 @@
 			<name>SPX</name>
 			<longname>Splendor of Excelsior</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-16</releasedate>
+			<releasedate>2026-09-17</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1313,7 +1313,7 @@ When this creature enters, create two 1/1 colorless Scout artifact creature toke
 			<name>Words Carved by Swords</name>
 			<text>(As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)
 Prevent all damage that would be dealt to this Enigma.
-When this Enigma enters or is defeated, return up to one target creature card in your graveyard to the battlefield with a menace counter on it.</text>
+When this Enigma enters or is defeated, return up to one target creature card from your graveyard to the battlefield with a menace counter on it.</text>
 			<set rarity="special" picurl="https://leetwizard.github.io/sets/SPX-files/img/282_Words Carved by Swords.jpg" num="282">SPX</set>
 			<prop>
 				<layout>battle</layout>
@@ -1674,14 +1674,14 @@ Whenever this land deals combat damage to a noncreature, draw a card, then you m
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Book Wurm</name>
+			<name>Book Worm</name>
 			<text>Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
 Each spell a player casts costs {1} more to cast for each other spell that player has cast this turn.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/241_Book Wurm.jpg" num="241">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/241_Book Worm.jpg" num="241">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact Creature — Book Wurm</type>
+				<type>Artifact Creature — Book Worm</type>
 				<maintype>Creature</maintype>
 				<manacost>3</manacost>
 				<cmc>3</cmc>
@@ -1766,11 +1766,11 @@ Basic landcycling {1} ({1}, Discard this card: Search your library for a basic l
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Azoran Redactor</name>
+			<name>Azoren Redactor</name>
 			<text>Flash
 Flying
 When this creature enters, you may exile target non-Advisor permanent. For as long as it remains exiled, its owner may cast it for {2} rather than its mana cost.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/221_Azoran Redactor.jpg" num="221">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/221_Azoren Redactor.jpg" num="221">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1857,10 +1857,10 @@ When this Enigma enters or is defeated, create two 1/1 colorless Scout artifact 
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Dread Waste Catoblepas</name>
+			<name>Dread Wastes Catoblepas</name>
 			<text>Lifelink
 Whenever a nontoken creature you control dies, create a 1/1 colorless Scout artifact creature token.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/231_Dread Waste Catoblepas.jpg" num="231">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/231_Dread Wastes Catoblepas.jpg" num="231">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2080,7 +2080,8 @@ Whenever this creature attacks, you may tap two untapped artifacts you control. 
 			<name>Imposing Precedent</name>
 			<text>Flash
 Flying
-Spells with the chosen name cost {3} more to cast and spells prepared permanents with the chosen name cost {3} more to cast.</text>
+As Imposing Precedent enters, choose a card name.
+Spells with the chosen name cost {3} more to cast and spells prepared with permanents with the chosen name cost {3} more to cast.</text>
 			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/245_Imposing Precedent.jpg" num="245">SPX</set>
 			<prop>
 				<layout>normal</layout>
@@ -2749,10 +2750,10 @@ Miracle {3}{B}{B} (You may cast this card for its miracle cost when you draw it 
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Warmage of the Waste</name>
+			<name>Warmage of the Wastes</name>
 			<text>You may cast sorcery spells as though they had flash.
 Whenever you cast a noncreature spell, create a 1/1 colorless Scout artifact creature token.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/149_Warmage of the Waste.jpg" num="149">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/149_Warmage of the Wastes.jpg" num="149">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3328,7 +3329,7 @@ Miracle {4}{U}{U} (You may cast this card for its miracle cost when you draw it 
 		<card>
 			<name>Appeal to Emotion</name>
 			<text>(As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)
-When this Enigma, exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+When this Enigma enters, exile the top two cards of your library. Until the end of your next turn, you may play those cards.
 When this Enigma is defeated, create two Treasure tokens.</text>
 			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/114_Appeal to Emotion.jpg" num="114">SPX</set>
 			<prop>
@@ -3340,6 +3341,7 @@ When this Enigma is defeated, create two Treasure tokens.</text>
 				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
+				<loyalty>5</loyalty>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -3721,7 +3723,7 @@ When this Enigma is defeated, create three 1/1 colorless Scout artifact creature
 		<card>
 			<name>Appeal to Purity</name>
 			<text>(As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)
-When this Enigma enters or is defeated, put an exalted counter on up to four target nonland permanents you control. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)</text>
+When this Enigma enters or is defeated, put an exalted counter on up to four other target nonland permanents you control. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)</text>
 			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/3_Appeal to Purity.jpg" num="3">SPX</set>
 			<prop>
 				<layout>battle</layout>
@@ -3732,6 +3734,7 @@ When this Enigma enters or is defeated, put an exalted counter on up to four tar
 				<cmc>2</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
+				<loyalty>5</loyalty>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -4071,7 +4074,7 @@ Whenever Hypothesis enters, you may search your library for a riddle card, revea
 		</card>
 		<card>
 			<name>Bound Together</name>
-			<text>Search your library and graveyard for up to two target creature cards with mana value X or less and up to two Aura cards with mana value X or less and exile them. Put each creature card revealed this way onto the battlefield, then you may cast each Aura card revealed this way. Each Aura cast this way must target a different creature put onto the battlefield this way.</text>
+			<text>Search your library and graveyard for up to two target creature cards with mana value X or less and up to two Aura cards with mana value X or less and exile them. Put each creature card revealed this way onto the battlefield, then you may cast each Aura card revealed this way without paying their mana costs. Each Aura cast this way must target a different creature put onto the battlefield this way.</text>
 			<set rarity="mythic" picurl="https://leetwizard.github.io/sets/SPX-files/img/156_Bound Together.jpg" num="156">SPX</set>
 			<prop>
 				<layout>normal</layout>
@@ -4196,14 +4199,14 @@ Whenever this creature attacks, look at the top seven cards of your library. You
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Dread Waste Observer // Annual Report</name>
+			<name>Dread Wastes Observer // Annual Report</name>
 			<text>Flash
 This creature enters prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
 
 ---
 
 Create a Thesis token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.&quot;)</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/46_Dread Waste Observer.jpg" num="46">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/46_Dread Wastes Observer.jpg" num="46">SPX</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -5991,9 +5994,9 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 			<token>1</token>
 		</card>
 		<card>
-			<name>Lyon, Mage of the Waste</name>
+			<name>Lyon, Mage of the Wastes</name>
 			<text></text>
-			<set rarity="mythic" picurl="https://leetwizard.github.io/sets/SPX-files/img/57_Lyon, Mage of the Waste.jpg" num="57">SPX</set>
+			<set rarity="mythic" picurl="https://leetwizard.github.io/sets/SPX-files/img/57_Lyon, Mage of the Wastes.jpg" num="57">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>

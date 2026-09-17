@@ -4473,7 +4473,7 @@
             "number": 282,
             "color_identity": "BR",
             "cost": "{2}{B}{R}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]\nPrevent all damage that would be dealt to this Enigma.\nWhen this Enigma enters or is defeated, return up to one target creature card in your graveyard to the battlefield with a menace counter on it.",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]\nPrevent all damage that would be dealt to this Enigma.\nWhen this Enigma enters or is defeated, return up to one target creature card from your graveyard to the battlefield with a menace counter on it.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4884,10 +4884,10 @@
             "image_type": "jpg"
         },
         {
-            "card_name": "Book Wurm",
+            "card_name": "Book Worm",
             "color": "",
             "rarity": "uncommon",
-            "type": "Artifact Creature \u2013 Book Wurm",
+            "type": "Artifact Creature \u2013 Book Worm",
             "number": 241,
             "color_identity": "C",
             "cost": "{3}",
@@ -4998,7 +4998,7 @@
             "image_type": "jpg"
         },
         {
-            "card_name": "Azoran Redactor",
+            "card_name": "Azoren Redactor",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2013 Sphinx Advisor Wizard",
@@ -5093,7 +5093,7 @@
             "image_type": "jpg"
         },
         {
-            "card_name": "Dread Waste Catoblepas",
+            "card_name": "Dread Wastes Catoblepas",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Creature \u2013 Elk Beast",
@@ -5328,7 +5328,7 @@
             "number": 245,
             "color_identity": "C",
             "cost": "{2}",
-            "rules_text": "Flash\nFlying\nSpells with the chosen name cost {3} more to cast and spells prepared permanents with the chosen name cost {3} more to cast.",
+            "rules_text": "Flash\nFlying\nAs Imposing Precedent enters, choose a card name.\nSpells with the chosen name cost {3} more to cast and spells prepared with permanents with the chosen name cost {3} more to cast.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -6043,7 +6043,7 @@
             "image_type": "jpg"
         },
         {
-            "card_name": "Warmage of the Waste",
+            "card_name": "Warmage of the Wastes",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2013 Kor Wizard",
@@ -6658,13 +6658,13 @@
             "number": 114,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]\nWhen this Enigma, exile the top two cards of your library. Until the end of your next turn, you may play those cards.\nWhen this Enigma is defeated, create two Treasure tokens.",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]\nWhen this Enigma enters, exile the top two cards of your library. Until the end of your next turn, you may play those cards.\nWhen this Enigma is defeated, create two Treasure tokens.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "battle",
             "set": "SPX",
-            "loyalty": "",
+            "loyalty": "5",
             "artist": "Anthony Avon",
             "notes": "",
             "image_type": "jpg"
@@ -7076,13 +7076,13 @@
             "number": 3,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]\nWhen this Enigma enters or is defeated, put an exalted counter on up to four target nonland permanents you control. [i](Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)[/i]",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]\nWhen this Enigma enters or is defeated, put an exalted counter on up to four other target nonland permanents you control. [i](Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "battle",
             "set": "SPX",
-            "loyalty": "",
+            "loyalty": "5",
             "artist": "Sylvain Aublin",
             "notes": "",
             "image_type": "jpg"
@@ -7456,7 +7456,7 @@
             "number": 156,
             "color_identity": "G",
             "cost": "{X}{X}{G}{G}",
-            "rules_text": "Search your library and graveyard for up to two target creature cards with mana value X or less and up to two Aura cards with mana value X or less and exile them. Put each creature card revealed this way onto the battlefield, then you may cast each Aura card revealed this way. Each Aura cast this way must target a different creature put onto the battlefield this way.",
+            "rules_text": "Search your library and graveyard for up to two target creature cards with mana value X or less and up to two Aura cards with mana value X or less and exile them. Put each creature card revealed this way onto the battlefield, then you may cast each Aura card revealed this way without paying their mana costs. Each Aura cast this way must target a different creature put onto the battlefield this way.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -7601,7 +7601,7 @@
             "image_type": "jpg"
         },
         {
-            "card_name": "Dread Waste Observer",
+            "card_name": "Dread Wastes Observer",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Human Spellshaper",
@@ -9824,7 +9824,7 @@
             "image_type": "jpg"
         },
         {
-            "card_name": "Lyon, Mage of the Waste",
+            "card_name": "Lyon, Mage of the Wastes",
             "color": "U",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2013 Lyon",

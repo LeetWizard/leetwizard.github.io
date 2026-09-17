@@ -1,4 +1,54 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+Book Worm added.
+Azoren Redactor added.
+Dread Wastes Catoblepas added.
+Warmage of the Wastes added.
+Dread Wastes Observer added.
+Lyon, Mage of the Wastes added.
+
+Book Wurm removed.
+Azoran Redactor removed.
+Dread Waste Catoblepas removed.
+Warmage of the Waste removed.
+Dread Waste Observer removed.
+Lyon, Mage of the Waste removed.
+
+Words Carved by Swords
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+Prevent all damage that would be dealt to this Enigma.
+When this Enigma enters or is defeated, return up to one target creature card in your graveyard to the battlefield with a menace counter on it. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+Prevent all damage that would be dealt to this Enigma.
+When this Enigma enters or is defeated, return up to one target creature card from your graveyard to the battlefield with a menace counter on it.
+
+Imposing Precedent
+rules_text: Flash
+Flying
+Spells with the chosen name cost {3} more to cast and spells prepared permanents with the chosen name cost {3} more to cast. => Flash
+Flying
+As Imposing Precedent enters, choose a card name.
+Spells with the chosen name cost {3} more to cast and spells prepared with permanents with the chosen name cost {3} more to cast.
+
+Appeal to Emotion
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma, exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+When this Enigma is defeated, create two Treasure tokens. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters, exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+When this Enigma is defeated, create two Treasure tokens.
+loyalty:  => 5
+
+Appeal to Purity
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters or is defeated, put an exalted counter on up to four target nonland permanents you control. [i](Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)[/i] => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters or is defeated, put an exalted counter on up to four other target nonland permanents you control. [i](Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)[/i]
+loyalty:  => 5
+
+Bound Together
+rules_text: Search your library and graveyard for up to two target creature cards with mana value X or less and up to two Aura cards with mana value X or less and exile them. Put each creature card revealed this way onto the battlefield, then you may cast each Aura card revealed this way. Each Aura cast this way must target a different creature put onto the battlefield this way. => Search your library and graveyard for up to two target creature cards with mana value X or less and up to two Aura cards with mana value X or less and exile them. Put each creature card revealed this way onto the battlefield, then you may cast each Aura card revealed this way without paying their mana costs. Each Aura cast this way must target a different creature put onto the battlefield this way.
+
+
+VERSION 4 CHANGELOG
 ====================
 
 Sanguine Temper added.
