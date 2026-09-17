@@ -1,4 +1,297 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Sanguine Temper added.
+Reclaimer's Revenge added.
+Offcut of Derukoskai added.
+Instrusive Insight added.
+Touch of Vagabond added.
+Dread Waste Catoblepas added.
+Relic Cataloguer added.
+Deepway Stalker added.
+Dread Wastes Marauder added.
+Reflections of Tides added.
+Khasan's Truesight added.
+Caustic Bubble added.
+Deep Earth Wight added.
+Cursed Athame added.
+Interpreter of Ruins added.
+Shard of the Suncore added.
+Taste of Longevity added.
+Aspiring Dignitary added.
+Papercut added.
+Scitoran Digressor added.
+Warmage of the Waste added.
+Pitiless Gaze added.
+Mythological Might added.
+Query Spewer added.
+Keeper of the Archive added.
+Riddle Gnawer added.
+Azoren Portalmancer added.
+Determiner of Histories added.
+Nowhere Hydrosophist added.
+Memory Half-Formed added.
+Emergent Pyromancy added.
+Cast into Nowhere added.
+Expose to Eternity added.
+Superego Imperator added.
+Lives Traded for Comfort added.
+Autarcha Mythbreaker added.
+Rising-Tide, the Mediator added.
+Fragments of the Self added.
+Discerning Eye added.
+Vagabond, the Agonist added.
+Sanctioned Warmage added.
+Apophenia added.
+Loremaster of Eternity added.
+Voice of the Endangered added.
+Lyon's Meddling added.
+Nervestriker added.
+Gelatinous Strider added.
+Exacting Beholder added.
+Vandire, Dragon's Augur added.
+Demon-Blade Iconoclast added.
+Multiplanar Surveillance added.
+Archive Intruder added.
+Claws of the Maftet added.
+Faithless Miracle added.
+Khasan the Reclaimer added.
+Geomantic Overhaul added.
+Mutiplying Misfortunes added.
+Speakers of Utopia added.
+Doom of Dunes added.
+Demagogue of Bolas added.
+Horizon of the Umwelt added.
+Knowledge added.
+Auric Infusion added.
+Bound Together added.
+Whimshifter added.
+Dread Waste Observer added.
+Vivarium Tracker added.
+Spectacle Mage added.
+Steward of the Vivarium added.
+Expedition Armorer added.
+Soulbound Transcriber added.
+Trinket Infuser added.
+Tempted Archivist added.
+Archive Understudy added.
+Beckoner of Spirits added.
+Suppressor of the Deep added.
+Needle Basin Drifter added.
+Resplendence of Flowers added.
+Vivarium Pinestalker added.
+Muster of Malevolence added.
+Maximus Thane, Ur-Maftet added.
+Interpreter of Synthesis added.
+Azor Oasis added.
+Seer of the Blind Eternities added.
+Geoskitter Hive added.
+Promised Youth added.
+Lyon, Mage of the Waste added.
+Trespasser's Curse added.
+Cleric added.
+Verdant Expanse added.
+Handy Handicraft added.
+Banishing Light added.
+Lingering Necrosis added.
+
+(Smash and repurpose) removed.
+(Kicker Kicked Miracle) removed.
+(Raging Badgerdude) removed.
+(The thesis) removed.
+(Combat trick) removed.
+(Push for Tokenfall) removed.
+(Push for Artifacts) removed.
+(Push for Flashgrro removed.
+(Payoff for Artifacts) removed.
+(double clone) removed.
+(aura) removed.
+(deal damage to all) removed.
+(Riddle Solver) removed.
+(Sword) removed.
+(Snappiestcaster Mage) removed.
+(Artifact Engine) removed.
+(Tappytapyp) removed.
+(The Intangible Vritue) removed.
+(Smash) removed.
+(Big Man Sphinxtoise) removed.
+(by itself) removed.
+Gaze of Derukoskai removed.
+(fighter) removed.
+(Studier forever) removed.
+(Shpinx) removed.
+(smash) removed.
+(Makes guys) removed.
+(Restorer Antiquarian) removed.
+(Studier) removed.
+(Reveal) removed.
+(Gain Knowledge) removed.
+(Under the Sun of Nowhere) removed.
+(Blast) removed.
+(ImposingSphinx) removed.
+(Cool Rabbit) removed.
+(Orange Cat) removed.
+(Choose Death Sphinx) removed.
+(Fragmented Mind) removed.
+(EyeGuy) removed.
+(Vagabond), Title) removed.
+(Very Big Guy) removed.
+(NEEDSDESIGNED) removed.
+(Mechageometrilologist) removed.
+(Talks to Birds) removed.
+(Learn how to spell, please) removed.
+(Phoenix Elemental) removed.
+(NEEDSDESIGNED) removed.
+(Eyeball) removed.
+(NEEDSDESIGNED) removed.
+(Sneaky person) removed.
+(Explore the Wastes) removed.
+(Mean Guy) removed.
+(Dobule hands) removed.
+(NEEDSDESIGNED) removed.
+Khasan, (Title) removed.
+(NEEDSDESIGNED) removed.
+(Lucky 7) removed.
+(NEEDSDESIGNED) removed.
+(Wurm) removed.
+(Angel of Traitors) removed.
+(Miracle Mythic) removed.
+(NEEDSDESIGNED) removed.
+(NEEDSDESIGNED) removed.
+(Auramancer and bf) removed.
+(Big thing) removed.
+Ash Wastes Observer removed.
+Deep Jungle Tracker removed.
+(Prowesser) removed.
+(Lonely Guy) removed.
+(Gets Bonesplitter) removed.
+(Duder) removed.
+(Dwarf of Dwarfiness) removed.
+(Demon lover) removed.
+(Prepared...) removed.
+(Flickerer) removed.
+(Very mill, Very Mindful) removed.
+(Jellyfish) removed.
+(Auramancer guy) removed.
+(Bashing Artifacts and Enchantments) removed.
+(Auramancer guy) removed.
+(Flash Lover) removed.
+(Ready to Risk it All.) removed.
+(Oasis of Treasure) removed.
+(Scholar of Disappear) removed.
+(lander) removed.
+(Deal with Demon) removed.
+Black Lotus removed.
+Lyon, Epithet removed.
+
+Devious Tremorlisk
+type: Creature — Insect Beast => Creature — Insect
+
+Azoren Liason
+
+Obsess Over Secrets
+
+Consult
+
+Absorbing Information
+
+Hand of the Azoren
+rules_text: Lifelink
+When this creature enters, create a 1/1 artifact Scout creature token. You gain 1 life. => Lifelink
+When this creature enters, create a 1/1 colorless Scout artifact creature token. You gain 1 life.
+
+Tactician Exemplar
+
+Instinctual Strike
+
+Impulsive Twitcher
+
+Orderly Provost
+
+Skeletal Repurposing
+
+Fervent Outcast
+
+Flow Sculptor
+
+Wonders of the World
+
+Desert's Claim
+
+Reflect Inwards
+
+Leave to the Sands
+
+Life Flashes, Death Lingers
+
+Masks on Blank Canvas
+rules_text: Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]
+Boast — {T}: Create a blue 3/3 Elemental creature token. Draw a card. [i](Activate only if this creature attacked this turn and only once each turn.)[/i] => Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]
+Boast — {T}: Create a 3/3 blue Elemental creature token. Draw a card. [i](Activate only if this creature attacked this turn and only once each turn.)[/i]
+
+Limits of the Umwelt
+
+Details Blurred by Dreams
+
+Archive of Everywhere
+
+Throughline Navigator
+
+Shape the Biosphere
+
+Parvin Battle-Scholar
+
+Voidgullet
+
+Retroactive Continuity
+
+Tempest Queller
+
+Fleshcrafting
+rules_text: Create two 2/2 black Horror creature tokens.
+Flashback—{4}{B}, Sacrifice a creature. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Create two 2/2 black Eye Horror creature tokens.
+Flashback—{4}{B}, Sacrifice a creature. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Scitoran Initiation
+rules_text: At the beginning of your precombat main phase, you may discard a card. If you do, draw a card and put a ??? counter on this enchantment. Then if there are four or more ??? counters on it, it becomes a 4/4 blue Sphinx creature with flying. => At the beginning of your precombat main phase, you may discard a card. If you do, draw a card and put a theory counter on this enchantment. Then if there are four or more theory counters on it, it becomes a 4/4 blue Sphinx creature with flying.
+
+Disgraced Maftet
+
+Aloof Occlusion
+rules_text: • Untap target creature you control. It gains hexproof until end of turn.
+• Counter target activated or triggered ability from a nonland source. => Choose one —
+• Untap target creature you control. It gains hexproof until end of turn.
+• Counter target activated or triggered ability from a nonland source.
+
+Renegade Orator
+rules_text: When this creature enters, each player creates a tapped Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+Whenever a player sacrifices an artifact, each of that player's opponents creates a 1/1 white Dude creature token. => When this creature enters, each player creates a tapped Thesis token. [i](It's an artifact with “{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.”)[/i]
+Whenever a player sacrifices an artifact, each of that player's opponents creates a 1/1colorless Scout artifact creature token.
+
+Forlorn Hope
+
+Curse of Stolen Knowledge
+
+Census Keeper
+
+Cherished Dancer
+
+Senior Archivist
+
+Spire Thaumaturge
+
+Wistful Sphinx
+
+Whisperer of the Forbidden
+
+Geoskitter Drone
+
+Arbiter of Law
+cost: {W} => {2}{W}{W}
+pt:  => 4/3
+
+
+VERSION 3 CHANGELOG
 ====================
 
 Oxidaat's Disciple added.
