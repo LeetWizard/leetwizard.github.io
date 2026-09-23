@@ -1,4 +1,72 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+Expedition Chaperone added.
+Artiste Mage added.
+
+Expedition Champion removed.
+Spectacle Mage removed.
+
+Whispering Ancient
+rules_text: Whenever a token your control enters, each opponent loses 1 life and you gain 1 life. => Whenever a token you control enters, each opponent loses 1 life and you gain 1 life.
+
+Memory Rots the Truth
+rules_text: This creature's power is equal to the number of card types among cards in your graveyard and its toughness is equal to that number plus 1.
+At the beginning of your end step, you may exile a card from your graveyard. If you do, you may put a card you own from outside the game that doesn't a type with that card into your graveyard. => This creature's power is equal to the number of card types among cards in your graveyard and its toughness is equal to that number plus 1.
+At the beginning of your end step, you may exile a card from your graveyard. If you do, you may put a card you own from outside the game that doesn't share a type with that card into your graveyard.
+
+Azoren Redactor
+type: Creature — Sphinx Advisor Wizard => Creature — Sphinx Advisor
+rules_text: Flash
+Flying
+When this creature enters, you may exile target non-Advisor permanent. For as long as it remains exiled, its owner may cast it for {2} rather than its mana cost. => Flash
+Flying
+When this creature enters, exile up to one target nonland, non-Advisor permanent. For as long as it remains exiled, its owner may cast it for {2} rather than its mana cost.
+
+Deep Earth Wight
+
+Cursed Athame
+rules_text: Equipped creature has prowess and haste. [i](Whenever you cast a noncreature spell, equipped creature gets +1/+1 until end of turn.)[/i]
+Equip—Exile two noncreature cards in your graveyard.
+Equip {2} => Equipped creature has prowess and haste. [i](Whenever you cast a noncreature spell, it gets +1/+1 until end of turn.)[/i]
+Equip—Exile two noncreature cards from your graveyard.
+Equip {2}
+
+Appeal to Wealth
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters, create two 2/2 black Eye Horror creature tokens.
+Whenever one or more counters are removed from this Enigma, you may sacrifice up to that many creatures. You draw cards and each opponent loses life equal to twice the number of creatures sacrificed this way. => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters, create a 2/2 black Eye Horror creature token.
+Whenever one or more counters are removed from this Enigma, you may sacrifice up to that many creatures. You draw cards and each opponent loses life equal to twice the number of creatures sacrificed this way.
+
+Appeal to Tradition
+rules_text: [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters, create a 0/0 green Jellyfish creature token with reach, vigilance, and trample.
+When this Enigma is defeated, proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i] => [i](As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)[/i]
+When this Enigma enters, create a 0/0 green Jellyfish creature token with reach, vigilance, and trample. Put X +1/+1 counters on it.
+When this Enigma is defeated, proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]
+
+Fragments of the Self
+cost: {W}{U} => {1}{W}{U}
+rules_text: Whenever a creature you control enters for the first time each turn, you may exile it, then return it to the battlefield under its owner's control. => Whenever a creature you control enters, you may exile it, then return it to the battlefield under its owner's control. Do this only once each turn.
+
+Nervestriker
+rules_text: Flying, haste
+This creature can't block.
+Whenever you cast a noncreature spell, you may pay {X} and X life, where X is 5 minus the total mana value of noncreature spells you've cast this spell. If you do, return this card from your graveyard to the battlefield. [i](If you've cast noncreature spells with total mana value of 5 or more this turn, you can pay {0} and 0 life.)[/i] => Flying, haste
+This creature can't block.
+Whenever you cast a noncreature spell, you may pay {X} and X life, where X is 5 minus the total mana value of noncreature spells you've cast this spell. If you do, return this card from your graveyard to the battlefield with a finality counter on it. [i](If you've cast noncreature spells with total mana value of 5 or more this turn, you can pay {0} and 0 life.)[/i]
+
+Geomantic Overhaul
+cost: {2}{R} => {3}{R}
+rules_text: Sacrifice a land: Exile the top two cards of your library. You may play those cards this turn. Activate only as a sorcery only once each turn. => Sacrifice a land: Exile the top two cards of your library. You may play those cards this turn. Activate only as a sorcery and only once each turn.
+
+Corruption Screecher
+cost: {R} => {1}{R}
+pt: 1/1 => 2/1
+
+
+VERSION 5 CHANGELOG
 ====================
 
 Book Worm added.

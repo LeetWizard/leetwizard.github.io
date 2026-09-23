@@ -1,13 +1,13 @@
 ﻿[CustomCards]
 	[
 		{
-			"name": "Expedition Champion",
+			"name": "Expedition Chaperone",
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Azra Soldier",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/14_Expedition Champion.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/14_Expedition Chaperone.jpg"
 			}
 		},
 		{
@@ -45,9 +45,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "139",
+			"collector_number": "140",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/139_Rapid Burnout.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/140_Rapid Burnout.jpg"
 			}
 		},
 		{
@@ -85,9 +85,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Instant",
-			"collector_number": "141",
+			"collector_number": "142",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/141_Sanguine Temper.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/142_Sanguine Temper.jpg"
 			}
 		},
 		{
@@ -125,9 +125,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "122",
+			"collector_number": "123",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/122_Cascading Thoughts.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/123_Cascading Thoughts.jpg"
 			}
 		},
 		{
@@ -215,9 +215,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "121",
+			"collector_number": "122",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/121_Bolt from the Blue.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/122_Bolt from the Blue.jpg"
 			}
 		},
 		{
@@ -315,9 +315,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Horror",
-			"collector_number": "134",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/134_Impulsive Twitcher.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/135_Impulsive Twitcher.jpg"
 			}
 		},
 		{
@@ -365,9 +365,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Kor Warrior",
-			"collector_number": "132",
+			"collector_number": "133",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/132_Fervent Outcast.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/133_Fervent Outcast.jpg"
 			}
 		},
 		{
@@ -405,9 +405,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Sphinx",
-			"collector_number": "142",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/142_Scitoran Overseer.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/143_Scitoran Overseer.jpg"
 			}
 		},
 		{
@@ -515,9 +515,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Goblin Elemental",
-			"collector_number": "136",
+			"collector_number": "137",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/136_Manifested Bugbear.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/137_Manifested Bugbear.jpg"
 			}
 		},
 		{
@@ -555,9 +555,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Azra Survivor",
-			"collector_number": "128",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/128_Desert Packmaster.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/129_Desert Packmaster.jpg"
 			}
 		},
 		{
@@ -1014,7 +1014,7 @@
 			"name": "Azoren Redactor",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W/U}{W/U}",
-			"type": "Creature — Sphinx Advisor Wizard",
+			"type": "Creature — Sphinx Advisor",
 			"collector_number": "221",
 			"image_uris": {
 				"en": "https://leetwizard.github.io/sets/SPX-files/img/221_Azoren Redactor.jpg"
@@ -1265,9 +1265,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "124",
+			"collector_number": "125",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/124_Caustic Bubble.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/125_Caustic Bubble.jpg"
 			}
 		},
 		{
@@ -1315,9 +1315,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Lizard",
-			"collector_number": "125",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/125_Cinderspittle.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/126_Cinderspittle.jpg"
 			}
 		},
 		{
@@ -1345,9 +1345,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Artifact — Equipment",
-			"collector_number": "127",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/127_Cursed Athame.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/128_Cursed Athame.jpg"
 			}
 		},
 		{
@@ -1385,9 +1385,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact",
-			"collector_number": "143",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/143_Shard of the Suncore.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/144_Shard of the Suncore.jpg"
 			}
 		},
 		{
@@ -1435,9 +1435,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Creature — Sphinx",
-			"collector_number": "129",
+			"collector_number": "130",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/129_Disgraced Scitoran.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/130_Disgraced Scitoran.jpg"
 			}
 		},
 		{
@@ -1515,9 +1515,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Eye Horror",
-			"collector_number": "120",
+			"collector_number": "121",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/120_Bloodshot Beholder.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/121_Bloodshot Beholder.jpg"
 			}
 		},
 		{
@@ -1635,9 +1635,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "135",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/135_Irrepressible Instinct.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/136_Irrepressible Instinct.jpg"
 			}
 		},
 		{
@@ -1735,9 +1735,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Fox",
-			"collector_number": "140",
+			"collector_number": "141",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/140_Riddle Gnawer.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/141_Riddle Gnawer.jpg"
 			}
 		},
 		{
@@ -1815,9 +1815,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment",
-			"collector_number": "130",
+			"collector_number": "131",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/130_Emergent Pyromancy.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/131_Emergent Pyromancy.jpg"
 			}
 		},
 		{
@@ -1845,9 +1845,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "123",
+			"collector_number": "124",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/123_Cast into Nowhere.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/124_Cast into Nowhere.jpg"
 			}
 		},
 		{
@@ -1905,9 +1905,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Legendary Creature — Sphinx",
-			"collector_number": "119",
+			"collector_number": "120",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/119_Autarcha Mythbreaker.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/120_Autarcha Mythbreaker.jpg"
 			}
 		},
 		{
@@ -1953,7 +1953,7 @@
 		{
 			"name": "Fragments of the Self",
 			"rarity": "rare",
-			"mana_cost": "{W}{U}",
+			"mana_cost": "{1}{W}{U}",
 			"type": "Enchantment",
 			"collector_number": "188",
 			"image_uris": {
@@ -2193,11 +2193,11 @@
 		{
 			"name": "Geomantic Overhaul",
 			"rarity": "mythic",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{3}{R}",
 			"type": "Enchantment",
-			"collector_number": "133",
+			"collector_number": "134",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/133_Geomantic Overhaul.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/134_Geomantic Overhaul.jpg"
 			}
 		},
 		{
@@ -2205,9 +2205,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Creature — Elemental",
-			"collector_number": "137",
+			"collector_number": "138",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/137_Mutiplying Misfortunes.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/138_Mutiplying Misfortunes.jpg"
 			}
 		},
 		{
@@ -2285,9 +2285,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "118",
+			"collector_number": "119",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/118_Auric Infusion.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/119_Auric Infusion.jpg"
 			}
 		},
 		{
@@ -2461,13 +2461,13 @@
 			}
 		},
 		{
-			"name": "Spectacle Mage",
+			"name": "Artiste Mage",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Elf Wizard",
-			"collector_number": "144",
+			"collector_number": "118",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/144_Spectacle Mage.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/118_Artiste Mage.jpg"
 			}
 		},
 		{
@@ -2485,9 +2485,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "131",
+			"collector_number": "132",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/131_Erratic Understudy.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/132_Erratic Understudy.jpg"
 			}
 		},
 		{
@@ -2745,9 +2745,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Cat Wizard",
-			"collector_number": "138",
+			"collector_number": "139",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/138_Parvin Familiar.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/139_Parvin Familiar.jpg"
 			}
 		},
 		{
@@ -2873,11 +2873,11 @@
 		{
 			"name": "Corruption Screecher",
 			"rarity": "rare",
-			"mana_cost": "{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Creature — Demon",
-			"collector_number": "126",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://leetwizard.github.io/sets/SPX-files/img/126_Corruption Screecher.jpg"
+				"en": "https://leetwizard.github.io/sets/SPX-files/img/127_Corruption Screecher.jpg"
 			}
 		},
 		{
@@ -3505,7 +3505,7 @@
 	4 Beckoner of Spirits
 	4 Synesthetic Curator
 [common(6)]
-	8 Expedition Champion
+	8 Expedition Chaperone
 	8 Wrathful Rebuttal
 	8 Utopist Guide
 	8 Oxidaat's Disciple
@@ -3575,7 +3575,7 @@
 	8 Census Keeper
 	8 Cherished Dancer
 	8 Vivarium Tracker
-	8 Spectacle Mage
+	8 Artiste Mage
 	8 Quiverquill Scribe
 	8 Erratic Understudy
 	8 Worldview Shifter
@@ -3591,7 +3591,7 @@
 	8 Expedition Armorer
 	8 Spire Thaumaturge
 [common | masterpiece(1)]
-	8 Expedition Champion
+	8 Expedition Chaperone
 	8 Wrathful Rebuttal
 	8 Utopist Guide
 	8 Oxidaat's Disciple
@@ -3661,7 +3661,7 @@
 	8 Census Keeper
 	8 Cherished Dancer
 	8 Vivarium Tracker
-	8 Spectacle Mage
+	8 Artiste Mage
 	8 Quiverquill Scribe
 	8 Erratic Understudy
 	8 Worldview Shifter
@@ -3677,7 +3677,7 @@
 	8 Expedition Armorer
 	8 Spire Thaumaturge
 [foil(1)]
-	12 Expedition Champion
+	12 Expedition Chaperone
 	12 Wrathful Rebuttal
 	12 Utopist Guide
 	12 Oxidaat's Disciple
@@ -3891,7 +3891,7 @@
 	12 Census Keeper
 	12 Cherished Dancer
 	12 Vivarium Tracker
-	12 Spectacle Mage
+	12 Artiste Mage
 	12 Quiverquill Scribe
 	12 Erratic Understudy
 	12 Worldview Shifter
@@ -3943,7 +3943,7 @@
 	1 Ameret, Faith and Fury
 	1 Lyon, Mage of the Wastes
 [wildcard(1)]
-	6 Expedition Champion
+	6 Expedition Chaperone
 	6 Wrathful Rebuttal
 	6 Utopist Guide
 	6 Oxidaat's Disciple
@@ -4157,7 +4157,7 @@
 	6 Census Keeper
 	6 Cherished Dancer
 	6 Vivarium Tracker
-	6 Spectacle Mage
+	6 Artiste Mage
 	6 Quiverquill Scribe
 	6 Erratic Understudy
 	6 Worldview Shifter

@@ -5,17 +5,17 @@
 			<name>SPX</name>
 			<longname>Splendor of Excelsior</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-17</releasedate>
+			<releasedate>2026-09-23</releasedate>
 		</set>
 	</sets>
 	<cards>
 		<card>
-			<name>Expedition Champion</name>
+			<name>Expedition Chaperone</name>
 			<text>Vigilance
 When this creature enters, choose one —
 • Put a +1/+1 counter on each other creature you control.
 • Untap each creature you control.</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/14_Expedition Champion.jpg" num="14">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/14_Expedition Chaperone.jpg" num="14">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -90,7 +90,7 @@ When this creature dies, choose one —
 			<name>Rapid Burnout</name>
 			<text>As an additional cost to cast this spell, you may sacrifice a creature.
 This spell deals 3 damage to any target. If you sacrificed a creature to cast this spell, this spell deals damage equal to the sacrificed creature&apos;s power instead.</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/139_Rapid Burnout.jpg" num="139">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/140_Rapid Burnout.jpg" num="140">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -163,7 +163,7 @@ Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card
 			<text>Choose one —
 • Target creature gets +4/+2 and gains trample until end of turn.
 • Destroy target artifact. If a token was destroyed this way, create a Treasure token.</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/141_Sanguine Temper.jpg" num="141">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/142_Sanguine Temper.jpg" num="142">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -212,7 +212,7 @@ If enchanted land would be destroyed, instead sacrifice this Aura and that land 
 		</card>
 		<card>
 			<name>Whispering Ancient</name>
-			<text>Whenever a token your control enters, each opponent loses 1 life and you gain 1 life.</text>
+			<text>Whenever a token you control enters, each opponent loses 1 life and you gain 1 life.</text>
 			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/113_Whispering Ancient.jpg" num="113">SPX</set>
 			<prop>
 				<layout>normal</layout>
@@ -232,7 +232,7 @@ If enchanted land would be destroyed, instead sacrifice this Aura and that land 
 			<text>As an additional cost to cast this spell, discard a card.
 Create a Thesis token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.&quot;)
 Draw a card.</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/122_Cascading Thoughts.jpg" num="122">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/123_Cascading Thoughts.jpg" num="123">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -391,7 +391,7 @@ Islandcycling {2} ({2}, Discard this card: Search your library for an Island car
 			<name>Bolt from the Blue</name>
 			<text>This spell deals 2 damage to any target. If this spell was a miracle, it deals 4 damage to that target instead.
 Miracle {2}{R} (You may cast this card for its miracle cost when you draw it if it&apos;s the first card you drew this turn.)</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/121_Bolt from the Blue.jpg" num="121">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/122_Bolt from the Blue.jpg" num="122">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -569,7 +569,7 @@ Miracle {3}{B} (You may cast this card for its miracle cost when you draw it if 
 			<name>Impulsive Twitcher</name>
 			<text>Menace, reach
 This creature gets +1/+0 as long as you&apos;ve cast a noncreature spell this turn.</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/134_Impulsive Twitcher.jpg" num="134">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/135_Impulsive Twitcher.jpg" num="135">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -660,7 +660,7 @@ Enchanted creature gets +2/+2.</text>
 			<name>Fervent Outcast</name>
 			<text>Reach
 Whenever an artifact you control enters, this creature deals 1 damage to each opponent.</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/132_Fervent Outcast.jpg" num="132">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/133_Fervent Outcast.jpg" num="133">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -729,7 +729,7 @@ Whenever an artifact you control enters, this creature deals 1 damage to each op
 			<text>Flying
 When this creature enters, create two Treasure tokens. (They&apos;re artifacts with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)
 Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/142_Scitoran Overseer.jpg" num="142">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/143_Scitoran Overseer.jpg" num="143">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -919,7 +919,7 @@ Flashback {3}{B} (You may cast this card from your graveyard for its flashback c
 		<card>
 			<name>Manifested Bugbear</name>
 			<text>{T}: Add {R}. When this mana is spent to cast a noncreature spell, this creature deals 1 damage to each opponent.</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/136_Manifested Bugbear.jpg" num="136">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/137_Manifested Bugbear.jpg" num="137">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -989,7 +989,7 @@ Miracle {2}{B} (You may cast this card for its miracle cost when you draw it if 
 			<name>Desert Packmaster</name>
 			<text>Trample
 {1}, Sacrifice another permanent: Put a +1/+1 counter on this creature.</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/128_Desert Packmaster.jpg" num="128">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/129_Desert Packmaster.jpg" num="129">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1133,7 +1133,7 @@ Whenever this creature attacks or blocks, it gets -X/+X until end of turn, where
 		<card>
 			<name>Memory Rots the Truth</name>
 			<text>This creature&apos;s power is equal to the number of card types among cards in your graveyard and its toughness is equal to that number plus 1.
-At the beginning of your end step, you may exile a card from your graveyard. If you do, you may put a card you own from outside the game that doesn&apos;t a type with that card into your graveyard.</text>
+At the beginning of your end step, you may exile a card from your graveyard. If you do, you may put a card you own from outside the game that doesn&apos;t share a type with that card into your graveyard.</text>
 			<set rarity="special" picurl="https://leetwizard.github.io/sets/SPX-files/img/279_Memory Rots the Truth.jpg" num="279">SPX</set>
 			<prop>
 				<layout>normal</layout>
@@ -1769,12 +1769,12 @@ Basic landcycling {1} ({1}, Discard this card: Search your library for a basic l
 			<name>Azoren Redactor</name>
 			<text>Flash
 Flying
-When this creature enters, you may exile target non-Advisor permanent. For as long as it remains exiled, its owner may cast it for {2} rather than its mana cost.</text>
+When this creature enters, exile up to one target nonland, non-Advisor permanent. For as long as it remains exiled, its owner may cast it for {2} rather than its mana cost.</text>
 			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/221_Azoren Redactor.jpg" num="221">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Sphinx Advisor Wizard</type>
+				<type>Creature — Sphinx Advisor</type>
 				<maintype>Creature</maintype>
 				<manacost>2W/UW/U</manacost>
 				<cmc>4</cmc>
@@ -2215,7 +2215,7 @@ When this creature enters, exile target nonland permanent you don&apos;t control
 			<name>Caustic Bubble</name>
 			<text>This spell deals 1 damage to each creature, planeswalker, and battle. If this spell was a miracle, it deals 2 damage to each creature, planeswalker, and battle instead.
 Miracle {1}{R} (You may cast this card for its miracle cost when you draw it if it&apos;s the first card you drew this turn.)</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/124_Caustic Bubble.jpg" num="124">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/125_Caustic Bubble.jpg" num="125">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2305,7 +2305,7 @@ At the beginning of your end step, you may return target creature card with mana
 			<name>Cinderspittle</name>
 			<text>Haste
 When this creature dies, you may discard a card. If you do, create a Thesis token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.&quot;)</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/125_Cinderspittle.jpg" num="125">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/126_Cinderspittle.jpg" num="126">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2356,10 +2356,10 @@ Flashback—{4}{B}, Sacrifice a creature. (You may cast this card from your grav
 		</card>
 		<card>
 			<name>Cursed Athame</name>
-			<text>Equipped creature has prowess and haste. (Whenever you cast a noncreature spell, equipped creature gets +1/+1 until end of turn.)
-Equip—Exile two noncreature cards in your graveyard.
+			<text>Equipped creature has prowess and haste. (Whenever you cast a noncreature spell, it gets +1/+1 until end of turn.)
+Equip—Exile two noncreature cards from your graveyard.
 Equip {2}</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/127_Cursed Athame.jpg" num="127">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/128_Cursed Athame.jpg" num="128">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2428,7 +2428,7 @@ Miracle {2}{U} (You may cast this card for its miracle cost when you draw it if 
 			<name>Shard of the Suncore</name>
 			<text>When this artifact enters and whenever you draw your second card each turn, put a charge counter on this artifact.
 {2}, {T}: Remove any number of counters from this artifact. Put twice that many +1/+1 counters on target permanent you control. You may have it becomes a 0/0 Elemental creature in addition to its other types. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/143_Shard of the Suncore.jpg" num="143">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/144_Shard of the Suncore.jpg" num="144">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2517,7 +2517,7 @@ As an additional cost to cast an enchantment spell, you may pay {X} and X life, 
 			<name>Disgraced Scitoran</name>
 			<text>Flying
 Whenever this creature attacks, choose target creature defending player controls. That creature&apos;s controller may tap it. If they don&apos;t, creatures you control gain menace until end of turn.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/129_Disgraced Scitoran.jpg" num="129">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/130_Disgraced Scitoran.jpg" num="130">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2662,7 +2662,7 @@ When this Enigma is defeated, return the exiled card to the battlefield under yo
 			<name>Bloodshot Beholder</name>
 			<text>When this creature enters, you may discard a card. If you do, this creature deals damage to up to one nonplayer target equal to half the amount of mana spent to cast this creature, rounded up.
 Miracle {X}{2}{R}{R} (You may cast this card for its miracle cost when you draw it if it&apos;s the first card you drew this turn.)</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/120_Bloodshot Beholder.jpg" num="120">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/121_Bloodshot Beholder.jpg" num="121">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2878,7 +2878,7 @@ Whenever a player sacrifices an artifact, each of that player&apos;s opponents c
 		<card>
 			<name>Irrepressible Instinct</name>
 			<text>Untap target creature you control. After this main phase, there is an additional combat phase. Only the chosen creature can attack during that combat phase and only one creature can block it that combat if able.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/135_Irrepressible Instinct.jpg" num="135">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/136_Irrepressible Instinct.jpg" num="136">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3060,7 +3060,7 @@ Miracle {2}{B}{B} (You may cast this card for its miracle cost when you draw it 
 			<text>Haste
 Damage can&apos;t be prevented.
 Players can&apos;t gain life.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/140_Riddle Gnawer.jpg" num="140">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/141_Riddle Gnawer.jpg" num="141">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3204,7 +3204,7 @@ Miracle {2}{B} (You may cast this card for its miracle cost when you draw it if 
 			<text>Whenever you draw your second card each turn, put a kindle counter on this enchantment.
 {1}{R}, Remove two kindle counters from this enchantment: This enchantment deals 2 damage to any target.
 {6}{R}, Remove seven kindle counters from this enchantment and sacrifice it: This enchantment deals 7 damage divided as you choose among any number of targets.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/130_Emergent Pyromancy.jpg" num="130">SPX</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/131_Emergent Pyromancy.jpg" num="131">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3239,7 +3239,7 @@ When this Enigma is defeated, search your library for a card, then shuffle and p
 		<card>
 			<name>Appeal to Wealth</name>
 			<text>(As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)
-When this Enigma enters, create two 2/2 black Eye Horror creature tokens.
+When this Enigma enters, create a 2/2 black Eye Horror creature token.
 Whenever one or more counters are removed from this Enigma, you may sacrifice up to that many creatures. You draw cards and each opponent loses life equal to twice the number of creatures sacrificed this way.</text>
 			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/78_Appeal to Wealth.jpg" num="78">SPX</set>
 			<prop>
@@ -3258,7 +3258,7 @@ Whenever one or more counters are removed from this Enigma, you may sacrifice up
 		<card>
 			<name>Cast into Nowhere</name>
 			<text>Each player shuffles each nonland permanent they control into their library. Starting with you, each player reveals cards from the top of their library until they reveal cards with total mana value equal to or greater than the total of permanents they shuffled in this way. Then that player may cast any number of cards exiled this way without paying their mana cost.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/123_Cast into Nowhere.jpg" num="123">SPX</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/124_Cast into Nowhere.jpg" num="124">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3367,7 +3367,7 @@ During your turn, permanents you control are indestructible.</text>
 			<text>Flying
 When Autarcha Mythbreaker enters, discard your hand, then create four Thesis tokens. (They&apos;re artifacts with &quot;{1}, {T}, Sacrifice this token: Draw two cards, then put a card from your hand on top of your library.&quot;)
 Players can&apos;t activate abilities of artifacts they control if they&apos;ve activated an ability of an artifact this turn.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/119_Autarcha Mythbreaker.jpg" num="119">SPX</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/120_Autarcha Mythbreaker.jpg" num="120">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3439,7 +3439,7 @@ Miracle {2}{B} (You may cast this card for its miracle cost when you draw it if 
 		<card>
 			<name>Appeal to Tradition</name>
 			<text>(As this enters, choose an opponent to protect it. You can attack it. Creatures attacking it alone have flying.)
-When this Enigma enters, create a 0/0 green Jellyfish creature token with reach, vigilance, and trample.
+When this Enigma enters, create a 0/0 green Jellyfish creature token with reach, vigilance, and trample. Put X +1/+1 counters on it.
 When this Enigma is defeated, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
 			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/153_Appeal to Tradition.jpg" num="153">SPX</set>
 			<prop>
@@ -3457,15 +3457,15 @@ When this Enigma is defeated, proliferate. (Choose any number of permanents and/
 		</card>
 		<card>
 			<name>Fragments of the Self</name>
-			<text>Whenever a creature you control enters for the first time each turn, you may exile it, then return it to the battlefield under its owner&apos;s control.</text>
+			<text>Whenever a creature you control enters, you may exile it, then return it to the battlefield under its owner&apos;s control. Do this only once each turn.</text>
 			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/188_Fragments of the Self.jpg" num="188">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>WU</manacost>
-				<cmc>2</cmc>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
 				<colors>WU</colors>
 				<coloridentity>WU</coloridentity>
 			</prop>
@@ -3599,7 +3599,7 @@ When this creature enters, you may cast a prepared spell among permanents you co
 			<name>Nervestriker</name>
 			<text>Flying, haste
 This creature can&apos;t block.
-Whenever you cast a noncreature spell, you may pay {X} and X life, where X is 5 minus the total mana value of noncreature spells you&apos;ve cast this spell. If you do, return this card from your graveyard to the battlefield. (If you&apos;ve cast noncreature spells with total mana value of 5 or more this turn, you can pay {0} and 0 life.)</text>
+Whenever you cast a noncreature spell, you may pay {X} and X life, where X is 5 minus the total mana value of noncreature spells you&apos;ve cast this spell. If you do, return this card from your graveyard to the battlefield with a finality counter on it. (If you&apos;ve cast noncreature spells with total mana value of 5 or more this turn, you can pay {0} and 0 life.)</text>
 			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/194_Nervestriker.jpg" num="194">SPX</set>
 			<prop>
 				<layout>normal</layout>
@@ -3875,15 +3875,15 @@ Each Aura card in your hand has miracle. It&apos;s miracle cost is equal to its 
 		</card>
 		<card>
 			<name>Geomantic Overhaul</name>
-			<text>Sacrifice a land: Exile the top two cards of your library. You may play those cards this turn. Activate only as a sorcery only once each turn.</text>
-			<set rarity="mythic" picurl="https://leetwizard.github.io/sets/SPX-files/img/133_Geomantic Overhaul.jpg" num="133">SPX</set>
+			<text>Sacrifice a land: Exile the top two cards of your library. You may play those cards this turn. Activate only as a sorcery and only once each turn.</text>
+			<set rarity="mythic" picurl="https://leetwizard.github.io/sets/SPX-files/img/134_Geomantic Overhaul.jpg" num="134">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>2R</manacost>
-				<cmc>3</cmc>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -3894,7 +3894,7 @@ Each Aura card in your hand has miracle. It&apos;s miracle cost is equal to its 
 			<text>Trample
 Ward—Pay 7 life.
 Whenever this creature deals combat damage to a player, create a token that&apos;s a copy of this creature unless that player has this creature deal 7 damage to them.</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/137_Mutiplying Misfortunes.jpg" num="137">SPX</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/138_Mutiplying Misfortunes.jpg" num="138">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4040,7 +4040,7 @@ Whenever you sacrifice a Thesis, you lose life equal to the number of cards in y
 			<text>Enchant artifact or creature you control
 Enchanted permanent is an artifact creature with base power and toughness 4/4 in addition to its other types.
 {3}{R}: Create a token that&apos;s a copy of this Aura attached to target artifact or creature. Activate only as a sorcery.</text>
-			<set rarity="mythic" picurl="https://leetwizard.github.io/sets/SPX-files/img/118_Auric Infusion.jpg" num="118">SPX</set>
+			<set rarity="mythic" picurl="https://leetwizard.github.io/sets/SPX-files/img/119_Auric Infusion.jpg" num="119">SPX</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4375,14 +4375,14 @@ Whenever enchanted land is tapped for mana, its controller adds an additional {G
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Spectacle Mage // Flare for Flair</name>
+			<name>Artiste Mage // Flare for Flair</name>
 			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 This creature enters prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
 
 ---
 
 Exile the top card of your library. You may play it this turn.</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/144_Spectacle Mage.jpg" num="144">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/118_Artiste Mage.jpg" num="118">SPX</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -4427,7 +4427,7 @@ This creature enters prepared. (While it&apos;s prepared, you may cast a copy of
 ---
 
 Target creature gains haste and trample until end of turn.</text>
-			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/131_Erratic Understudy.jpg" num="131">SPX</set>
+			<set rarity="common" picurl="https://leetwizard.github.io/sets/SPX-files/img/132_Erratic Understudy.jpg" num="132">SPX</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -4989,7 +4989,7 @@ Enchanted land is a 4/4 creature with haste and &quot;When this land dies, retur
 ---
 
 Copy target activated or triggered ability from a non-Cat source you control.</text>
-			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/138_Parvin Familiar.jpg" num="138">SPX</set>
+			<set rarity="uncommon" picurl="https://leetwizard.github.io/sets/SPX-files/img/139_Parvin Familiar.jpg" num="139">SPX</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -5286,17 +5286,17 @@ Whenever you cast a noncreature spell, this creature gains flying until end of t
 ---
 
 Target player draws three cards, loses 3 life, and gets three poison counters. (A player with ten or more poison counters loses the game.)</text>
-			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/126_Corruption Screecher.jpg" num="126">SPX</set>
+			<set rarity="rare" picurl="https://leetwizard.github.io/sets/SPX-files/img/127_Corruption Screecher.jpg" num="127">SPX</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
 				<type>Creature — Demon // Sorcery</type>
 				<maintype>Creature</maintype>
-				<manacost>R // 3BB</manacost>
-				<cmc>1</cmc>
+				<manacost>1R // 3BB</manacost>
+				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>BR</coloridentity>
-				<pt>1/1</pt>
+				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>

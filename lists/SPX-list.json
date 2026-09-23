@@ -65,7 +65,7 @@
     },
     {
         "card_name": "Auric Infusion",
-        "number": 118,
+        "number": 119,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -105,7 +105,7 @@
     },
     {
         "card_name": "Geomantic Overhaul",
-        "number": 133,
+        "number": 134,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -185,7 +185,7 @@
     },
     {
         "card_name": "Autarcha Mythbreaker",
-        "number": 119,
+        "number": 120,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -225,7 +225,7 @@
     },
     {
         "card_name": "Cast into Nowhere",
-        "number": 123,
+        "number": 124,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -265,7 +265,7 @@
     },
     {
         "card_name": "Corruption Screecher",
-        "number": 126,
+        "number": 127,
         "shape": "adventure",
         "set": "SPX",
         "rotated": false,
@@ -305,7 +305,7 @@
     },
     {
         "card_name": "Emergent Pyromancy",
-        "number": 130,
+        "number": 131,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -345,7 +345,7 @@
     },
     {
         "card_name": "Mutiplying Misfortunes",
-        "number": 137,
+        "number": 138,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -465,7 +465,7 @@
     },
     {
         "card_name": "Bloodshot Beholder",
-        "number": 120,
+        "number": 121,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -505,7 +505,7 @@
     },
     {
         "card_name": "Caustic Bubble",
-        "number": 124,
+        "number": 125,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -545,7 +545,7 @@
     },
     {
         "card_name": "Cinderspittle",
-        "number": 125,
+        "number": 126,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -585,7 +585,7 @@
     },
     {
         "card_name": "Cursed Athame",
-        "number": 127,
+        "number": 128,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -625,7 +625,7 @@
     },
     {
         "card_name": "Disgraced Scitoran",
-        "number": 129,
+        "number": 130,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -665,7 +665,7 @@
     },
     {
         "card_name": "Irrepressible Instinct",
-        "number": 135,
+        "number": 136,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -705,7 +705,7 @@
     },
     {
         "card_name": "Parvin Familiar",
-        "number": 138,
+        "number": 139,
         "shape": "adventure",
         "set": "SPX",
         "rotated": false,
@@ -745,7 +745,7 @@
     },
     {
         "card_name": "Riddle Gnawer",
-        "number": 140,
+        "number": 141,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -785,7 +785,7 @@
     },
     {
         "card_name": "Shard of the Suncore",
-        "number": 143,
+        "number": 144,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -984,9 +984,9 @@
         "position": ""
     },
     {
-        "card_name": "Bolt from the Blue",
-        "number": 121,
-        "shape": "normal",
+        "card_name": "Artiste Mage",
+        "number": 118,
+        "shape": "adventure",
         "set": "SPX",
         "rotated": false,
         "position": ""
@@ -1024,7 +1024,7 @@
         "position": ""
     },
     {
-        "card_name": "Cascading Thoughts",
+        "card_name": "Bolt from the Blue",
         "number": 122,
         "shape": "normal",
         "set": "SPX",
@@ -1064,8 +1064,8 @@
         "position": ""
     },
     {
-        "card_name": "Desert Packmaster",
-        "number": 128,
+        "card_name": "Cascading Thoughts",
+        "number": 123,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -1104,9 +1104,9 @@
         "position": ""
     },
     {
-        "card_name": "Erratic Understudy",
-        "number": 131,
-        "shape": "adventure",
+        "card_name": "Desert Packmaster",
+        "number": 129,
+        "shape": "normal",
         "set": "SPX",
         "rotated": false,
         "position": ""
@@ -1144,9 +1144,9 @@
         "position": ""
     },
     {
-        "card_name": "Fervent Outcast",
+        "card_name": "Erratic Understudy",
         "number": 132,
-        "shape": "normal",
+        "shape": "adventure",
         "set": "SPX",
         "rotated": false,
         "position": ""
@@ -1160,7 +1160,7 @@
         "position": ""
     },
     {
-        "card_name": "Expedition Champion",
+        "card_name": "Expedition Chaperone",
         "number": 14,
         "shape": "normal",
         "set": "SPX",
@@ -1184,8 +1184,8 @@
         "position": ""
     },
     {
-        "card_name": "Impulsive Twitcher",
-        "number": 134,
+        "card_name": "Fervent Outcast",
+        "number": 133,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -1224,8 +1224,8 @@
         "position": ""
     },
     {
-        "card_name": "Manifested Bugbear",
-        "number": 136,
+        "card_name": "Impulsive Twitcher",
+        "number": 135,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -1264,8 +1264,8 @@
         "position": ""
     },
     {
-        "card_name": "Rapid Burnout",
-        "number": 139,
+        "card_name": "Manifested Bugbear",
+        "number": 137,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -1304,8 +1304,8 @@
         "position": ""
     },
     {
-        "card_name": "Sanguine Temper",
-        "number": 141,
+        "card_name": "Rapid Burnout",
+        "number": 140,
         "shape": "normal",
         "set": "SPX",
         "rotated": false,
@@ -1344,7 +1344,7 @@
         "position": ""
     },
     {
-        "card_name": "Scitoran Overseer",
+        "card_name": "Sanguine Temper",
         "number": 142,
         "shape": "normal",
         "set": "SPX",
@@ -1384,9 +1384,9 @@
         "position": ""
     },
     {
-        "card_name": "Spectacle Mage",
-        "number": 144,
-        "shape": "adventure",
+        "card_name": "Scitoran Overseer",
+        "number": 143,
+        "shape": "normal",
         "set": "SPX",
         "rotated": false,
         "position": ""
